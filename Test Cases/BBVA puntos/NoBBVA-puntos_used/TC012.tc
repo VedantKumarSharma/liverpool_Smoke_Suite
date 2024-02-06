@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>System should display a pop up box with the header as Pago con Puntos BBVA  and information about BBVA puntos with an image in the centre , along with close X button.</description>
+   <name>TC012</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>66bcf159-436c-4270-992d-593094abcc81</testCaseGuid>
+</TestCaseEntity>

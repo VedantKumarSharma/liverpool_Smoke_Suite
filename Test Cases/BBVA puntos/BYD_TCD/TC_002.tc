@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To verify user is able to access the Liverpool ecommerce site</description>
+   <name>TC_002</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>797e9dd4-e44b-4b2e-b5c8-2ae74ec67764</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify that the user is able to navigate to the respective PLP when user clicks on the &quot;Ver productos participantes&quot; link on the Regalos promotions banner from Home Page</description>
+   <name>TC03</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>858be5dd-a7f3-4705-a1ed-d0f8271091b1</testCaseGuid>
+</TestCaseEntity>

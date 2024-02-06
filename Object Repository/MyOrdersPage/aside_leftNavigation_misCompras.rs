@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>aside_leftNavigation_misCompras</name>
+   <tag></tag>
+   <elementGuidId>c152b237-1dbe-4ced-82af-46ca29f01f41</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//aside[@class='col-lg-3 pr-4 m-aside__content']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>aside.col-lg-3.pr-4.m-aside__content</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>aside</value>
+      <webElementGuid>5eb9a8f2-8e87-459e-9a36-21a0a748f021</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>col-lg-3 pr-4 m-aside__content</value>
+      <webElementGuid>82dc62b7-33ed-4475-b4fb-c80da3ca505b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Mis ComprasWishlistCuponesCrédito y Pagos  Mi crédito    Facturación Electrónica    Monedero digital    Mis formas de pago  Datos de mi cuenta  Actualizar Datos Personales    Direcciones de Entrega          Te Escuchamos</value>
+      <webElementGuid>362b2cbb-b2bf-4be6-ab86-d5f1a09398c5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;container-fluid o-main-container p-0&quot;]/div[@class=&quot;container o-container__secondary&quot;]/div[@class=&quot;row mt-lg-3 m-row-bootstrap&quot;]/aside[@class=&quot;col-lg-3 pr-4 m-aside__content&quot;]</value>
+      <webElementGuid>4a439815-d690-4e15-a798-85382af52de5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/div/div[3]/aside</value>
+      <webElementGuid>bd1fb4bf-7a28-45f4-b958-9e6fcd240d70</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mis Compras'])[4]/following::aside[1]</value>
+      <webElementGuid>de2bc6dd-d66a-4ff1-98c5-2b2176774583</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mi Cuenta'])[3]/following::aside[1]</value>
+      <webElementGuid>51f3680d-9a44-47a4-81f0-65999a892caf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//aside</value>
+      <webElementGuid>e3db4230-2c63-4fe0-aa7f-ab523e7b8424</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//aside[(text() = 'Mis ComprasWishlistCuponesCrédito y Pagos  Mi crédito    Facturación Electrónica    Monedero digital    Mis formas de pago  Datos de mi cuenta  Actualizar Datos Personales    Direcciones de Entrega          Te Escuchamos' or . = 'Mis ComprasWishlistCuponesCrédito y Pagos  Mi crédito    Facturación Electrónica    Monedero digital    Mis formas de pago  Datos de mi cuenta  Actualizar Datos Personales    Direcciones de Entrega          Te Escuchamos')]</value>
+      <webElementGuid>42bc0508-f7c2-4351-a681-093a3cd44b5e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

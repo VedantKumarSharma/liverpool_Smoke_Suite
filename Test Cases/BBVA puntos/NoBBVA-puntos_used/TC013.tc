@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To verify  the user is able to close the pop up window</description>
+   <name>TC013</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>911c15d7-a3e1-4eab-875e-a92954c73195</testCaseGuid>
+</TestCaseEntity>
