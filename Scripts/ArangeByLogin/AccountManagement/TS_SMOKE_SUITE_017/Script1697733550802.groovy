@@ -49,3 +49,5 @@ if (GlobalVariable.TempAddress == address) {
     println('Address is not Added!')
 }
 
+WebUI.acceptAlert()
+
