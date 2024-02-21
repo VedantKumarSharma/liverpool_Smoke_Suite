@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Actualizar Datos Personales</name>
+   <tag></tag>
+   <elementGuidId>02f0f7f0-0a9a-45f1-900b-69162364260f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/div/div[3]/aside/div/div[5]/div/div/ul/li/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>769dd19d-204a-4d35-8448-9395e8a7101c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/tienda/users/miscompras#!</value>
+      <webElementGuid>620c9bc1-ca21-4a48-99b8-43994af79e84</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Actualizar Datos Personales</value>
+      <webElementGuid>a81e9474-81f1-4bbd-80f6-46bf1f33c443</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;container-fluid o-main-container p-0&quot;]/div[@class=&quot;container o-container__secondary&quot;]/div[@class=&quot;row mt-lg-3 m-row-bootstrap&quot;]/aside[@class=&quot;col-lg-3 pr-4 m-aside__content&quot;]/div[@class=&quot;o-myAccount-aside o-myAccount-aside  d-none d-lg-block&quot;]/div[@class=&quot;m-card-list--aside&quot;]/div[@class=&quot;m-card-title--aside&quot;]/div[@class=&quot;m-card-body--aside&quot;]/ul[@class=&quot;m-cardBody__margin&quot;]/li[@class=&quot;a-category__title&quot;]/a[1]</value>
+      <webElementGuid>5b0dd5d5-a488-445a-aa83-c1765c96a27d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/div/div[3]/aside/div/div[5]/div/div/ul/li/a</value>
+      <webElementGuid>6b384c7a-c7f9-44a3-93d5-d48dc78cb3c5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Actualizar Datos Personales')]</value>
+      <webElementGuid>b562fc77-5f57-4fc5-a550-72e73f63d2b9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Datos de mi cuenta'])[1]/following::a[1]</value>
+      <webElementGuid>bae3eac9-1e8b-46db-a3f2-4b919cc5e07b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mi Cartera'])[1]/following::a[1]</value>
+      <webElementGuid>9d698471-8357-499c-8f33-ad8ce6bd32b9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cambiar mi contraseña'])[1]/preceding::a[1]</value>
+      <webElementGuid>a3bbdeed-bf83-4eb9-b7c9-c331df942900</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Direcciones de Entrega'])[1]/preceding::a[2]</value>
+      <webElementGuid>98a58841-7fe6-4009-bef0-082d6f75d1ca</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Actualizar Datos Personales']/parent::*</value>
+      <webElementGuid>4b61b0a3-0243-4545-9e08-394ee96e6b0c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '/tienda/users/miscompras#!')])[12]</value>
+      <webElementGuid>e638f787-31b4-4316-90bf-d1b9df572ee3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/div/div/ul/li/a</value>
+      <webElementGuid>c91a96d0-f8d9-45c2-b5c7-a8fc12e2190f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/tienda/users/miscompras#!' and (text() = 'Actualizar Datos Personales' or . = 'Actualizar Datos Personales')]</value>
+      <webElementGuid>c3e23a0f-2244-43c2-89f8-b34c633c4fbe</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

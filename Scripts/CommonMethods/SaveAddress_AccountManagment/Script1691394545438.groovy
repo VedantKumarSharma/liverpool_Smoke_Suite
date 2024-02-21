@@ -1,4 +1,5 @@
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+import org.apache.commons.lang.RandomStringUtils as RandomStringUtils
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
@@ -17,8 +18,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-name = CustomKeywords.'customkeywords.myKeywords.randomString'()
+name = RandomStringUtils.randomAlphabetic(8)
 
+//name = CustomKeywords.'customkeywords.myKeywords.randomString'()
 GlobalVariable.TempAddress = name
 
 WebUI.setText(findTestObject('AccountManagement/AddressAliases_Account'), name)
@@ -51,5 +53,5 @@ WebUI.setText(findTestObject('AccountManagement/lada_Account'), '239', FailureHa
 
 WebUI.click(findTestObject('AccountManagement/personalNumber_Account'), FailureHandling.OPTIONAL)
 
-WebUI.setText(findTestObject('AccountManagement/personalNumber_Account'), '9358585', FailureHandling.OPTIONAL)
+WebUI.setText(findTestObject('AccountManagement/personalNumber_Account'), '9358585989', FailureHandling.OPTIONAL)
 

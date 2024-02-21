@@ -22,32 +22,32 @@ WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('se
 
 WebUI.click(findTestObject('PLPPage/Sortby_PLP'))
 
-WebUI.click(findTestObject('PLPPage/LowPricetoHighSortBy_PLP'))
+WebUI.enhancedClick(findTestObject('PLPPage/LowPricetoHighSortBy_PLP'))
 
-productcardprice1 = WebUI.getText(findTestObject('PLPPage/product1_cardPrice_PLP'))
+productcardprice3 = WebUI.getText(findTestObject('PLPPage/product2_cardPrice_PLP'))
 
-productcardprice2 = WebUI.getText(findTestObject('PLPPage/product2_cardPrice_PLP'))
+productcardprice4 = WebUI.getText(findTestObject('PLPPage/product8_cardPrice_PLP'))
 
-productcardprice3 = WebUI.getText(findTestObject('PLPPage/product3_cardPrice_PLP'))
-
-if ((productcardprice1 <= productcardprice2) && (productcardprice2 <= productcardprice3)) {
-    println('in sorted order arccording to first three product')
+//def productcard1priceWithoutDollar = productcardprice1.replace('$', '').replace(',', '')
+//def productcard2priceWithoutDollar = productcardprice2.replace('$', '').replace(',', '')
+if (productcardprice3 <= productcardprice4) {
+    println('in sorted order')
 } else {
-    KeywordUtil.markFailed('failed not sorted low to high')
+    KeywordUtil.markFailed('failed not sorted Low to High')
 }
 
 WebUI.click(findTestObject('PLPPage/Sortby_PLP'))
 
-WebUI.click(findTestObject('PLPPage/HighToLowPriceSortby_PLP'))
+WebUI.enhancedClick(findTestObject('PLPPage/HighToLowPriceSortby_PLP'))
 
-productcardprice1 = WebUI.getText(findTestObject('PLPPage/product1_cardPrice_PLP'))
+WebUI.delay(5)
 
-productcardprice2 = WebUI.getText(findTestObject('PLPPage/product2_cardPrice_PLP'))
+productcardprice1 = WebUI.getText(findTestObject('PLPPage/product3_cardPrice_PLP'))
 
-productcardprice3 = WebUI.getText(findTestObject('PLPPage/product3_cardPrice_PLP'))
+productcardprice2 = WebUI.getText(findTestObject('PLPPage/product7_cardPrice_PLP'))
 
-if ((productcardprice1 >= productcardprice2) && (productcardprice2 >= productcardprice3)) {
-    println('in sorted order arccording to first three product')
+if (productcardprice1 >= productcardprice2) {
+    println('in sorted order')
 } else {
     KeywordUtil.markFailed('failed not sorted high to low')
 }

@@ -22,9 +22,9 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.URLQA2)
 
-WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.SL1], FailureHandling.STOP_ON_FAILURE)
-
 WebUI.callTestCase(findTestCase('CommonMethods/login_odtaqab'), [:], FailureHandling.OPTIONAL)
+
+WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.SL1], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForPageLoad(0)
 
@@ -89,6 +89,8 @@ if (j1 >= k1) {
 }
 
 WebUI.click(findTestObject('OPCPage/Final_comparar_OPC'))
+
+WebUI.delay(10)
 
 WebUI.click(findTestObject('HomePage/logo_confirmPage'))
 

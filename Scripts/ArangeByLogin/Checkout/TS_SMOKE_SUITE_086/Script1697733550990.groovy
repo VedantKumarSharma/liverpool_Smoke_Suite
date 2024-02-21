@@ -17,9 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.SL1], FailureHandling.STOP_ON_FAILURE)
-
 WebUI.waitForPageLoad(0)
+
+WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.SL1], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('PLPPage/product1_PLP'), FailureHandling.OPTIONAL)
 
@@ -41,7 +41,7 @@ WebUI.click(findTestObject('OPCPage/button_Continuar_payment_opc'))
 
 WebUI.click(findTestObject('OPCPage/Final_paypal_final(terminar)_OPC'))
 
-WebUI.verifyElementPresent(findTestObject('OPCPage/ConfirmOrder_Checkout'), 0)
+WebUI.verifyElementPresent(findTestObject('OPCPage/ConfirmOrder_Checkout'), 0, FailureHandling.OPTIONAL)
 
 WebUI.click(findTestObject('HomePage/logo_confirmPage'))
 

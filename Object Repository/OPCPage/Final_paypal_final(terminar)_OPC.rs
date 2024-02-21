@@ -6,12 +6,11 @@
    <elementGuidId>6c976f7e-8b7b-4e9a-9a72-0f59dbb384e4</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//button[@class='a-btn a-btn--primary']</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//button[@id='submitForPaypal']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

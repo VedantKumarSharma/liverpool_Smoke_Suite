@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//ul[@class='m-cardBody__margin'])[2]//li[2]</value>
+         <value>(//ul[@class='m-cardBody__margin'])[2]//li[3]</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

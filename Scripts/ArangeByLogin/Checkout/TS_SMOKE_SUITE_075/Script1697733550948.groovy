@@ -19,8 +19,6 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('CommonMethods/clickMyAccountFromHeader'), [:], FailureHandling.OPTIONAL)
 
-WebUI.click(findTestObject('OPCPage/deliveryAddressHeading_address_opc'))
-
 WebUI.callTestCase(findTestCase('CommonMethods/ClickDelivery_MyAccount'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('AccountManagement/ClickAndCollectStores_accounts'))
@@ -35,7 +33,7 @@ WebUI.click(findTestObject('HomePage/Logo_hp'))
 
 WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.jeans], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('PLPPage/product1_PLP'), FailureHandling.OPTIONAL)
+WebUI.click(findTestObject('PLPPage/product2_cardPrice_PLP'), FailureHandling.OPTIONAL)
 
 WebUI.click(findTestObject('PDPPage/AddToCart_PDP'))
 
@@ -51,11 +49,15 @@ if (TitleAddress == DefaultAddress) {
 
 WebUI.click(findTestObject('OPCPage/ChangeAddress_Checkout'))
 
-WebUI.click(findTestObject('OPCPage/AddAddressButtonPopup_checkout'))
-
 WebUI.click(findTestObject('OPCPage/AddressPopupCLickNCollect_Checkout'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementPresent(findTestObject('OPCPage/CheckAddressDefault_Checkout'), 0)
 
 WebUI.verifyElementPresent(findTestObject('OPCPage/ClickNCollectionRadioButton_Checkout'), 0)
+
+WebUI.click(findTestObject('OPCPage/Address_PopUP_option1_opc'))
+
+WebUI.click(findTestObject('OPCPage/radiobtn1_addressPopup_OPC'))
+
+WebUI.click(findTestObject('OPCPage/ContinueButtonAddAddress_Checkout'))
 

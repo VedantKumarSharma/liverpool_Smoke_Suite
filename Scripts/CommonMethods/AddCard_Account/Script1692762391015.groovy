@@ -18,11 +18,11 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import org.apache.commons.lang.RandomStringUtils as RandomStringUtils
 
-FullName = CustomKeywords.'customkeywords.myKeywords.randomString'()
+FullName = RandomStringUtils.randomAlphabetic(8)
 
 WebUI.setText(findTestObject('AccountManagement/FullNameUser_Account'), FullName)
 
-String cardnumber = '4829433625182334'
+String cardnumber = '4529433625182334'
 
 WebUI.setText(findTestObject('AccountManagement/CardNumber_Account'), cardnumber, FailureHandling.OPTIONAL)
 

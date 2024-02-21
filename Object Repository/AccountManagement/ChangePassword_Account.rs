@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[contains(text(),'Cambiar contraseña')]</value>
+         <value>//a[contains(text(),'Cambiar mi contraseña')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

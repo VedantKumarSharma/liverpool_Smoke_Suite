@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//div[@class='a-box__accordionIcon float-right'])[1]</value>
+         <value>//div[@class='a-box__accordionIcon change-address']//label</value>
       </entry>
       <entry>
          <key>BASIC</key>

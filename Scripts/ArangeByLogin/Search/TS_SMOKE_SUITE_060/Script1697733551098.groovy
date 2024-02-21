@@ -18,6 +18,10 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl(GlobalVariable.URL)
+
 WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : 'mac'], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForPageLoad(0)
@@ -37,8 +41,6 @@ System.out.println(b)
 if (a.contains(b)) {
     System.out.println('facet selected')
 } else {
-    WebUI.acceptAlert()
-
     KeywordUtil.markFailed('failed facet not selected')
 }
 

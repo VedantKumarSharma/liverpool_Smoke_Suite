@@ -21,10 +21,12 @@ import org.apache.commons.lang.RandomStringUtils as RandomStringUtils
 
 WebUI.callTestCase(findTestCase('CommonMethods/login_odtaqab'), [:], FailureHandling.OPTIONAL)
 
+WebUI.callTestCase(findTestCase('CommonMethods/EmptyCart_RunAt_HP'), [:], FailureHandling.OPTIONAL)
+
 WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.SLSearchTerm], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('HomePage/FirstProduct_plp'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('PLPPage/product3_cardPrice_PLP'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('PDPPage/Size1_PDP'), FailureHandling.OPTIONAL)
 
@@ -42,9 +44,13 @@ String StoreValue = 'AUTOMATION' + RandomStringUtils.randomAlphabetic(8)
 
 System.out.println(StoreValue)
 
+WebUI.setText(findTestObject('OPCPage/name_addaddress_opc'), GlobalVariable.Name)
+
 WebUI.setText(findTestObject('OPCPage/shortName_addAddress_opc'), StoreValue)
 
 WebUI.setText(findTestObject('OPCPage/mothersLastName_addAddress_opc'), GlobalVariable.MotherName)
+
+WebUI.setText(findTestObject('OPCPage/Lastname_Address_OPC'), GlobalVariable.MotherName)
 
 WebUI.setText(findTestObject('OPCPage/postalCode_addAddress_opc'), GlobalVariable.PostalCode)
 
@@ -58,22 +64,19 @@ WebUI.setText(findTestObject('OPCPage/noExt_addAddress_opc'), GlobalVariable.NoE
 
 WebUI.setText(findTestObject('OPCPage/cellphone_addAddress_opc'), GlobalVariable.CellPhoneAddAddress)
 
-WebUI.setText(findTestObject('OPCPage/LADA_addAddress_opc'), GlobalVariable.LADAaddAddress)
-
+//WebUI.setText(findTestObject('OPCPage/LADA_addAddress_opc'), GlobalVariable.LADAaddAddress)
 WebUI.setText(findTestObject('OPCPage/phone_addAddress_opc'), GlobalVariable.phoneAddAddress)
 
 WebUI.click(findTestObject('OPCPage/CheckBoxAddAddressPopup_OPC'))
 
 WebUI.click(findTestObject('OPCPage/ContinueButtonAddcard_Checkout'))
 
-WebUI.navigateToUrl(GlobalVariable.CartPageURL)
+WebUI.waitForPageLoad(0)
 
-WebUI.click(findTestObject('OPCPage/changeADDRESS_OPC'), FailureHandling.OPTIONAL)
-
-WebUI.click(findTestObject('OPCPage/Address_option1_opc'), FailureHandling.OPTIONAL)
-
-WebUI.click(findTestObject('AccountManagement/AddAddress_Account'), FailureHandling.OPTIONAL)
-
+//WebUI.navigateToUrl(GlobalVariable.CartPageURL)
+//WebUI.click(findTestObject('OPCPage/changeADDRESS_OPC'), FailureHandling.OPTIONAL)
+//WebUI.click(findTestObject('OPCPage/Address_PopUP_option1_opc'), FailureHandling.OPTIONAL)
+//WebUI.click(findTestObject('AccountManagement/AddAddress_Account'), FailureHandling.OPTIONAL)
 ShortName = WebUI.getText(findTestObject('OPCPage/currentDeliveryAddress_OPC'), FailureHandling.STOP_ON_FAILURE)
 
 if (StoreValue == ShortName) {

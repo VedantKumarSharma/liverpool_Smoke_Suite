@@ -29,6 +29,14 @@ WebUI.click(findTestObject('HomePage/bag_header_HP'))
 
 WebUI.click(findTestObject('CartPage/BuyButton_Cart'))
 
+WebUI.click(findTestObject('OPCPage/ChangeAddress_Checkout'))
+
+WebUI.click(findTestObject('OPCPage/Address_PopUP_option1_opc'))
+
+WebUI.click(findTestObject('OPCPage/radiobtn1_addressPopup_OPC'))
+
+WebUI.click(findTestObject('OPCPage/ContinueButtonAddAddress_Checkout'))
+
 WebUI.setText(findTestObject('OPCPage/enterCardExpire_OPC'), '1225')
 
 WebUI.setText(findTestObject('OPCPage/enterCardCVV_OPC'), '805')

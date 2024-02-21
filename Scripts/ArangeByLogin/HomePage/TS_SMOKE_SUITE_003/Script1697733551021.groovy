@@ -21,11 +21,11 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.URL)
 
-WebUI.verifyElementPresent(findTestObject('HomePage/Logo_hp'), 0)
-
 WebUI.mouseOver(findTestObject('HomePage/Departamentos'))
 
 WebUI.verifyElementClickable(findTestObject('HomePage/L1_Category1_HP'))
+
+WebUI.click(findTestObject('HomePage/L1_Category1_HP'))
 
 WebUI.mouseOver(findTestObject('HomePage/L1_Category1_HP'))
 

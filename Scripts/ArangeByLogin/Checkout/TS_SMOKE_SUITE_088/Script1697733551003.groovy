@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('HomePage/header_Hola_text_HP'))
 
-WebUI.click(findTestObject('HomePage/a_Mis_Pedido_hp'))
+WebUI.scrollToElement(findTestObject('AccountManagement/Tiempo_aire_MyAccount'), 0)
 
 WebUI.scrollToElement(findTestObject('AccountManagement/Tiempo_aire_MyAccount'), 0)
 
@@ -28,6 +28,14 @@ WebUI.click(findTestObject('AccountManagement/Tiempo_aire_MyAccount'))
 WebUI.enhancedClick(findTestObject('AccountManagement/ATT/checkbox1_MyAccount'))
 
 WebUI.enhancedClick(findTestObject('AccountManagement/ATT/paymentOption1_ATT_card_MyAccount'))
+
+WebUI.click(findTestObject('AccountManagement/select_month_AM'))
+
+WebUI.click(findTestObject('AccountManagement/ATT/SelectMonth_ATT_AM'))
+
+WebUI.click(findTestObject('AccountManagement/select_year_AM'))
+
+WebUI.click(findTestObject('AccountManagement/ATT/selectYear_ATT_option2025_AM'))
 
 WebUI.setText(findTestObject('AccountManagement/ATT/card_cvv_ATT_MyAccount'), '805')
 

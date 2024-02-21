@@ -17,6 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
+import org.apache.commons.lang.RandomStringUtils as RandomStringUtils
+
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl(GlobalVariable.URL)
 
 WebUI.callTestCase(findTestCase('CommonMethods/login_odtaqab'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -44,7 +49,7 @@ WebUI.click(findTestObject('AccountManagement/Select3DotAddress2Nd_Account'))
 
 WebUI.click(findTestObject('AccountManagement/EditCardDetails_Account'), FailureHandling.STOP_ON_FAILURE)
 
-name = CustomKeywords.'customkeywords.myKeywords.randomString'()
+name = RandomStringUtils.randomAlphabetic(8)
 
 GlobalVariable.TempAddress = name
 

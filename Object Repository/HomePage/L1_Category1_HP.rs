@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//a[@class='a-dekstop__categoryLink']//span)[1]</value>
+         <value>//i[contains(@class, 'i-hammenu')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -18,7 +18,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>DIV</value>
-      <webElementGuid>b693547c-b1f4-4816-bf90-17bb58d032b2</webElementGuid>
+      <webElementGuid>016c96ff-c729-4397-81e4-5806203e6ba2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,6 +26,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>xpath1678033965677</value>
-      <webElementGuid>4e13558a-8f4a-4e51-b732-fd9d14a43670</webElementGuid>
+      <webElementGuid>39e3cc45-846b-4536-9045-e5dd793baaa4</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

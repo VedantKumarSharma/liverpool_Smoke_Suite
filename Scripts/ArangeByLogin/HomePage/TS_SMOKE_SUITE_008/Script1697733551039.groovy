@@ -25,3 +25,5 @@ WebUI.verifyElementPresent(findTestObject('SLP/Map_Verify_slp'), 0)
 
 WebUI.verifyElementPresent(findTestObject('SLP/find_store_title_SLP'), 0)
 
+WebUI.navigateToUrl(GlobalVariable.URL)
+

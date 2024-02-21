@@ -17,9 +17,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.colour], FailureHandling.STOP_ON_FAILURE)
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl(GlobalVariable.URL)
+
+WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : 'bt'], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('PLPPage/product1_PLP'))
+
+WebUI.verifyElementPresent(findTestObject('PDPPage/Colour1_PDP'), 0)
 
 'verify sku not present\r\n'
 WebUI.verifyElementNotPresent(findTestObject('PDPPage/Colour2_PDP'), 0)

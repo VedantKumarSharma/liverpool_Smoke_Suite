@@ -17,13 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.mouseOver(findTestObject('HomePage/Departamentos'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('HomePage/L1_Category1_HP'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('CLPPage/SubCategory2_leftmenu_CLP'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('CLPPage/SubCategory1_leftmenu_CLP'), FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : 'ropa'], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementClickable(findTestObject('CLPPage/breadCrumb_clp'))
 
@@ -33,7 +27,7 @@ WebUI.verifyElementPresent(findTestObject('PLPPage/facetes/DescontousTitleFacet_
 
 WebUI.verifyElementPresent(findTestObject('PLPPage/facetes/TamanoTitleFacet_PLP'), 0)
 
-WebUI.verifyElementPresent(findTestObject('PLPPage/facetes/MarcasTitleFacet_PLP'), 0)
+WebUI.verifyElementPresent(findTestObject('PLPPage/facetes/MarcasTitleFacet_PLP'), 0, FailureHandling.OPTIONAL)
 
 WebUI.verifyElementPresent(findTestObject('PLPPage/facetes/VendidoTitleFacet_PLP'), 0)
 

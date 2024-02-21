@@ -17,11 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.navigateToUrl(GlobalVariable.URL)
+WebUI.click(findTestObject('HomePage/Departamentos'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.mouseOver(findTestObject('HomePage/Departamentos'), FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementClickable(findTestObject('HomePage/L1_Category1_HP'))
 
-WebUI.click(findTestObject('HomePage/L1_Category1_HP'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('HomePage/L1_Category_HP'))
 
 WebUI.verifyElementClickable(findTestObject('CLPPage/breadCrumb_clp'))
 

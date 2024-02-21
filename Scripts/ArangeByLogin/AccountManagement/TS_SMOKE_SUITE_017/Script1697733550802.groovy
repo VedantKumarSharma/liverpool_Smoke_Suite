@@ -23,6 +23,8 @@ System.out.println(a)
 
 if (a == false) {
     WebUI.callTestCase(findTestCase('CommonMethods/login_odtaqab'), [:], FailureHandling.OPTIONAL)
+
+    WebUI.refresh()
 }
 
 WebUI.mouseOver(findTestObject('HomePage/AfterLogin_Homepage'))

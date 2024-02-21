@@ -208,6 +208,11 @@ Profile default : digital product </p>
     /**
      * <p></p>
      */
+    public static Object Name
+     
+    /**
+     * <p></p>
+     */
     public static Object newuser
      
     /**
@@ -562,6 +567,7 @@ Profile default : pwaqa</p>
             rateCPandDP = selectedVariables['rateCPandDP']
             PotteryBarn = selectedVariables['PotteryBarn']
             GAP = selectedVariables['GAP']
+            Name = selectedVariables['Name']
             newuser = selectedVariables['newuser']
             GIDcollection = selectedVariables['GIDcollection']
             newUser = selectedVariables['newUser']

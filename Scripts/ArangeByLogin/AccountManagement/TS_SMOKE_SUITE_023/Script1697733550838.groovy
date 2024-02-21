@@ -17,6 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
+import org.apache.commons.lang.RandomStringUtils as RandomStringUtils
 
 WebUI.callTestCase(findTestCase('CommonMethods/login_odtaqab'), [:], FailureHandling.OPTIONAL)
 
@@ -30,7 +31,7 @@ WebUI.click(findTestObject('AccountManagement/MyCardButton_Account'))
 
 WebUI.click(findTestObject('AccountManagement/AddCardButton_Account'), FailureHandling.STOP_ON_FAILURE)
 
-Cardname = CustomKeywords.'customkeywords.myKeywords.randomString'()
+Cardname = 'QATESTING'
 
 WebUI.setText(findTestObject('AccountManagement/CardName_Account'), Cardname)
 
@@ -46,11 +47,11 @@ if (Cardname == CardName) {
     KeywordUtil.markFailed('Card is not Added !')
 }
 
-WebUI.click(findTestObject('AccountManagement/Select3DotAddress2Nd_Account'))
+WebUI.click(findTestObject('AccountManagement/Select3dot_qatestingCard_AM'))
 
 WebUI.click(findTestObject('AccountManagement/EditCardDetails_Account'), FailureHandling.STOP_ON_FAILURE)
 
-Name = CustomKeywords.'customkeywords.myKeywords.randomString'()
+Name = RandomStringUtils.randomAlphabetic(8)
 
 WebUI.sendKeys(findTestObject('AccountManagement/firstName_update_accountManagement'), Keys.chord(Keys.CONTROL, 'a'))
 
@@ -62,17 +63,17 @@ WebUI.delay(0)
 
 WebUI.setText(findTestObject('AccountManagement/firstName_update_accountManagement'), Name)
 
-WebUI.setText(findTestObject('AccountManagement/firstName_update_accountManagement'), Name)
-
 WebUI.click(findTestObject('AccountManagement/AcceptButton_AccountM'))
 
-WebUI.click(findTestObject('AccountManagement/Select3DotAddress2Nd_Account'))
+WebUI.click(findTestObject('AccountManagement/Select3dot_qatestingCard_AM'))
 
 WebUI.click(findTestObject('AccountManagement/RemoveCardDetails_Account'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('OPCPage/accept_deletion_card_OPC'))
 
-if (WebUI.verifyElementNotPresent(findTestObject('AccountManagement/Select3DotAddress2Nd_Account'), 0)) {
+WebUI.delay(30)
+
+if (WebUI.verifyElementNotPresent(findTestObject('AccountManagement/Select3dot_qatestingCard_AM'), 0) == true) {
     println('Card remove Successful')
 } else {
     KeywordUtil.markFailed('Card is not Removed !')

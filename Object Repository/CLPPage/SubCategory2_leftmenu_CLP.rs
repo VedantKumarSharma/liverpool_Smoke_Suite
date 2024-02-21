@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//li[@class='nav-sub-link-leftMenu'][2]/a</value>
+         <value>//li[@class='nav-sub-link-leftMenu']/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -18,7 +18,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>DIV</value>
-      <webElementGuid>3600a123-2ecf-4623-8de9-40335a1d5540</webElementGuid>
+      <webElementGuid>860a2c5d-26d7-4262-8c5d-d4314b6727e5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,6 +26,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>xpath1678034367066</value>
-      <webElementGuid>2207f141-4b9c-4d92-a34e-be28f61fba2f</webElementGuid>
+      <webElementGuid>7d8ab6e4-8076-41be-a00d-2ab9d226d0d2</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
