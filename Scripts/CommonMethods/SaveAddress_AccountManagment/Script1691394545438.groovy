@@ -18,8 +18,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-name = RandomStringUtils.randomAlphabetic(8)
-
+//name = RandomStringUtils.randomAlphabetic(8)
+name = 'QATESTING'
 //name = CustomKeywords.'customkeywords.myKeywords.randomString'()
 GlobalVariable.TempAddress = name
 

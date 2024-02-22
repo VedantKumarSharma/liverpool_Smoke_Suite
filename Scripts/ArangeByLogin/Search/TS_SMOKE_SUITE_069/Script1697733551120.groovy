@@ -18,15 +18,16 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
-WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.rate], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.SLSearchTerm], 
+    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('PLPPage/Sortby_PLP'))
 
 WebUI.enhancedClick(findTestObject('PLPPage/LowPricetoHighSortBy_PLP'))
 
-productcardprice3 = WebUI.getText(findTestObject('PLPPage/product2_cardPrice_PLP'))
+productcardprice3 = WebUI.getText(findTestObject('PLPPage/product-2-DiscountPrice_PLP'))
 
-productcardprice4 = WebUI.getText(findTestObject('PLPPage/product8_cardPrice_PLP'))
+productcardprice4 = WebUI.getText(findTestObject('PLPPage/Product3DiscountPrice_PLP'))
 
 //def productcard1priceWithoutDollar = productcardprice1.replace('$', '').replace(',', '')
 //def productcard2priceWithoutDollar = productcardprice2.replace('$', '').replace(',', '')
@@ -42,9 +43,9 @@ WebUI.enhancedClick(findTestObject('PLPPage/HighToLowPriceSortby_PLP'))
 
 WebUI.delay(5)
 
-productcardprice1 = WebUI.getText(findTestObject('PLPPage/product3_cardPrice_PLP'))
+productcardprice1 = WebUI.getText(findTestObject('PLPPage/product-1-DiscountPrice_PLP'))
 
-productcardprice2 = WebUI.getText(findTestObject('PLPPage/product7_cardPrice_PLP'))
+productcardprice2 = WebUI.getText(findTestObject('PLPPage/product-3-DiscountPrice_PLP'))
 
 if (productcardprice1 >= productcardprice2) {
     println('in sorted order')

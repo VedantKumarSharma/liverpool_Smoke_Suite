@@ -47,7 +47,7 @@ if (GlobalVariable.TempAddress == Address1) {
 
 WebUI.click(findTestObject('AccountManagement/Select3DotAddress2Nd_Account'))
 
-WebUI.click(findTestObject('AccountManagement/EditCardDetails_Account'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('AccountManagement/QAtesting_Address_Editor_AM'), FailureHandling.STOP_ON_FAILURE)
 
 name = RandomStringUtils.randomAlphabetic(8)
 
@@ -71,7 +71,7 @@ if (GlobalVariable.TempAddress == Address1) {
 
 WebUI.click(findTestObject('AccountManagement/Select3DotAddress2Nd_Account'))
 
-WebUI.click(findTestObject('AccountManagement/RemoveCardDetails_Account'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('AccountManagement/QAtesting_Address_Remove_AM'), FailureHandling.STOP_ON_FAILURE)
 
 println(GlobalVariable.TempAddress)
 

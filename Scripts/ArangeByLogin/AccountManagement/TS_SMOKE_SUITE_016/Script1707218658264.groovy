@@ -18,10 +18,6 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
-WebUI.navigateToUrl(GlobalVariable.URL)
-
-WebUI.callTestCase(findTestCase('CommonMethods/login_odtaqab'), [:], FailureHandling.STOP_ON_FAILURE)
-
 WebUI.mouseOver(findTestObject('HomePage/AfterLogin_Homepage'))
 
 WebUI.click(findTestObject('AccountManagement/MyAccountButton_Account'))
