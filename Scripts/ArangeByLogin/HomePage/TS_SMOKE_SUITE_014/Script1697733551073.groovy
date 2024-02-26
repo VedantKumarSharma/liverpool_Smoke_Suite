@@ -17,11 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl(GlobalVariable.URL)
-
-WebUI.callTestCase(findTestCase('CommonMethods/login_odtaqab'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.refresh()
 
 WebUI.click(findTestObject('HomePage/AfterLogin_Homepage'))
 
@@ -35,17 +31,23 @@ WebUI.waitForPageLoad(0)
 
 Name = 'harish'
 
-//WebUI.click(findTestObject('AccountManagement/firstName_update_accountManagement'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('AccountManagement/firstName_update_accountManagement'), FailureHandling.STOP_ON_FAILURE)
+
 WebUI.sendKeys(findTestObject('AccountManagement/firstName_update_accountManagement'), Keys.chord(Keys.CONTROL, 'a'))
 
-WebUI.sendKeys(findTestObject('AccountManagement/firstName_update_accountManagement'), Keys.chord(Keys.BACK_SPACE), FailureHandling.OPTIONAL)
+WebUI.sendKeys(findTestObject('AccountManagement/firstName_update_accountManagement'), Keys.chord(Keys.CLEAR))
+
+WebUI.sendKeys(findTestObject('AccountManagement/firstName_update_accountManagement'), Keys.chord(Keys.BACK_SPACE), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.clearText(findTestObject('AccountManagement/firstName_update_accountManagement'), FailureHandling.OPTIONAL)
 
-WebUI.delay(3)
+WebUI.delay(10)
 
-WebUI.setText(findTestObject('AccountManagement/firstName_update_accountManagement'), Name)
+WebUI.setText(findTestObject('AccountManagement/firstName_update_accountManagement'), '')
 
+WebUI.sendKeys(findTestObject('AccountManagement/firstName_update_accountManagement'), Keys.chord(Name))
+
+//WebUI.setText(findTestObject('AccountManagement/firstName_update_accountManagement'), Name)
 System.out.println(Name)
 
 WebUI.click(findTestObject('AccountManagement/UpdateButton_Account'))

@@ -10,7 +10,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//div[@class='mdc-ripple-upgraded']/div/input[@id='input-update__name'])</value>
+         <value>(//input[@id=&quot;input-update__name&quot;])</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
