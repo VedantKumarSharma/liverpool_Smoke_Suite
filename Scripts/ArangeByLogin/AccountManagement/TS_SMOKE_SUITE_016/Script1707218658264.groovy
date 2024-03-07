@@ -17,17 +17,16 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
+import org.apache.commons.lang.RandomStringUtils as RandomStringUtils
 
-WebUI.mouseOver(findTestObject('HomePage/AfterLogin_Homepage'))
-
-WebUI.click(findTestObject('AccountManagement/MyAccountButton_Account'))
+WebUI.click(findTestObject('HomePage/MIsCompras_loginUser_HP'))
 
 WebUI.click(findTestObject('AccountManagement/UpdatePeronalData_Account'))
 
 WebUI.verifyElementPresent(findTestObject('AccountManagement/updatePage_Account'), 0)
 
 //lastname = WebUI.getText(findTestObject('AccountManagement/LastName_Account'))
-name = CustomKeywords.'customkeywords.myKeywords.randomString'()
+name = RandomStringUtils.randomAlphabetic(8)
 
 WebUI.clearText(findTestObject('AccountManagement/FirstNameProfile_Account'), FailureHandling.STOP_ON_FAILURE)
 

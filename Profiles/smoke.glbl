@@ -3,7 +3,7 @@
    <description></description>
    <name>smoke</name>
    <tag></tag>
-   <defaultProfile>true</defaultProfile>
+   <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'https://odtaqaa.liverpool.com.mx'</initValue>
@@ -203,5 +203,10 @@
       <description></description>
       <initValue>'QATest\r\n'</initValue>
       <name>Name</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>for bt products</description>
+      <initValue>'bt'</initValue>
+      <name>bt</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

@@ -19,7 +19,8 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 //name = RandomStringUtils.randomAlphabetic(8)
-name = 'QATESTING'
+name = 'TestQA'
+
 //name = CustomKeywords.'customkeywords.myKeywords.randomString'()
 GlobalVariable.TempAddress = name
 
@@ -33,7 +34,7 @@ WebUI.delay(3)
 
 WebUI.click(findTestObject('AccountManagement/City_Account'), FailureHandling.OPTIONAL)
 
-WebUI.setText(findTestObject('AccountManagement/City_Account'), 'maxico', FailureHandling.OPTIONAL)
+WebUI.setText(findTestObject('AccountManagement/City_Account'), 'mexico', FailureHandling.OPTIONAL)
 
 WebUI.click(findTestObject('AccountManagement/StreetName_Account'), FailureHandling.OPTIONAL)
 
@@ -46,10 +47,6 @@ WebUI.setText(findTestObject('AccountManagement/ExtNumber_Account'), '9823958982
 WebUI.click(findTestObject('AccountManagement/CellPhoneNumber_Account'), FailureHandling.OPTIONAL)
 
 WebUI.setText(findTestObject('AccountManagement/CellPhoneNumber_Account'), '9823459823', FailureHandling.OPTIONAL)
-
-WebUI.click(findTestObject('AccountManagement/lada_Account'), FailureHandling.OPTIONAL)
-
-WebUI.setText(findTestObject('AccountManagement/lada_Account'), '239', FailureHandling.OPTIONAL)
 
 WebUI.click(findTestObject('AccountManagement/personalNumber_Account'), FailureHandling.OPTIONAL)
 

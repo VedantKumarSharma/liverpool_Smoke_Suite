@@ -18,13 +18,15 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
-WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : 'silla frandiss'], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.Multi_Sku_With_Range_Plp], 
+    FailureHandling.STOP_ON_FAILURE)
 
 'verify price range\r\n'
-a = WebUI.getText(findTestObject('PLPPage/product1_cardPrice_PLP'))
+a = WebUI.getText(findTestObject('PLPPage/product2_cardPrice_PLP'))
 
 'verify price range\r\n'
-b = WebUI.getText(findTestObject('PLPPage/product1_discountPrice_PLP'))
+b = WebUI.getText(findTestObject('PLPPage/product-2-DiscountPrice_PLP'))
 
 boolean a1 = a.contains('-')
 

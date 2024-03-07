@@ -17,10 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.search2price], 
+WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.ProductRangeMultiSKU], 
     FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('PLPPage/product6_Cardprrice_PLP'))
 
 'verify milti sku\r\n'
 WebUI.verifyElementPresent(findTestObject('PDPPage/Colour2_PDP'), 0)

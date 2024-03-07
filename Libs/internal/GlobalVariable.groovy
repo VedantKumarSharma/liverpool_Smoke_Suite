@@ -17,11 +17,6 @@ public class GlobalVariable {
     /**
      * <p></p>
      */
-    public static Object SLProduct
-     
-    /**
-     * <p></p>
-     */
     public static Object username
      
     /**
@@ -32,183 +27,72 @@ public class GlobalVariable {
     /**
      * <p></p>
      */
-    public static Object username1
-     
-    /**
-     * <p></p>
-     */
-    public static Object password1
-     
-    /**
-     * <p>Profile smoke : digital product 
-Profile default : digital product </p>
-     */
-    public static Object digitalP
-     
-    /**
-     * <p></p>
-     */
-    public static Object SLSearchTerm
-     
-    /**
-     * <p></p>
-     */
-    public static Object minimumPurchaseProdut
-     
-    /**
-     * <p></p>
-     */
-    public static Object PreorderItem
-     
-    /**
-     * <p></p>
-     */
-    public static Object eventQATest
-     
-    /**
-     * <p></p>
-     */
-    public static Object exclusiveProductId
-     
-    /**
-     * <p></p>
-     */
-    public static Object search2price
-     
-    /**
-     * <p></p>
-     */
-    public static Object MotherName
-     
-    /**
-     * <p></p>
-     */
-    public static Object PostalCode
-     
-    /**
-     * <p></p>
-     */
-    public static Object CityAddAddress
-     
-    /**
-     * <p></p>
-     */
-    public static Object StreetAddAddress
-     
-    /**
-     * <p></p>
-     */
-    public static Object NoExtAddAddress
-     
-    /**
-     * <p></p>
-     */
-    public static Object CellPhoneAddAddress
-     
-    /**
-     * <p></p>
-     */
-    public static Object LADAaddAddress
-     
-    /**
-     * <p></p>
-     */
-    public static Object phoneAddAddress
-     
-    /**
-     * <p></p>
-     */
-    public static Object ShortName
-     
-    /**
-     * <p></p>
-     */
-    public static Object EventNumber
-     
-    /**
-     * <p></p>
-     */
     public static Object CartPageURL
      
     /**
      * <p></p>
      */
-    public static Object AMpassword
+    public static Object TempAdd
+     
+    /**
+     * <p>Profile SmokeSuite : Search term with more than one product page</p>
+     */
+    public static Object PLP_with_pagenation
+     
+    /**
+     * <p>Profile SmokeSuite : Search term showing multiple objects on one page</p>
+     */
+    public static Object PLP_with_Facet
+     
+    /**
+     * <p>Profile SmokeSuite : Search term showing product and price without range for first product</p>
+     */
+    public static Object SL_search
+     
+    /**
+     * <p>Profile SmokeSuite : Search term leading to multiple sku page without range product</p>
+     */
+    public static Object Multi_Sku_Without_Range_Plp
+     
+    /**
+     * <p>Profile SmokeSuite : Search term leading to page with one sku, card price, discount price, and no range product</p>
+     */
+    public static Object rate_CPandDP
+     
+    /**
+     * <p>Profile SmokeSuite : Search term leading to multiple sku page with range product</p>
+     */
+    public static Object Multi_Sku_With_Range_Plp
+     
+    /**
+     * <p>Profile SmokeSuite : Search term leading to single sku page with range product</p>
+     */
+    public static Object Single_SKU_PDP
+     
+    /**
+     * <p>Profile SmokeSuite : Search term for product with multiple tabs in product description</p>
+     */
+    public static Object ProductWithMultiTab
      
     /**
      * <p></p>
      */
-    public static Object AMUsername
+    public static Object GWP_Sku
      
     /**
      * <p></p>
      */
-    public static Object TempAddress
+    public static Object ProductRangeMultiSKU
      
     /**
      * <p></p>
      */
-    public static Object name
+    public static Object ProductNoRangeMultiSKU
      
     /**
-     * <p></p>
+     * <p>Profile smoke : for bt products</p>
      */
-    public static Object SL1
-     
-    /**
-     * <p></p>
-     */
-    public static Object Sl_PLP_price
-     
-    /**
-     * <p></p>
-     */
-    public static Object uN
-     
-    /**
-     * <p></p>
-     */
-    public static Object p
-     
-    /**
-     * <p></p>
-     */
-    public static Object URLQA2
-     
-    /**
-     * <p></p>
-     */
-    public static Object jeans
-     
-    /**
-     * <p></p>
-     */
-    public static Object rate
-     
-    /**
-     * <p></p>
-     */
-    public static Object colour
-     
-    /**
-     * <p></p>
-     */
-    public static Object rateCPandDP
-     
-    /**
-     * <p></p>
-     */
-    public static Object PotteryBarn
-     
-    /**
-     * <p></p>
-     */
-    public static Object GAP
-     
-    /**
-     * <p></p>
-     */
-    public static Object Name
+    public static Object bt
      
     /**
      * <p></p>
@@ -224,12 +108,28 @@ Profile default : pwaqa</p>
     /**
      * <p></p>
      */
+    public static Object username1
+     
+    /**
+     * <p></p>
+     */
+    public static Object password1
+     
+    /**
+     * <p></p>
+     */
     public static Object newUser
      
     /**
      * <p></p>
      */
     public static Object newpassword
+     
+    /**
+     * <p>Profile default : digital product 
+Profile smoke : digital product </p>
+     */
+    public static Object digitalP
      
     /**
      * <p></p>
@@ -274,6 +174,11 @@ Profile default : pwaqa</p>
     /**
      * <p></p>
      */
+    public static Object SLProduct
+     
+    /**
+     * <p></p>
+     */
     public static Object collectionItemLink
      
     /**
@@ -309,7 +214,27 @@ Profile default : pwaqa</p>
     /**
      * <p></p>
      */
+    public static Object SLSearchTerm
+     
+    /**
+     * <p></p>
+     */
     public static Object SL_Product1
+     
+    /**
+     * <p></p>
+     */
+    public static Object minimumPurchaseProdut
+     
+    /**
+     * <p></p>
+     */
+    public static Object PreorderItem
+     
+    /**
+     * <p></p>
+     */
+    public static Object eventQATest
      
     /**
      * <p>Profile default : Pantalla Sony LCD smart TV de 85 pulgadas Dolby Atmos&#47;HDR Dolby Vision KD-85X85K con Google TV</p>
@@ -325,6 +250,11 @@ Profile default : pwaqa</p>
      * <p>Profile default : telefono-fijo&#47;1007253555</p>
      */
     public static Object PreOrderProduct
+     
+    /**
+     * <p></p>
+     */
+    public static Object exclusiveProductId
      
     /**
      * <p></p>
@@ -484,6 +414,61 @@ Profile default : pwaqa</p>
     /**
      * <p></p>
      */
+    public static Object search2price
+     
+    /**
+     * <p></p>
+     */
+    public static Object MotherName
+     
+    /**
+     * <p></p>
+     */
+    public static Object PostalCode
+     
+    /**
+     * <p></p>
+     */
+    public static Object CityAddAddress
+     
+    /**
+     * <p></p>
+     */
+    public static Object StreetAddAddress
+     
+    /**
+     * <p></p>
+     */
+    public static Object NoExtAddAddress
+     
+    /**
+     * <p></p>
+     */
+    public static Object CellPhoneAddAddress
+     
+    /**
+     * <p></p>
+     */
+    public static Object LADAaddAddress
+     
+    /**
+     * <p></p>
+     */
+    public static Object phoneAddAddress
+     
+    /**
+     * <p></p>
+     */
+    public static Object ShortName
+     
+    /**
+     * <p></p>
+     */
+    public static Object EventNumber
+     
+    /**
+     * <p></p>
+     */
     public static Object BigTicketWord
      
     /**
@@ -519,7 +504,87 @@ Profile default : pwaqa</p>
     /**
      * <p></p>
      */
+    public static Object AMUsername
+     
+    /**
+     * <p></p>
+     */
     public static Object AMpassord
+     
+    /**
+     * <p></p>
+     */
+    public static Object AMpassword
+     
+    /**
+     * <p></p>
+     */
+    public static Object TempAddress
+     
+    /**
+     * <p></p>
+     */
+    public static Object name
+     
+    /**
+     * <p></p>
+     */
+    public static Object SL1
+     
+    /**
+     * <p></p>
+     */
+    public static Object Sl_PLP_price
+     
+    /**
+     * <p></p>
+     */
+    public static Object uN
+     
+    /**
+     * <p></p>
+     */
+    public static Object p
+     
+    /**
+     * <p></p>
+     */
+    public static Object URLQA2
+     
+    /**
+     * <p></p>
+     */
+    public static Object jeans
+     
+    /**
+     * <p></p>
+     */
+    public static Object rate
+     
+    /**
+     * <p></p>
+     */
+    public static Object colour
+     
+    /**
+     * <p></p>
+     */
+    public static Object rateCPandDP
+     
+    /**
+     * <p></p>
+     */
+    public static Object PotteryBarn
+     
+    /**
+     * <p></p>
+     */
+    public static Object GAP
+     
+    /**
+     * <p></p>
+     */
+    public static Object Name
      
 
     static {
@@ -529,49 +594,29 @@ Profile default : pwaqa</p>
             selectedVariables += TestCaseMain.getParsedValues(RunConfiguration.getOverridingParameters(), selectedVariables)
     
             URL = selectedVariables['URL']
-            SLProduct = selectedVariables['SLProduct']
             username = selectedVariables['username']
             password = selectedVariables['password']
-            username1 = selectedVariables['username1']
-            password1 = selectedVariables['password1']
-            digitalP = selectedVariables['digitalP']
-            SLSearchTerm = selectedVariables['SLSearchTerm']
-            minimumPurchaseProdut = selectedVariables['minimumPurchaseProdut']
-            PreorderItem = selectedVariables['PreorderItem']
-            eventQATest = selectedVariables['eventQATest']
-            exclusiveProductId = selectedVariables['exclusiveProductId']
-            search2price = selectedVariables['search2price']
-            MotherName = selectedVariables['MotherName']
-            PostalCode = selectedVariables['PostalCode']
-            CityAddAddress = selectedVariables['CityAddAddress']
-            StreetAddAddress = selectedVariables['StreetAddAddress']
-            NoExtAddAddress = selectedVariables['NoExtAddAddress']
-            CellPhoneAddAddress = selectedVariables['CellPhoneAddAddress']
-            LADAaddAddress = selectedVariables['LADAaddAddress']
-            phoneAddAddress = selectedVariables['phoneAddAddress']
-            ShortName = selectedVariables['ShortName']
-            EventNumber = selectedVariables['EventNumber']
             CartPageURL = selectedVariables['CartPageURL']
-            AMpassword = selectedVariables['AMpassword']
-            AMUsername = selectedVariables['AMUsername']
-            TempAddress = selectedVariables['TempAddress']
-            name = selectedVariables['name']
-            SL1 = selectedVariables['SL1']
-            Sl_PLP_price = selectedVariables['Sl_PLP_price']
-            uN = selectedVariables['uN']
-            p = selectedVariables['p']
-            URLQA2 = selectedVariables['URLQA2']
-            jeans = selectedVariables['jeans']
-            rate = selectedVariables['rate']
-            colour = selectedVariables['colour']
-            rateCPandDP = selectedVariables['rateCPandDP']
-            PotteryBarn = selectedVariables['PotteryBarn']
-            GAP = selectedVariables['GAP']
-            Name = selectedVariables['Name']
+            TempAdd = selectedVariables['TempAdd']
+            PLP_with_pagenation = selectedVariables['PLP_with_pagenation']
+            PLP_with_Facet = selectedVariables['PLP_with_Facet']
+            SL_search = selectedVariables['SL_search']
+            Multi_Sku_Without_Range_Plp = selectedVariables['Multi_Sku_Without_Range_Plp']
+            rate_CPandDP = selectedVariables['rate_CPandDP']
+            Multi_Sku_With_Range_Plp = selectedVariables['Multi_Sku_With_Range_Plp']
+            Single_SKU_PDP = selectedVariables['Single_SKU_PDP']
+            ProductWithMultiTab = selectedVariables['ProductWithMultiTab']
+            GWP_Sku = selectedVariables['GWP_Sku']
+            ProductRangeMultiSKU = selectedVariables['ProductRangeMultiSKU']
+            ProductNoRangeMultiSKU = selectedVariables['ProductNoRangeMultiSKU']
+            bt = selectedVariables['bt']
             newuser = selectedVariables['newuser']
             GIDcollection = selectedVariables['GIDcollection']
+            username1 = selectedVariables['username1']
+            password1 = selectedVariables['password1']
             newUser = selectedVariables['newUser']
             newpassword = selectedVariables['newpassword']
+            digitalP = selectedVariables['digitalP']
             WrongUsername = selectedVariables['WrongUsername']
             WrongPassword = selectedVariables['WrongPassword']
             Username = selectedVariables['Username']
@@ -580,6 +625,7 @@ Profile default : pwaqa</p>
             BTSearchTerms = selectedVariables['BTSearchTerms']
             GWPProduct = selectedVariables['GWPProduct']
             MKPProduct = selectedVariables['MKPProduct']
+            SLProduct = selectedVariables['SLProduct']
             collectionItemLink = selectedVariables['collectionItemLink']
             BTItemsLink = selectedVariables['BTItemsLink']
             GWPProductLink = selectedVariables['GWPProductLink']
@@ -587,10 +633,15 @@ Profile default : pwaqa</p>
             MKPProductLink = selectedVariables['MKPProductLink']
             UsernameProduction = selectedVariables['UsernameProduction']
             PasswordProduction = selectedVariables['PasswordProduction']
+            SLSearchTerm = selectedVariables['SLSearchTerm']
             SL_Product1 = selectedVariables['SL_Product1']
+            minimumPurchaseProdut = selectedVariables['minimumPurchaseProdut']
+            PreorderItem = selectedVariables['PreorderItem']
+            eventQATest = selectedVariables['eventQATest']
             BigTicket = selectedVariables['BigTicket']
             SLProduct2Id = selectedVariables['SLProduct2Id']
             PreOrderProduct = selectedVariables['PreOrderProduct']
+            exclusiveProductId = selectedVariables['exclusiveProductId']
             gwpSearchWord = selectedVariables['gwpSearchWord']
             gwpGiftOOS = selectedVariables['gwpGiftOOS']
             gwpSLwithSingleGift = selectedVariables['gwpSLwithSingleGift']
@@ -622,6 +673,17 @@ Profile default : pwaqa</p>
             BLpBLgift = selectedVariables['BLpBLgift']
             BLpSLgift2 = selectedVariables['BLpSLgift2']
             SLwithVarient = selectedVariables['SLwithVarient']
+            search2price = selectedVariables['search2price']
+            MotherName = selectedVariables['MotherName']
+            PostalCode = selectedVariables['PostalCode']
+            CityAddAddress = selectedVariables['CityAddAddress']
+            StreetAddAddress = selectedVariables['StreetAddAddress']
+            NoExtAddAddress = selectedVariables['NoExtAddAddress']
+            CellPhoneAddAddress = selectedVariables['CellPhoneAddAddress']
+            LADAaddAddress = selectedVariables['LADAaddAddress']
+            phoneAddAddress = selectedVariables['phoneAddAddress']
+            ShortName = selectedVariables['ShortName']
+            EventNumber = selectedVariables['EventNumber']
             BigTicketWord = selectedVariables['BigTicketWord']
             SoftlineWord = selectedVariables['SoftlineWord']
             bundleItem = selectedVariables['bundleItem']
@@ -629,7 +691,23 @@ Profile default : pwaqa</p>
             GRpassword = selectedVariables['GRpassword']
             CheckoutLink = selectedVariables['CheckoutLink']
             SL = selectedVariables['SL']
+            AMUsername = selectedVariables['AMUsername']
             AMpassord = selectedVariables['AMpassord']
+            AMpassword = selectedVariables['AMpassword']
+            TempAddress = selectedVariables['TempAddress']
+            name = selectedVariables['name']
+            SL1 = selectedVariables['SL1']
+            Sl_PLP_price = selectedVariables['Sl_PLP_price']
+            uN = selectedVariables['uN']
+            p = selectedVariables['p']
+            URLQA2 = selectedVariables['URLQA2']
+            jeans = selectedVariables['jeans']
+            rate = selectedVariables['rate']
+            colour = selectedVariables['colour']
+            rateCPandDP = selectedVariables['rateCPandDP']
+            PotteryBarn = selectedVariables['PotteryBarn']
+            GAP = selectedVariables['GAP']
+            Name = selectedVariables['Name']
             
         } catch (Exception e) {
             TestCaseMain.logGlobalVariableError(e)

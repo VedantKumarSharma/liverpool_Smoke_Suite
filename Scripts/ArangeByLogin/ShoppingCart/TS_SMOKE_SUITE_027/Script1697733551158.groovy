@@ -23,9 +23,8 @@ WebUI.callTestCase(findTestCase('CommonMethods/close any pop up'), [:], FailureH
 
 WebUI.callTestCase(findTestCase('CommonMethods/logout'), [:], FailureHandling.OPTIONAL)
 
-WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.jeans], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('PLPPage/Product3DiscountPrice_PLP'))
+WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.Single_SKU_PDP], 
+    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('PDPPage/Size1_PDP'), FailureHandling.OPTIONAL)
 

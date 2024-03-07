@@ -27,9 +27,10 @@ WebUI.callTestCase(findTestCase('CommonMethods/EmptyCart_RunAt_HP'), [:], Failur
 
 WebUI.click(findTestObject('HomePage/Logo_hp'))
 
-WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.SL1], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.Single_SKU_PDP], 
+    FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('PLPPage/product1_PLP'), FailureHandling.OPTIONAL)
+WebUI.click(findTestObject('PLPPage/product1_discountPrice_PLP'), FailureHandling.OPTIONAL)
 
 WebUI.click(findTestObject('PDPPage/AddToCart_PDP'))
 

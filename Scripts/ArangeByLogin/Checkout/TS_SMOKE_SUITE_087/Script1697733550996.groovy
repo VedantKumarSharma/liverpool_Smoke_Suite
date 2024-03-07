@@ -19,11 +19,12 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.navigateToUrl(GlobalVariable.URL)
 
-WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.SL1], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.Single_SKU_PDP], 
+    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForPageLoad(0)
 
-WebUI.click(findTestObject('PLPPage/product1_PLP'), FailureHandling.OPTIONAL)
+WebUI.click(findTestObject('PLPPage/product1_discountPrice_PLP'), FailureHandling.OPTIONAL)
 
 WebUI.click(findTestObject('PDPPage/AddToCart_PDP'))
 
@@ -42,6 +43,8 @@ WebUI.setText(findTestObject('OPCPage/enterCardExpire_OPC'), '1225', FailureHand
 WebUI.click(findTestObject('OPCPage/cardContinue_checkout_popUP'), FailureHandling.OPTIONAL)
 
 WebUI.click(findTestObject('OPCPage/Final_comparar_OPC'))
+
+WebUI.delay(15)
 
 WebUI.verifyElementPresent(findTestObject('OPCPage/ConfirmOrder_Checkout'), 0)
 

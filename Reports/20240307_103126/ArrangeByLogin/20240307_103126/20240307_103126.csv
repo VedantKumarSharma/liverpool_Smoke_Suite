@@ -1,0 +1,743 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+ArrangeByLogin,Chrome 122.0.0.0,first only not login test case will run after that 1 login is performed and next all remaining login test case will run,,07-03-2024 10:31:35,07-03-2024 11:54:13,1h - 22m - 38.530s,ERROR
+,,,,,,,
+Test Cases/ArangeByLogin/HomePage/TS_SMOKE_SUITE_001,Chrome 122.0.0.0,To Verify that user is able to the access the site by typing Redesign URL in the browse.,,07-03-2024 10:31:59,07-03-2024 10:32:23,24.234s,PASSED
+"verifyElementPresent(findTestObject(""HomePage/Logo_hp""), 0)",Chrome 122.0.0.0,,,07-03-2024 10:31:59,07-03-2024 10:32:00,0.620s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 122.0.0.0,,,07-03-2024 10:32:00,07-03-2024 10:32:23,23.460s,ERROR
+,,,,,,,
+Test Cases/ArangeByLogin/HomePage/TS_SMOKE_SUITE_002,Chrome 122.0.0.0,"To verify  that system display the following link in the header
+1.Departmentos
+2.Marcas
+3.Credito
+4.Mesa de regalosa 
+5.Search text box
+6.Iniciar sesion
+7.Ubica tu tienda 
+8.Mis pedidos
+9.Ayuda",,07-03-2024 10:32:23,07-03-2024 10:32:50,26.599s,PASSED
+"verifyElementPresent(findTestObject(""HomePage/Logo_hp""), 0)",Chrome 122.0.0.0,,,07-03-2024 10:32:23,07-03-2024 10:32:24,0.382s,PASSED
+"verifyElementPresent(findTestObject(""HomePage/Departamentos""), 0)",Chrome 122.0.0.0,,,07-03-2024 10:32:24,07-03-2024 10:32:24,0.383s,PASSED
+"verifyElementPresent(findTestObject(""HomePage/brand1_HP""), 0)",Chrome 122.0.0.0,,,07-03-2024 10:32:24,07-03-2024 10:32:24,0.317s,PASSED
+"verifyElementPresent(findTestObject(""HomePage/brand2_HP""), 0)",Chrome 122.0.0.0,,,07-03-2024 10:32:24,07-03-2024 10:32:25,0.306s,PASSED
+"verifyElementPresent(findTestObject(""HomePage/brand3_HP""), 0)",Chrome 122.0.0.0,,,07-03-2024 10:32:25,07-03-2024 10:32:25,0.311s,PASSED
+"verifyElementPresent(findTestObject(""HomePage/brand4_HP""), 0)",Chrome 122.0.0.0,,,07-03-2024 10:32:25,07-03-2024 10:32:25,0.310s,PASSED
+"verifyElementPresent(findTestObject(""HomePage/mesa_de_regalos_HP""), 0)",Chrome 122.0.0.0,,,07-03-2024 10:32:25,07-03-2024 10:32:26,0.299s,PASSED
+"verifyElementPresent(findTestObject(""HomePage/credito_HP""), 0)",Chrome 122.0.0.0,,,07-03-2024 10:32:26,07-03-2024 10:32:26,0.311s,PASSED
+"verifyElementPresent(findTestObject(""HomePage/MainSearchbar_HP""), 0)",Chrome 122.0.0.0,,,07-03-2024 10:32:26,07-03-2024 10:32:26,0.305s,PASSED
+"verifyElementPresent(findTestObject(""HomePage/Iniciar sesion""), 0)",Chrome 122.0.0.0,,,07-03-2024 10:32:26,07-03-2024 10:32:27,0.305s,PASSED
+"verifyElementPresent(findTestObject(""HomePage/Tiendas_HP""), 0)",Chrome 122.0.0.0,,,07-03-2024 10:32:27,07-03-2024 10:32:27,0.339s,PASSED
+"verifyElementPresent(findTestObject(""HomePage/Ayuda_HP""), 0)",Chrome 122.0.0.0,,,07-03-2024 10:32:27,07-03-2024 10:32:27,0.300s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 122.0.0.0,,,07-03-2024 10:32:27,07-03-2024 10:32:50,22.637s,ERROR
+,,,,,,,
+Test Cases/ArangeByLogin/HomePage/TS_SMOKE_SUITE_003,Chrome 122.0.0.0,To verify the display of L1 category flyout on mouse hover the Departmentos link,,07-03-2024 10:32:50,07-03-2024 10:33:31,41.555s,PASSED
+navigateToUrl(URL),Chrome 122.0.0.0,,,07-03-2024 10:32:50,07-03-2024 10:33:03,13.213s,PASSED
+"mouseOver(findTestObject(""HomePage/Departamentos""))",Chrome 122.0.0.0,,,07-03-2024 10:33:03,07-03-2024 10:33:07,3.436s,PASSED
+"verifyElementClickable(findTestObject(""HomePage/L1_Category1_HP""))",Chrome 122.0.0.0,,,07-03-2024 10:33:07,07-03-2024 10:33:07,0.335s,PASSED
+"click(findTestObject(""HomePage/L1_Category1_HP""))",Chrome 122.0.0.0,,,07-03-2024 10:33:07,07-03-2024 10:33:07,0.426s,PASSED
+"mouseOver(findTestObject(""HomePage/L1_Category1_HP""))",Chrome 122.0.0.0,,,07-03-2024 10:33:07,07-03-2024 10:33:08,0.579s,PASSED
+"verifyElementClickable(findTestObject(""HomePage/L2CategoryInFlyout_HP""))",Chrome 122.0.0.0,,,07-03-2024 10:33:08,07-03-2024 10:33:08,0.410s,PASSED
+"verifyElementClickable(findTestObject(""HomePage/L3CategoriesInFlyout_HP""))",Chrome 122.0.0.0,,,07-03-2024 10:33:08,07-03-2024 10:33:09,0.313s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 122.0.0.0,,,07-03-2024 10:33:09,07-03-2024 10:33:31,22.745s,ERROR
+,,,,,,,
+Test Cases/ArangeByLogin/HomePage/TS_SMOKE_SUITE_007,Chrome 122.0.0.0,To verify the display of Login overlay when Anonymous user click on  Iniciar sesion link,,07-03-2024 10:33:31,07-03-2024 10:34:13,41.761s,PASSED
+waitForPageLoad(5),Chrome 122.0.0.0,,,07-03-2024 10:33:32,07-03-2024 10:33:32,0.039s,PASSED
+"click(findTestObject(""HomePage/Iniciar sesion""), STOP_ON_FAILURE)",Chrome 122.0.0.0,,,07-03-2024 10:33:32,07-03-2024 10:33:32,0.381s,PASSED
+"verifyElementPresent(findTestObject(""HomePage/EnterUsername_LP""), 0)",Chrome 122.0.0.0,,,07-03-2024 10:33:32,07-03-2024 10:33:39,7.273s,PASSED
+"verifyElementPresent(findTestObject(""HomePage/EnterPassword_LP""), 0)",Chrome 122.0.0.0,,,07-03-2024 10:33:39,07-03-2024 10:33:40,0.490s,PASSED
+navigateToUrl(URL),Chrome 122.0.0.0,,,07-03-2024 10:33:40,07-03-2024 10:33:51,10.880s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 122.0.0.0,,,07-03-2024 10:33:51,07-03-2024 10:34:13,22.586s,ERROR
+,,,,,,,
+Test Cases/ArangeByLogin/HomePage/TS_SMOKE_SUITE_008,Chrome 122.0.0.0,"To verify that the user is navigated to  ""Tiendas""( Store locator) page by clicking on the  “Ubica tu tienda "" link on the header section.",,07-03-2024 10:34:13,07-03-2024 10:34:58,45.118s,PASSED
+"click(findTestObject(""HomePage/Tiendas_HP""), STOP_ON_FAILURE)",Chrome 122.0.0.0,,,07-03-2024 10:34:13,07-03-2024 10:34:14,0.354s,PASSED
+"verifyElementPresent(findTestObject(""SLP/breadCrumb_SLP""), 0)",Chrome 122.0.0.0,,,07-03-2024 10:34:14,07-03-2024 10:34:16,2.095s,PASSED
+"verifyElementPresent(findTestObject(""SLP/Map_Verify_slp""), 0)",Chrome 122.0.0.0,,,07-03-2024 10:34:16,07-03-2024 10:34:24,8.213s,PASSED
+"verifyElementPresent(findTestObject(""SLP/find_store_title_SLP""), 0)",Chrome 122.0.0.0,,,07-03-2024 10:34:24,07-03-2024 10:34:24,0.310s,PASSED
+navigateToUrl(URL),Chrome 122.0.0.0,,,07-03-2024 10:34:24,07-03-2024 10:34:36,11.591s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 122.0.0.0,,,07-03-2024 10:34:36,07-03-2024 10:34:58,22.471s,ERROR
+,,,,,,,
+Test Cases/ArangeByLogin/HomePage/TS_SMOKE_SUITE_009,Chrome 122.0.0.0,"To verify that an Anonymous user is navigated to Login page by clicking on the  “Mis pedidos"" link on the header section.",,07-03-2024 10:34:58,07-03-2024 10:35:33,34.273s,FAILED
+"click(findTestObject(""HomePage/Mis_comprar""), STOP_ON_FAILURE)",Chrome 122.0.0.0,,,07-03-2024 10:34:58,07-03-2024 10:35:10,11.483s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 122.0.0.0,,,07-03-2024 10:35:10,07-03-2024 10:35:33,22.714s,ERROR
+,,,,,,,
+Test Cases/ArangeByLogin/HomePage/TS_SMOKE_SUITE_013,Chrome 122.0.0.0,To verify that the user is able to create account from Login overlay,,07-03-2024 10:35:33,07-03-2024 10:37:27,1m - 54.689s,ERROR
+"openBrowser("""")",Chrome 122.0.0.0,,,07-03-2024 10:35:33,07-03-2024 10:35:34,1.409s,PASSED
+navigateToUrl(URL),Chrome 122.0.0.0,,,07-03-2024 10:35:34,07-03-2024 10:37:04,1m - 29.895s,PASSED
+randomemail = a.GenerateRandomEmail.generateRandomEmail(),Chrome 122.0.0.0,,,07-03-2024 10:37:04,07-03-2024 10:37:04,0.036s,ERROR
+Start listener action : sampleAfterTestCase,Chrome 122.0.0.0,,,07-03-2024 10:37:04,07-03-2024 10:37:27,23.168s,ERROR
+,,,,,,,
+Test Cases/ArangeByLogin/Browse and Shop/TS_SMOKE_SUITE_039,Chrome 122.0.0.0,To verify that the breadcrumbs are clickable when user has landed on L1 category page.,,07-03-2024 10:37:27,07-03-2024 10:38:09,42.135s,PASSED
+"click(findTestObject(""HomePage/Departamentos""), STOP_ON_FAILURE)",Chrome 122.0.0.0,,,07-03-2024 10:37:27,07-03-2024 10:37:28,0.396s,PASSED
+"verifyElementClickable(findTestObject(""HomePage/L1_Category1_HP""))",Chrome 122.0.0.0,,,07-03-2024 10:37:28,07-03-2024 10:37:28,0.463s,PASSED
+"click(findTestObject(""HomePage/L1_Category_HP""))",Chrome 122.0.0.0,,,07-03-2024 10:37:28,07-03-2024 10:37:29,0.369s,PASSED
+"verifyElementClickable(findTestObject(""CLPPage/breadCrumb_clp""))",Chrome 122.0.0.0,,,07-03-2024 10:37:29,07-03-2024 10:37:47,18.372s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 122.0.0.0,,,07-03-2024 10:37:47,07-03-2024 10:38:09,22.472s,ERROR
+,,,,,,,
+Test Cases/ArangeByLogin/Browse and Shop/TS_SMOKE_SUITE_047,Chrome 122.0.0.0,To verify the display of facets on the item listing page,,07-03-2024 10:38:09,07-03-2024 10:39:01,51.068s,PASSED
+"callTestCase(findTestCase(""CommonMethods/SearchForAProduct_search""), [""searchTerm"":""ropa""], STOP_ON_FAILURE)",Chrome 122.0.0.0,,,07-03-2024 10:38:10,07-03-2024 10:38:21,11.634s,PASSED
+"verifyElementClickable(findTestObject(""CLPPage/breadCrumb_clp""))",Chrome 122.0.0.0,,,07-03-2024 10:38:21,07-03-2024 10:38:35,14.047s,PASSED
+"verifyElementPresent(findTestObject(""PLPPage/facetes/CategoríasTitleFacet_PLP""), 0)",Chrome 122.0.0.0,,,07-03-2024 10:38:35,07-03-2024 10:38:36,0.300s,PASSED
+"verifyElementPresent(findTestObject(""PLPPage/facetes/DescontousTitleFacet_PLP""), 0)",Chrome 122.0.0.0,,,07-03-2024 10:38:36,07-03-2024 10:38:36,0.527s,PASSED
+"verifyElementPresent(findTestObject(""PLPPage/facetes/TamanoTitleFacet_PLP""), 0)",Chrome 122.0.0.0,,,07-03-2024 10:38:36,07-03-2024 10:38:36,0.322s,PASSED
+"verifyElementPresent(findTestObject(""PLPPage/facetes/MarcasTitleFacet_PLP""), 0, OPTIONAL)",Chrome 122.0.0.0,,,07-03-2024 10:38:36,07-03-2024 10:38:37,0.665s,PASSED
+"verifyElementPresent(findTestObject(""PLPPage/facetes/VendidoTitleFacet_PLP""), 0)",Chrome 122.0.0.0,,,07-03-2024 10:38:37,07-03-2024 10:38:37,0.310s,PASSED
+"verifyElementPresent(findTestObject(""PLPPage/facetes/PreciosTitleFacet_PLP""), 0)",Chrome 122.0.0.0,,,07-03-2024 10:38:37,07-03-2024 10:38:38,0.730s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 122.0.0.0,,,07-03-2024 10:38:38,07-03-2024 10:39:01,22.420s,ERROR
+,,,,,,,
+Test Cases/ArangeByLogin/Browse and Shop/TS_SMOKE_SUITE_048,Chrome 122.0.0.0,To verify the display of price range on the item listing page for multi sku items.,,07-03-2024 10:39:01,07-03-2024 10:40:01,1m - 0.914s,PASSED
+"callTestCase(findTestCase(""CommonMethods/SearchForAProduct_search""), [""searchTerm"":Multi_Sku_With_Range_Plp], STOP_ON_FAILURE)",Chrome 122.0.0.0,,,07-03-2024 10:39:01,07-03-2024 10:39:12,10.799s,PASSED
+"a = getText(findTestObject(""PLPPage/product2_cardPrice_PLP""))",Chrome 122.0.0.0,"verify price range
+",,07-03-2024 10:39:12,07-03-2024 10:39:19,7.375s,PASSED
+"b = getText(findTestObject(""PLPPage/product-2-DiscountPrice_PLP""))",Chrome 122.0.0.0,"verify price range
+",,07-03-2024 10:39:19,07-03-2024 10:39:19,0.317s,PASSED
+"a1 = a.contains(""-"")",Chrome 122.0.0.0,,,07-03-2024 10:39:19,07-03-2024 10:39:19,0.002s,PASSED
+"b1 = b.contains(""-"")",Chrome 122.0.0.0,,,07-03-2024 10:39:19,07-03-2024 10:39:19,0.001s,PASSED
+out.println(a1),Chrome 122.0.0.0,,,07-03-2024 10:39:19,07-03-2024 10:39:19,0.020s,PASSED
+out.println(b1),Chrome 122.0.0.0,,,07-03-2024 10:39:19,07-03-2024 10:39:19,0.001s,PASSED
+if (a1 == true && b1 == true),Chrome 122.0.0.0,,,07-03-2024 10:39:19,07-03-2024 10:39:19,0.001s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 122.0.0.0,,,07-03-2024 10:39:19,07-03-2024 10:40:01,42.187s,ERROR
+,,,,,,,
+Test Cases/ArangeByLogin/Browse and Shop/TS_SMOKE_SUITE_049,Chrome 122.0.0.0,To verify the display of list price & sale price on the item listing page for single sku items.,,07-03-2024 10:40:01,07-03-2024 10:41:29,1m - 27.782s,PASSED
+"callTestCase(findTestCase(""CommonMethods/SearchForAProduct_search""), [""searchTerm"":rate_CPandDP], STOP_ON_FAILURE)",Chrome 122.0.0.0,,,07-03-2024 10:40:02,07-03-2024 10:40:58,56.088s,PASSED
+"verifyElementVisible(findTestObject(""PLPPage/product1_cardPrice_PLP""))",Chrome 122.0.0.0,"verify selling price
+",,07-03-2024 10:40:58,07-03-2024 10:41:04,5.942s,PASSED
+"verifyElementVisible(findTestObject(""PLPPage/product1_discountPrice_PLP""))",Chrome 122.0.0.0,"verify listed price
+",,07-03-2024 10:41:04,07-03-2024 10:41:06,2.021s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 122.0.0.0,,,07-03-2024 10:41:06,07-03-2024 10:41:29,23.658s,ERROR
+,,,,,,,
+Test Cases/ArangeByLogin/Browse and Shop/TS_SMOKE_SUITE_055,Chrome 122.0.0.0,To verify the display of product price range on PDP page for multi sku item.,,07-03-2024 10:41:29,07-03-2024 10:44:05,2m - 35.804s,PASSED
+"callTestCase(findTestCase(""CommonMethods/SearchForAProduct_search""), [""searchTerm"":ProductRangeMultiSKU], STOP_ON_FAILURE)",Chrome 122.0.0.0,,,07-03-2024 10:41:29,07-03-2024 10:41:39,9.887s,PASSED
+"verifyElementPresent(findTestObject(""PDPPage/Colour2_PDP""), 0)",Chrome 122.0.0.0,"verify milti sku
+",,07-03-2024 10:41:39,07-03-2024 10:43:49,2m - 9.303s,PASSED
+"verifyElementPresent(findTestObject(""PDPPage/minus(-)(priceRange)_PDP""), 0)",Chrome 122.0.0.0,"verify price range
+",,07-03-2024 10:43:49,07-03-2024 10:43:52,2.973s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 122.0.0.0,,,07-03-2024 10:43:52,07-03-2024 10:44:05,13.556s,ERROR
+,,,,,,,
+Test Cases/ArangeByLogin/Browse and Shop/TS_SMOKE_SUITE_054,Chrome 122.0.0.0,To verify the display of product price on PDP page for single sku item.,,07-03-2024 10:44:05,07-03-2024 10:50:57,6m - 52.238s,FAILED
+navigateToUrl(URL),Chrome 122.0.0.0,,,07-03-2024 10:44:05,07-03-2024 10:48:07,4m - 1.322s,PASSED
+"callTestCase(findTestCase(""CommonMethods/SearchForAProduct_search""), [""searchTerm"":""zap""], STOP_ON_FAILURE)",Chrome 122.0.0.0,,,07-03-2024 10:48:07,07-03-2024 10:48:26,19.134s,PASSED
+"click(findTestObject(""PLPPage/product1_PLP""))",Chrome 122.0.0.0,,,07-03-2024 10:48:26,07-03-2024 10:48:56,30.271s,PASSED
+"verifyElementPresent(findTestObject(""PDPPage/Colour1_PDP""), 0)",Chrome 122.0.0.0,,,07-03-2024 10:48:56,07-03-2024 10:49:26,30.474s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 122.0.0.0,,,07-03-2024 10:49:26,07-03-2024 10:50:57,1m - 30.951s,ERROR
+,,,,,,,
+Test Cases/ArangeByLogin/Browse and Shop/TS_SMOKE_SUITE_056,Chrome 122.0.0.0,To verify the display of PDP for single sku,,07-03-2024 10:50:57,07-03-2024 10:53:52,2m - 55.108s,PASSED
+"callTestCase(findTestCase(""CommonMethods/SearchForAProduct_search""), [""searchTerm"":""pantalon""], STOP_ON_FAILURE)",Chrome 122.0.0.0,,,07-03-2024 10:50:57,07-03-2024 10:51:37,39.837s,PASSED
+"click(findTestObject(""PLPPage/product-2-DiscountPrice_PLP""))",Chrome 122.0.0.0,,,07-03-2024 10:51:37,07-03-2024 10:51:49,12.190s,PASSED
+"verifyElementClickable(findTestObject(""PDPPage/ProductName_PDP""))",Chrome 122.0.0.0,,,07-03-2024 10:51:49,07-03-2024 10:52:20,30.080s,PASSED
+"verifyElementClickable(findTestObject(""PDPPage/ProductID_pdp""))",Chrome 122.0.0.0,,,07-03-2024 10:52:20,07-03-2024 10:52:50,30.083s,PASSED
+"verifyElementClickable(findTestObject(""PDPPage/discountPrice_PDP""))",Chrome 122.0.0.0,,,07-03-2024 10:52:50,07-03-2024 10:53:20,30.133s,PASSED
+"verifyElementClickable(findTestObject(""PDPPage/Colour1_PDP""))",Chrome 122.0.0.0,,,07-03-2024 10:53:20,07-03-2024 10:53:39,19.599s,PASSED
+"verifyElementClickable(findTestObject(""PDPPage/Alternate_Img_pdp""))",Chrome 122.0.0.0,,,07-03-2024 10:53:39,07-03-2024 10:53:40,0.307s,PASSED
+"verifyElementClickable(findTestObject(""PDPPage/AddToCart_PDP""))",Chrome 122.0.0.0,,,07-03-2024 10:53:40,07-03-2024 10:53:40,0.314s,PASSED
+"verifyElementClickable(findTestObject(""PDPPage/Detail_PDP""))",Chrome 122.0.0.0,,,07-03-2024 10:53:40,07-03-2024 10:53:40,0.322s,PASSED
+"verifyElementClickable(findTestObject(""PDPPage/breadCrumb_pdp""))",Chrome 122.0.0.0,,,07-03-2024 10:53:40,07-03-2024 10:53:41,0.309s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 122.0.0.0,,,07-03-2024 10:53:41,07-03-2024 10:53:52,11.836s,ERROR
+,,,,,,,
+Test Cases/ArangeByLogin/Browse and Shop/TS_SMOKE_SUITE_057,Chrome 122.0.0.0,To verify the display of PDP for multi  sku item,,07-03-2024 10:53:52,07-03-2024 10:54:38,45.550s,PASSED
+"callTestCase(findTestCase(""CommonMethods/SearchForAProduct_search""), [""searchTerm"":ProductNoRangeMultiSKU], STOP_ON_FAILURE)",Chrome 122.0.0.0,,,07-03-2024 10:53:53,07-03-2024 10:54:04,11.445s,PASSED
+"verifyElementClickable(findTestObject(""PDPPage/discountPrice_PDP""))",Chrome 122.0.0.0,,,07-03-2024 10:54:04,07-03-2024 10:54:24,19.830s,PASSED
+"verifyElementClickable(findTestObject(""PDPPage/breadCrumb_pdp""))",Chrome 122.0.0.0,"
+",,07-03-2024 10:54:24,07-03-2024 10:54:24,0.287s,PASSED
+"verifyElementClickable(findTestObject(""PDPPage/Colour1_PDP""))",Chrome 122.0.0.0,,,07-03-2024 10:54:24,07-03-2024 10:54:24,0.300s,PASSED
+"verifyElementClickable(findTestObject(""PDPPage/Colour2_PDP""))",Chrome 122.0.0.0,,,07-03-2024 10:54:24,07-03-2024 10:54:25,0.308s,PASSED
+"verifyElementClickable(findTestObject(""PDPPage/AddToCart_PDP""))",Chrome 122.0.0.0,,,07-03-2024 10:54:25,07-03-2024 10:54:25,0.293s,PASSED
+"verifyElementClickable(findTestObject(""PDPPage/Alternate_Img_pdp""))",Chrome 122.0.0.0,,,07-03-2024 10:54:25,07-03-2024 10:54:25,0.320s,PASSED
+"verifyElementClickable(findTestObject(""PDPPage/Detail_PDP""))",Chrome 122.0.0.0,"
+",,07-03-2024 10:54:25,07-03-2024 10:54:26,0.310s,PASSED
+"verifyElementClickable(findTestObject(""PDPPage/ProductName_PDP""))",Chrome 122.0.0.0,"verify pdp price
+
+",,07-03-2024 10:54:26,07-03-2024 10:54:26,0.307s,PASSED
+"verifyElementClickable(findTestObject(""PDPPage/ProductID_pdp""))",Chrome 122.0.0.0,"verify pdp price
+
+",,07-03-2024 10:54:26,07-03-2024 10:54:26,0.293s,PASSED
+"verifyElementClickable(findTestObject(""PDPPage/Detail_PDP""))",Chrome 122.0.0.0,"verify pdp price
+
+",,07-03-2024 10:54:26,07-03-2024 10:54:27,0.312s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 122.0.0.0,,,07-03-2024 10:54:27,07-03-2024 10:54:38,11.443s,ERROR
+,,,,,,,
+Test Cases/ArangeByLogin/Search/TS_SMOKE_SUITE_059,Chrome 122.0.0.0,To verify the default display of the products per page in the search result page,search,07-03-2024 10:54:38,07-03-2024 10:55:19,40.590s,PASSED
+"callTestCase(findTestCase(""CommonMethods/SearchForAProduct_search""), [""searchTerm"":""mac""], STOP_ON_FAILURE)",Chrome 122.0.0.0,,,07-03-2024 10:54:38,07-03-2024 10:54:47,9.140s,PASSED
+"verifyElementPresent(findTestObject(""PDPPage/product_56_PDP""), 0)",Chrome 122.0.0.0,"last product at a page  not 45
+
+",,07-03-2024 10:54:47,07-03-2024 10:54:56,8.883s,PASSED
+"verifyElementNotPresent(findTestObject(""PDPPage/product_57_PDP""), 0)",Chrome 122.0.0.0,,,07-03-2024 10:54:56,07-03-2024 10:54:56,0.301s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 122.0.0.0,,,07-03-2024 10:54:56,07-03-2024 10:55:19,22.191s,ERROR
+,,,,,,,
+Test Cases/ArangeByLogin/Search/TS_SMOKE_SUITE_060,Chrome 122.0.0.0,To verify the functionality of facet selection in search result page.,,07-03-2024 10:55:19,07-03-2024 10:58:56,3m - 37.631s,PASSED
+navigateToUrl(URL),Chrome 122.0.0.0,,,07-03-2024 10:55:19,07-03-2024 10:57:57,2m - 38.059s,PASSED
+"callTestCase(findTestCase(""CommonMethods/SearchForAProduct_search""), [""searchTerm"":""mac""], STOP_ON_FAILURE)",Chrome 122.0.0.0,,,07-03-2024 10:57:57,07-03-2024 10:58:07,10.646s,PASSED
+waitForPageLoad(0),Chrome 122.0.0.0,,,07-03-2024 10:58:07,07-03-2024 10:58:07,0.015s,PASSED
+"verifyElementPresent(findTestObject(""PLPPage/facetes/Facet_Seller_liverpool_PLP""), 0)",Chrome 122.0.0.0,,,07-03-2024 10:58:07,07-03-2024 10:58:22,14.911s,PASSED
+"a = getText(findTestObject(""PLPPage/Facet_Seller_liverpool_title_PLP""), STOP_ON_FAILURE)",Chrome 122.0.0.0,,,07-03-2024 10:58:22,07-03-2024 10:58:23,0.309s,PASSED
+"click(findTestObject(""PLPPage/facetes/Facet_Seller_liverpool_PLP""), STOP_ON_FAILURE)",Chrome 122.0.0.0,,,07-03-2024 10:58:23,07-03-2024 10:58:23,0.505s,PASSED
+"b = getText(findTestObject(""PLPPage/facetes/selectedfacet1_PLP""))",Chrome 122.0.0.0,,,07-03-2024 10:58:23,07-03-2024 10:58:33,10.134s,PASSED
+out.println(a),Chrome 122.0.0.0,,,07-03-2024 10:58:33,07-03-2024 10:58:33,0.002s,PASSED
+out.println(b),Chrome 122.0.0.0,,,07-03-2024 10:58:33,07-03-2024 10:58:33,0.001s,PASSED
+if (a.contains(b)),Chrome 122.0.0.0,,,07-03-2024 10:58:33,07-03-2024 10:58:33,0.013s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 122.0.0.0,,,07-03-2024 10:58:33,07-03-2024 10:58:56,22.921s,ERROR
+,,,,,,,
+Test Cases/ArangeByLogin/Search/TS_SMOKE_SUITE_061,Chrome 122.0.0.0,To verify the functionality of pagination in search result page.,search,07-03-2024 10:58:56,07-03-2024 11:00:04,1m - 7.630s,PASSED
+"callTestCase(findTestCase(""CommonMethods/SearchForAProduct_search""), [""searchTerm"":""mac""], STOP_ON_FAILURE)",Chrome 122.0.0.0,,,07-03-2024 10:58:56,07-03-2024 10:59:13,16.852s,PASSED
+waitForPageLoad(0),Chrome 122.0.0.0,,,07-03-2024 10:59:13,07-03-2024 10:59:13,0.011s,PASSED
+"scrollToElement(findTestObject(""PLPPage/pagenation_1_PLP""), 0)",Chrome 122.0.0.0,,,07-03-2024 10:59:13,07-03-2024 10:59:21,7.324s,PASSED
+"scrollToPosition(450, 0)",Chrome 122.0.0.0,,,07-03-2024 10:59:21,07-03-2024 10:59:21,0.024s,PASSED
+"click(findTestObject(""PLPPage/pagenation_2_PLP""), STOP_ON_FAILURE)",Chrome 122.0.0.0,,,07-03-2024 10:59:21,07-03-2024 10:59:21,0.428s,PASSED
+delay(10),Chrome 122.0.0.0,,,07-03-2024 10:59:21,07-03-2024 10:59:31,10.006s,PASSED
+a1 = getUrl(),Chrome 122.0.0.0,,,07-03-2024 10:59:31,07-03-2024 10:59:31,0.026s,PASSED
+out.println(a1),Chrome 122.0.0.0,,,07-03-2024 10:59:31,07-03-2024 10:59:31,0.001s,PASSED
+"a = a1.contains(""page-2"")",Chrome 122.0.0.0,,,07-03-2024 10:59:31,07-03-2024 10:59:31,0.001s,PASSED
+out.println(a),Chrome 122.0.0.0,,,07-03-2024 10:59:31,07-03-2024 10:59:31,0.000s,PASSED
+"scrollToElement(findTestObject(""PLPPage/pagenation_1_PLP""), 0)",Chrome 122.0.0.0,,,07-03-2024 10:59:31,07-03-2024 10:59:31,0.292s,PASSED
+waitForPageLoad(0),Chrome 122.0.0.0,,,07-03-2024 10:59:31,07-03-2024 10:59:31,0.018s,PASSED
+"click(findTestObject(""PLPPage/pagenation_1_PLP""), STOP_ON_FAILURE)",Chrome 122.0.0.0,,,07-03-2024 10:59:31,07-03-2024 10:59:32,0.376s,PASSED
+delay(10),Chrome 122.0.0.0,,,07-03-2024 10:59:32,07-03-2024 10:59:42,10.004s,PASSED
+if (a == true),Chrome 122.0.0.0,,,07-03-2024 10:59:42,07-03-2024 10:59:42,0.003s,PASSED
+b1 = getUrl(),Chrome 122.0.0.0,,,07-03-2024 10:59:42,07-03-2024 10:59:42,0.011s,PASSED
+"b = b1.contains(""page-1"")",Chrome 122.0.0.0,,,07-03-2024 10:59:42,07-03-2024 10:59:42,0.001s,PASSED
+out.println(b1),Chrome 122.0.0.0,,,07-03-2024 10:59:42,07-03-2024 10:59:42,0.001s,PASSED
+if (b == true),Chrome 122.0.0.0,,,07-03-2024 10:59:42,07-03-2024 10:59:42,0.002s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 122.0.0.0,,,07-03-2024 10:59:42,07-03-2024 11:00:04,22.093s,ERROR
+,,,,,,,
+Test Cases/ArangeByLogin/Search/TS_SMOKE_SUITE_062,Chrome 122.0.0.0,To verify display of price for the product in search result page.,,07-03-2024 11:00:04,07-03-2024 11:00:45,41.274s,PASSED
+"callTestCase(findTestCase(""CommonMethods/SearchForAProduct_search""), [""searchTerm"":""vaso""], STOP_ON_FAILURE)",Chrome 122.0.0.0,,,07-03-2024 11:00:04,07-03-2024 11:00:14,9.993s,PASSED
+waitForPageLoad(0),Chrome 122.0.0.0,,,07-03-2024 11:00:14,07-03-2024 11:00:14,0.012s,PASSED
+"verifyElementPresent(findTestObject(""PLPPage/product1_cardPrice_PLP""), 0)",Chrome 122.0.0.0,,,07-03-2024 11:00:14,07-03-2024 11:00:22,7.800s,PASSED
+"verifyElementPresent(findTestObject(""PLPPage/product1_discountPrice_PLP""), 0)",Chrome 122.0.0.0,,,07-03-2024 11:00:22,07-03-2024 11:00:22,0.323s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 122.0.0.0,,,07-03-2024 11:00:22,07-03-2024 11:00:45,23.071s,ERROR
+,,,,,,,
+Test Cases/ArangeByLogin/Search/TS_SMOKE_SUITE_063,Chrome 122.0.0.0,To verify the display of the color swatches in search result page,,07-03-2024 11:00:45,07-03-2024 11:01:24,38.759s,PASSED
+"callTestCase(findTestCase(""CommonMethods/SearchForAProduct_search""), [""searchTerm"":PLP_with_pagenation], STOP_ON_FAILURE)",Chrome 122.0.0.0,,,07-03-2024 11:00:45,07-03-2024 11:00:54,8.614s,PASSED
+waitForPageLoad(0),Chrome 122.0.0.0,,,07-03-2024 11:00:54,07-03-2024 11:00:54,0.014s,PASSED
+"scrollToElement(findTestObject(""PLPPage/facetes/ColorTitleFacet_PLP""), 0)",Chrome 122.0.0.0,,,07-03-2024 11:00:54,07-03-2024 11:01:01,7.369s,PASSED
+"verifyElementPresent(findTestObject(""PLPPage/facetes/Color_1_facet_PLP""), 0)",Chrome 122.0.0.0,,,07-03-2024 11:01:01,07-03-2024 11:01:02,0.301s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 122.0.0.0,,,07-03-2024 11:01:02,07-03-2024 11:01:24,22.357s,ERROR
+,,,,,,,
+Test Cases/ArangeByLogin/Search/TS_SMOKE_SUITE_069,Chrome 122.0.0.0,To verify the search result page when user selects the price as sorting option,,07-03-2024 11:01:24,07-03-2024 11:02:41,1m - 16.640s,PASSED
+"callTestCase(findTestCase(""CommonMethods/SearchForAProduct_search""), [""searchTerm"":SLSearchTerm], STOP_ON_FAILURE)",Chrome 122.0.0.0,,,07-03-2024 11:01:24,07-03-2024 11:01:34,9.493s,PASSED
+"click(findTestObject(""PLPPage/Sortby_PLP""))",Chrome 122.0.0.0,,,07-03-2024 11:01:34,07-03-2024 11:01:39,5.009s,PASSED
+"enhancedClick(findTestObject(""PLPPage/LowPricetoHighSortBy_PLP""))",Chrome 122.0.0.0,,,07-03-2024 11:01:39,07-03-2024 11:01:49,10.699s,PASSED
+"productcardprice3 = getText(findTestObject(""PLPPage/product-2-DiscountPrice_PLP""))",Chrome 122.0.0.0,,,07-03-2024 11:01:49,07-03-2024 11:01:55,6.004s,PASSED
+"productcardprice4 = getText(findTestObject(""PLPPage/Product3DiscountPrice_PLP""))",Chrome 122.0.0.0,,,07-03-2024 11:01:55,07-03-2024 11:01:56,0.649s,PASSED
+if (productcardprice3 <= productcardprice4),Chrome 122.0.0.0,,,07-03-2024 11:01:56,07-03-2024 11:01:56,0.003s,PASSED
+"click(findTestObject(""PLPPage/Sortby_PLP""))",Chrome 122.0.0.0,,,07-03-2024 11:01:56,07-03-2024 11:01:56,0.367s,PASSED
+"enhancedClick(findTestObject(""PLPPage/HighToLowPriceSortby_PLP""))",Chrome 122.0.0.0,,,07-03-2024 11:01:56,07-03-2024 11:02:07,10.602s,PASSED
+delay(5),Chrome 122.0.0.0,,,07-03-2024 11:02:07,07-03-2024 11:02:12,5.017s,PASSED
+"productcardprice1 = getText(findTestObject(""PLPPage/product-1-DiscountPrice_PLP""))",Chrome 122.0.0.0,,,07-03-2024 11:02:12,07-03-2024 11:02:18,5.973s,PASSED
+"productcardprice2 = getText(findTestObject(""PLPPage/product-3-DiscountPrice_PLP""))",Chrome 122.0.0.0,,,07-03-2024 11:02:18,07-03-2024 11:02:19,0.701s,PASSED
+if (productcardprice1 >= productcardprice2),Chrome 122.0.0.0,,,07-03-2024 11:02:19,07-03-2024 11:02:19,0.001s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 122.0.0.0,,,07-03-2024 11:02:19,07-03-2024 11:02:41,21.995s,ERROR
+,,,,,,,
+Test Cases/ArangeByLogin/Search/TS_SMOKE_SUITE_070,Chrome 122.0.0.0,to verify the pagination in the search result page,,07-03-2024 11:02:41,07-03-2024 11:03:46,1m - 5.616s,FAILED
+"callTestCase(findTestCase(""CommonMethods/SearchForAProduct_search""), [""searchTerm"":""mac""], STOP_ON_FAILURE)",Chrome 122.0.0.0,,,07-03-2024 11:02:41,07-03-2024 11:02:50,8.895s,PASSED
+"scrollToElement(findTestObject(""PLPPage/ForwardArrow_Pagenation_PLP""), 0)",Chrome 122.0.0.0,,,07-03-2024 11:02:50,07-03-2024 11:02:57,7.572s,PASSED
+"click(findTestObject(""PLPPage/ForwardArrow_Pagenation_PLP""), STOP_ON_FAILURE)",Chrome 122.0.0.0,,,07-03-2024 11:02:57,07-03-2024 11:02:58,0.410s,PASSED
+delay(7),Chrome 122.0.0.0,,,07-03-2024 11:02:58,07-03-2024 11:03:05,7.013s,PASSED
+a1 = getUrl(),Chrome 122.0.0.0,,,07-03-2024 11:03:05,07-03-2024 11:03:05,0.022s,PASSED
+"a = a1.contains(""page-2"")",Chrome 122.0.0.0,,,07-03-2024 11:03:05,07-03-2024 11:03:05,0.001s,PASSED
+if (a == true),Chrome 122.0.0.0,,,07-03-2024 11:03:05,07-03-2024 11:03:05,0.002s,PASSED
+"scrollToElement(findTestObject(""PLPPage/BackArrow_Pagenation_PLP""), 0)",Chrome 122.0.0.0,,,07-03-2024 11:03:05,07-03-2024 11:03:05,0.335s,PASSED
+"click(findTestObject(""PLPPage/BackArrow_Pagenation_PLP""), STOP_ON_FAILURE)",Chrome 122.0.0.0,,,07-03-2024 11:03:05,07-03-2024 11:03:05,0.429s,PASSED
+delay(7),Chrome 122.0.0.0,,,07-03-2024 11:03:05,07-03-2024 11:03:12,7.016s,PASSED
+b1 = getUrl(),Chrome 122.0.0.0,,,07-03-2024 11:03:12,07-03-2024 11:03:12,0.009s,PASSED
+"b = b1.contains(""page-1"")",Chrome 122.0.0.0,,,07-03-2024 11:03:12,07-03-2024 11:03:12,0.001s,PASSED
+if (b == true),Chrome 122.0.0.0,,,07-03-2024 11:03:12,07-03-2024 11:03:12,0.001s,PASSED
+else,Chrome 122.0.0.0,,,07-03-2024 11:03:12,07-03-2024 11:03:12,0.010s,FAILED
+"callTestCase(findTestCase(""CommonMethods/logout""), [:], OPTIONAL)",Chrome 122.0.0.0,,,07-03-2024 11:03:12,07-03-2024 11:03:24,11.342s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 122.0.0.0,,,07-03-2024 11:03:24,07-03-2024 11:03:46,22.441s,ERROR
+,,,,,,,
+Test Cases/ArangeByLogin/ShoppingCart/TS_SMOKE_SUITE_027,Chrome 122.0.0.0,To verify that the user is able to create account from shopping cart page,,07-03-2024 11:03:46,07-03-2024 11:05:45,1m - 58.875s,PASSED
+navigateToUrl(URL),Chrome 122.0.0.0,,,07-03-2024 11:03:46,07-03-2024 11:04:00,13.911s,PASSED
+"callTestCase(findTestCase(""CommonMethods/close any pop up""), [:], OPTIONAL)",Chrome 122.0.0.0,,,07-03-2024 11:04:00,07-03-2024 11:04:12,11.583s,PASSED
+"callTestCase(findTestCase(""CommonMethods/logout""), [:], OPTIONAL)",Chrome 122.0.0.0,,,07-03-2024 11:04:12,07-03-2024 11:04:23,11.652s,PASSED
+"callTestCase(findTestCase(""CommonMethods/SearchForAProduct_search""), [""searchTerm"":Single_SKU_PDP], STOP_ON_FAILURE)",Chrome 122.0.0.0,,,07-03-2024 11:04:23,07-03-2024 11:04:32,9.013s,PASSED
+"click(findTestObject(""PDPPage/Size1_PDP""), OPTIONAL)",Chrome 122.0.0.0,,,07-03-2024 11:04:32,07-03-2024 11:04:57,24.837s,PASSED
+"click(findTestObject(""OPCPage/close_popup_OPC""), OPTIONAL)",Chrome 122.0.0.0,,,07-03-2024 11:04:57,07-03-2024 11:04:58,0.485s,PASSED
+"click(findTestObject(""PDPPage/AddToCart_pdp""))",Chrome 122.0.0.0,,,07-03-2024 11:04:58,07-03-2024 11:04:58,0.366s,PASSED
+"click(findTestObject(""HomePage/Cart_header""))",Chrome 122.0.0.0,,,07-03-2024 11:04:58,07-03-2024 11:05:05,6.474s,PASSED
+"click(findTestObject(""CartPage/Iniciar_Cart""))",Chrome 122.0.0.0,,,07-03-2024 11:05:05,07-03-2024 11:05:07,1.869s,PASSED
+"verifyElementPresent(findTestObject(""HomePage/LoginPage_hp""), 0)",Chrome 122.0.0.0,,,07-03-2024 11:05:07,07-03-2024 11:05:13,6.756s,PASSED
+"verifyElementPresent(findTestObject(""AccountManagement/CreateNewAccount_Login""), 0)",Chrome 122.0.0.0,,,07-03-2024 11:05:13,07-03-2024 11:05:14,0.336s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 122.0.0.0,,,07-03-2024 11:05:14,07-03-2024 11:05:45,31.501s,ERROR
+,,,,,,,
+Test Cases/ArangeByLogin/ShoppingCart/TS_SMOKE_SUITE_028,Chrome 122.0.0.0,To verify that user is able to login from Shopping Cart page,,07-03-2024 11:05:45,07-03-2024 11:07:02,1m - 16.464s,PASSED
+"callTestCase(findTestCase(""CommonMethods/SearchForAProduct_search""), [""searchTerm"":Single_SKU_PDP], STOP_ON_FAILURE)",Chrome 122.0.0.0,,,07-03-2024 11:05:45,07-03-2024 11:05:53,7.736s,PASSED
+waitForPageLoad(0),Chrome 122.0.0.0,,,07-03-2024 11:05:53,07-03-2024 11:05:53,0.014s,PASSED
+"click(findTestObject(""PDPPage/AddToCart_pdp""))",Chrome 122.0.0.0,,,07-03-2024 11:05:53,07-03-2024 11:06:06,12.589s,PASSED
+"click(findTestObject(""HomePage/Cart_header""))",Chrome 122.0.0.0,,,07-03-2024 11:06:06,07-03-2024 11:06:09,3.197s,PASSED
+"click(findTestObject(""CartPage/BuyButton_Cart""))",Chrome 122.0.0.0,,,07-03-2024 11:06:09,07-03-2024 11:06:13,4.078s,PASSED
+"callTestCase(findTestCase(""CommonMethods/login_odtaqab""), [:], OPTIONAL)",Chrome 122.0.0.0,,,07-03-2024 11:06:13,07-03-2024 11:06:24,11.478s,PASSED
+"callTestCase(findTestCase(""CommonMethods/logout""), [:], OPTIONAL)",Chrome 122.0.0.0,,,07-03-2024 11:06:24,07-03-2024 11:06:36,11.399s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 122.0.0.0,,,07-03-2024 11:06:36,07-03-2024 11:07:02,25.899s,ERROR
+,,,,,,,
+Test Cases/ArangeByLogin/HomePage/TS_SMOKE_SUITE_006,Chrome 122.0.0.0,"To verify that the user is navigated to  “Mesa de Regalos"" page by clicking on the  “Mesa de Regalos"" link on the header section.",,07-03-2024 11:07:02,07-03-2024 11:08:14,1m - 12.299s,PASSED
+"callTestCase(findTestCase(""CommonMethods/login_odtaqab""), [:], STOP_ON_FAILURE)",Chrome 122.0.0.0,,,07-03-2024 11:07:02,07-03-2024 11:07:12,10.330s,PASSED
+"verifyElementClickable(findTestObject(""HomePage/Mesa de regalos_HP""))",Chrome 122.0.0.0,,,07-03-2024 11:07:12,07-03-2024 11:07:22,10.274s,PASSED
+"click(findTestObject(""HomePage/Mesa de regalos_HP""))",Chrome 122.0.0.0,,,07-03-2024 11:07:22,07-03-2024 11:07:36,13.823s,PASSED
+"verifyElementPresent(findTestObject(""HomePage/gr/Find_gift_table_GR""), 0)",Chrome 122.0.0.0,,,07-03-2024 11:07:36,07-03-2024 11:07:37,0.492s,PASSED
+navigateToUrl(URL),Chrome 122.0.0.0,,,07-03-2024 11:07:37,07-03-2024 11:07:51,14.353s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 122.0.0.0,,,07-03-2024 11:07:51,07-03-2024 11:08:14,22.922s,ERROR
+,,,,,,,
+Test Cases/ArangeByLogin/HomePage/TS_SMOKE_SUITE_010,Chrome 122.0.0.0,"To verify that the logged in user is navigated to  “Mis pedidos"" page by clicking on the  “Mis pedidos"" link on the header section.",,07-03-2024 11:08:14,07-03-2024 11:09:12,57.720s,PASSED
+navigateToUrl(URL),Chrome 122.0.0.0,,,07-03-2024 11:08:14,07-03-2024 11:08:26,12.075s,PASSED
+"callTestCase(findTestCase(""CommonMethods/login_odtaqab""), [:], OPTIONAL)",Chrome 122.0.0.0,,,07-03-2024 11:08:26,07-03-2024 11:08:38,11.788s,PASSED
+"click(findTestObject(""HomePage/Mis_comprar""))",Chrome 122.0.0.0,,,07-03-2024 11:08:38,07-03-2024 11:08:38,0.368s,PASSED
+"verifyElementPresent(findTestObject(""MyOrdersPage/aside_leftNavigation_misCompras""), 0)",Chrome 122.0.0.0,,,07-03-2024 11:08:38,07-03-2024 11:08:41,2.288s,PASSED
+"verifyElementPresent(findTestObject(""MyOrdersPage/breadCrumb_misCompras""), 0)",Chrome 122.0.0.0,,,07-03-2024 11:08:41,07-03-2024 11:08:49,7.998s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 122.0.0.0,,,07-03-2024 11:08:49,07-03-2024 11:09:12,23.087s,ERROR
+,,,,,,,
+Test Cases/ArangeByLogin/HomePage/TS_SMOKE_SUITE_011,Chrome 122.0.0.0,"To verify that the user is navigated to  ""Ayuda""( Help) page by clicking on the  “Ayuda"" link on the header section.",,07-03-2024 11:09:12,07-03-2024 11:10:00,48.293s,PASSED
+"click(findTestObject(""HomePage/Ayuda_HP""))",Chrome 122.0.0.0,,,07-03-2024 11:09:12,07-03-2024 11:09:15,2.917s,PASSED
+"verifyElementPresent(findTestObject(""HomePage/img_Cmo podemos ayudarte_logoAyuda""), 0)",Chrome 122.0.0.0,,,07-03-2024 11:09:15,07-03-2024 11:09:19,4.001s,PASSED
+"verifyElementPresent(findTestObject(""HomePage/img_Cmo podemos ayudarte_logoAyuda_helpPage""), 0)",Chrome 122.0.0.0,,,07-03-2024 11:09:19,07-03-2024 11:09:19,0.298s,PASSED
+navigateToUrl(URL),Chrome 122.0.0.0,,,07-03-2024 11:09:19,07-03-2024 11:09:37,17.703s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 122.0.0.0,,,07-03-2024 11:09:37,07-03-2024 11:10:00,23.282s,ERROR
+,,,,,,,
+Test Cases/ArangeByLogin/HomePage/TS_SMOKE_SUITE_012,Chrome 122.0.0.0,to verify that user is able to login by giving the valid credentials in the login overlay by clicking on the Inicar session link in the header,,07-03-2024 11:10:00,07-03-2024 11:10:23,23.498s,PASSED
+"verifyElementPresent(findTestObject(""HomePage/span_HolaUser_hp""), 0)",Chrome 122.0.0.0,,,07-03-2024 11:10:00,07-03-2024 11:10:00,0.352s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 122.0.0.0,,,07-03-2024 11:10:00,07-03-2024 11:10:23,23.091s,ERROR
+,,,,,,,
+Test Cases/ArangeByLogin/HomePage/TS_SMOKE_SUITE_014,Chrome 122.0.0.0,"To verify the display of user first name (as ""Hola abc! "") in the header when logged in user successfully logged in to the site",,07-03-2024 11:10:23,07-03-2024 11:11:30,1m - 6.781s,PASSED
+refresh(),Chrome 122.0.0.0,,,07-03-2024 11:10:24,07-03-2024 11:10:36,12.781s,PASSED
+"click(findTestObject(""HomePage/MIsCompras_loginUser_HP""))",Chrome 122.0.0.0,,,07-03-2024 11:10:36,07-03-2024 11:10:38,1.247s,PASSED
+"click(findTestObject(""AccountManagement/UpdatePeronalData_Account""))",Chrome 122.0.0.0,,,07-03-2024 11:10:38,07-03-2024 11:10:45,7.420s,PASSED
+"verifyElementPresent(findTestObject(""AccountManagement/firstName_update_accountManagement""), 0)",Chrome 122.0.0.0,,,07-03-2024 11:10:45,07-03-2024 11:10:51,6.003s,PASSED
+waitForPageLoad(0),Chrome 122.0.0.0,,,07-03-2024 11:10:51,07-03-2024 11:10:51,0.016s,PASSED
+"Name = ""harish""",Chrome 122.0.0.0,,,07-03-2024 11:10:51,07-03-2024 11:10:51,0.000s,PASSED
+"click(findTestObject(""AccountManagement/firstName_update_accountManagement""), STOP_ON_FAILURE)",Chrome 122.0.0.0,,,07-03-2024 11:10:51,07-03-2024 11:10:51,0.345s,PASSED
+"sendKeys(findTestObject(""AccountManagement/firstName_update_accountManagement""), Keys.chord(CONTROL, ""a""))",Chrome 122.0.0.0,,,07-03-2024 11:10:51,07-03-2024 11:10:52,0.550s,PASSED
+"sendKeys(findTestObject(""AccountManagement/firstName_update_accountManagement""), Keys.chord(CLEAR))",Chrome 122.0.0.0,,,07-03-2024 11:10:52,07-03-2024 11:10:52,0.346s,PASSED
+"sendKeys(findTestObject(""AccountManagement/firstName_update_accountManagement""), Keys.chord(BACK_SPACE), STOP_ON_FAILURE)",Chrome 122.0.0.0,,,07-03-2024 11:10:52,07-03-2024 11:10:53,0.322s,PASSED
+"clearText(findTestObject(""AccountManagement/firstName_update_accountManagement""), OPTIONAL)",Chrome 122.0.0.0,,,07-03-2024 11:10:53,07-03-2024 11:10:53,0.341s,PASSED
+delay(10),Chrome 122.0.0.0,,,07-03-2024 11:10:53,07-03-2024 11:11:03,10.005s,PASSED
+"setText(findTestObject(""AccountManagement/firstName_update_accountManagement""), """")",Chrome 122.0.0.0,,,07-03-2024 11:11:03,07-03-2024 11:11:04,0.664s,PASSED
+"sendKeys(findTestObject(""AccountManagement/firstName_update_accountManagement""), Keys.chord(Name))",Chrome 122.0.0.0,,,07-03-2024 11:11:04,07-03-2024 11:11:04,0.351s,PASSED
+out.println(Name),Chrome 122.0.0.0,,,07-03-2024 11:11:04,07-03-2024 11:11:04,0.000s,PASSED
+"click(findTestObject(""AccountManagement/UpdateButton_Account""))",Chrome 122.0.0.0,,,07-03-2024 11:11:04,07-03-2024 11:11:04,0.363s,PASSED
+waitForPageLoad(0),Chrome 122.0.0.0,,,07-03-2024 11:11:04,07-03-2024 11:11:04,0.018s,PASSED
+"verifyElementText(findTestObject(""HomePage/header_Hola_text_HP""), ""Hola "" + Name)",Chrome 122.0.0.0,,,07-03-2024 11:11:04,07-03-2024 11:11:07,3.010s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 122.0.0.0,,,07-03-2024 11:11:07,07-03-2024 11:11:30,22.807s,ERROR
+,,,,,,,
+Test Cases/ArangeByLogin/HomePage/TS_SMOKE_SUITE_015,Chrome 122.0.0.0,"To verify the display of following links by mouse over on the ""User name""  link on the header section.
+ -  Mi cuenta
+-  Mis pedidos
+-  Mi tiempo Aire
+-  Mis tarjetas
+-  Cerrar sesion",,07-03-2024 11:11:30,07-03-2024 11:12:07,36.546s,PASSED
+"mouseOver(findTestObject(""HomePage/header_Hola_text_HP""), STOP_ON_FAILURE)",Chrome 122.0.0.0,,,07-03-2024 11:11:30,07-03-2024 11:11:31,0.450s,PASSED
+"callTestCase(findTestCase(""CommonMethods/login_odtaqab""), [:], OPTIONAL)",Chrome 122.0.0.0,,,07-03-2024 11:11:31,07-03-2024 11:11:42,11.514s,PASSED
+"verifyElementPresent(findTestObject(""HomePage/Mis_comprar""), 0)",Chrome 122.0.0.0,,,07-03-2024 11:11:42,07-03-2024 11:11:43,0.296s,PASSED
+"verifyElementPresent(findTestObject(""HomePage/a_Mi Cuenta""), 0)",Chrome 122.0.0.0,,,07-03-2024 11:11:43,07-03-2024 11:11:43,0.315s,PASSED
+"verifyElementPresent(findTestObject(""HomePage/a_Mi tiempo aire""), 0)",Chrome 122.0.0.0,,,07-03-2024 11:11:43,07-03-2024 11:11:43,0.302s,PASSED
+"verifyElementPresent(findTestObject(""HomePage/a_Mis tarjetas""), 0)",Chrome 122.0.0.0,,,07-03-2024 11:11:43,07-03-2024 11:11:44,0.292s,PASSED
+"verifyElementPresent(findTestObject(""HomePage/a_Cerrar sesin_hp""), 0)",Chrome 122.0.0.0,,,07-03-2024 11:11:44,07-03-2024 11:11:44,0.377s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 122.0.0.0,,,07-03-2024 11:11:44,07-03-2024 11:12:07,22.919s,ERROR
+,,,,,,,
+Test Cases/ArangeByLogin/ShoppingCart/TS_SMOKE_SUITE_029,Chrome 122.0.0.0,"To verify that the logged in user is navigated to  “One page Checkout"" by clicking on the  “Comprar"" button in the shopping cart page",,07-03-2024 11:12:07,07-03-2024 11:13:00,53.097s,PASSED
+"callTestCase(findTestCase(""CommonMethods/SearchForAProduct_search""), [""searchTerm"":Single_SKU_PDP], STOP_ON_FAILURE)",Chrome 122.0.0.0,,,07-03-2024 11:12:07,07-03-2024 11:12:15,8.231s,PASSED
+waitForPageLoad(0),Chrome 122.0.0.0,,,07-03-2024 11:12:15,07-03-2024 11:12:15,0.015s,PASSED
+"click(findTestObject(""PDPPage/AddToCart_pdp""))",Chrome 122.0.0.0,,,07-03-2024 11:12:15,07-03-2024 11:12:29,14.167s,PASSED
+"click(findTestObject(""PLPPage/ProtectYourPurchase_plp""), OPTIONAL)",Chrome 122.0.0.0,,,07-03-2024 11:12:29,07-03-2024 11:12:41,11.462s,PASSED
+"click(findTestObject(""HomePage/Cart_header""))",Chrome 122.0.0.0,,,07-03-2024 11:12:41,07-03-2024 11:12:41,0.373s,PASSED
+"click(findTestObject(""CartPage/BuyButton_Cart""))",Chrome 122.0.0.0,,,07-03-2024 11:12:41,07-03-2024 11:12:44,3.211s,PASSED
+CheckoutURL = getUrl(),Chrome 122.0.0.0,,,07-03-2024 11:12:44,07-03-2024 11:12:44,0.013s,PASSED
+if (CheckoutURL == CheckoutLink),Chrome 122.0.0.0,,,07-03-2024 11:12:44,07-03-2024 11:12:44,0.001s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 122.0.0.0,,,07-03-2024 11:12:44,07-03-2024 11:13:00,15.495s,ERROR
+,,,,,,,
+Test Cases/ArangeByLogin/ShoppingCart/TS_SMOKE_SUITE_030,Chrome 122.0.0.0,"To verify that the logged in user is navigated to  “One page Checkout"" by clicking on the  “Comprar Ahor"" button displayed for individual items in the shopping cart page",,07-03-2024 11:13:00,07-03-2024 11:13:29,28.782s,FAILED
+waitForPageLoad(15),Chrome 122.0.0.0,,,07-03-2024 11:13:00,07-03-2024 11:13:00,0.012s,PASSED
+"callTestCase(findTestCase(""CommonMethods/SearchForAProduct_search""), [""searchTerm"":Single_SKU_PDP], STOP_ON_FAILURE)",Chrome 122.0.0.0,,,07-03-2024 11:13:00,07-03-2024 11:13:01,0.554s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 122.0.0.0,,,07-03-2024 11:13:01,07-03-2024 11:13:29,28.098s,ERROR
+,,,,,,,
+Test Cases/ArangeByLogin/Browse and Shop/TS_SMOKE_SUITE_058,Chrome 122.0.0.0,"To verify the display of Description slot in PDP with following tabs. 
+
+Long Description
+Manual
+Delivery Details
+Size/Dimensions
+LP Card Promotion
+Other Card Promotion",,07-03-2024 11:13:29,07-03-2024 11:14:53,1m - 24.192s,PASSED
+navigateToUrl(URL),Chrome 122.0.0.0,,,07-03-2024 11:13:29,07-03-2024 11:14:03,33.720s,PASSED
+"callTestCase(findTestCase(""CommonMethods/login_odtaqab""), [:], OPTIONAL)",Chrome 122.0.0.0,,,07-03-2024 11:14:03,07-03-2024 11:14:15,12.501s,PASSED
+"callTestCase(findTestCase(""CommonMethods/SearchForAProduct_search""), [""searchTerm"":""1016537468""], STOP_ON_FAILURE)",Chrome 122.0.0.0,,,07-03-2024 11:14:15,07-03-2024 11:14:25,9.580s,PASSED
+waitForPageLoad(5),Chrome 122.0.0.0,,,07-03-2024 11:14:25,07-03-2024 11:14:25,0.020s,PASSED
+"verifyElementClickable(findTestObject(""PDPPage/mas detalis(more detail)""))",Chrome 122.0.0.0,,,07-03-2024 11:14:25,07-03-2024 11:14:38,13.760s,PASSED
+"verifyElementClickable(findTestObject(""PDPPage/EDD_pdp""))",Chrome 122.0.0.0,,,07-03-2024 11:14:38,07-03-2024 11:14:39,1.008s,PASSED
+"verifyElementClickable(findTestObject(""PDPPage/viewMorePromotion_pdp""))",Chrome 122.0.0.0,,,07-03-2024 11:14:39,07-03-2024 11:14:40,0.324s,PASSED
+"verifyElementClickable(findTestObject(""PDPPage/Size1_PDP""))",Chrome 122.0.0.0,,,07-03-2024 11:14:40,07-03-2024 11:14:40,0.324s,PASSED
+"verifyElementClickable(findTestObject(""PDPPage/liverpoolCard_promotion_1_PDP""))",Chrome 122.0.0.0,,,07-03-2024 11:14:40,07-03-2024 11:14:40,0.304s,PASSED
+"verifyElementClickable(findTestObject(""PDPPage/Card_promotion_1_PDP""))",Chrome 122.0.0.0,,,07-03-2024 11:14:40,07-03-2024 11:14:41,0.333s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 122.0.0.0,,,07-03-2024 11:14:41,07-03-2024 11:14:53,12.176s,ERROR
+,,,,,,,
+Test Cases/ArangeByLogin/AccountManagement/TS_SMOKE_SUITE_016,Chrome 122.0.0.0,To Verify logged in user is able to view the profile inforamtion from Actualizar datos personales link in my account page after Updating personal information,,07-03-2024 11:14:53,07-03-2024 11:15:32,38.864s,PASSED
+"click(findTestObject(""HomePage/MIsCompras_loginUser_HP""))",Chrome 122.0.0.0,,,07-03-2024 11:14:53,07-03-2024 11:14:54,0.422s,PASSED
+"click(findTestObject(""AccountManagement/UpdatePeronalData_Account""))",Chrome 122.0.0.0,,,07-03-2024 11:14:54,07-03-2024 11:15:02,8.853s,PASSED
+"verifyElementPresent(findTestObject(""AccountManagement/updatePage_Account""), 0)",Chrome 122.0.0.0,,,07-03-2024 11:15:02,07-03-2024 11:15:04,1.841s,PASSED
+name = RandomStringUtils.randomAlphabetic(8),Chrome 122.0.0.0,,,07-03-2024 11:15:04,07-03-2024 11:15:04,0.011s,PASSED
+"clearText(findTestObject(""AccountManagement/FirstNameProfile_Account""), STOP_ON_FAILURE)",Chrome 122.0.0.0,,,07-03-2024 11:15:04,07-03-2024 11:15:05,0.802s,PASSED
+"sendKeys(findTestObject(""AccountManagement/FirstNameProfile_Account""), Keys.chord(CONTROL, ""a""))",Chrome 122.0.0.0,,,07-03-2024 11:15:05,07-03-2024 11:15:06,0.630s,PASSED
+"sendKeys(findTestObject(""AccountManagement/FirstNameProfile_Account""), name)",Chrome 122.0.0.0,,,07-03-2024 11:15:06,07-03-2024 11:15:06,0.361s,PASSED
+"lastname = getAttribute(findTestObject(""AccountManagement/LastName_Account""), ""value"")",Chrome 122.0.0.0,,,07-03-2024 11:15:06,07-03-2024 11:15:06,0.327s,PASSED
+println(lastname),Chrome 122.0.0.0,,,07-03-2024 11:15:06,07-03-2024 11:15:06,0.001s,PASSED
+"accountname = name + "" "" + lastname",Chrome 122.0.0.0,,,07-03-2024 11:15:06,07-03-2024 11:15:06,0.000s,PASSED
+println(accountname),Chrome 122.0.0.0,,,07-03-2024 11:15:06,07-03-2024 11:15:06,0.000s,PASSED
+"click(findTestObject(""AccountManagement/UpdateButton_Account""))",Chrome 122.0.0.0,,,07-03-2024 11:15:06,07-03-2024 11:15:07,0.382s,PASSED
+"fnamelname = getText(findTestObject(""AccountManagement/PersonalDataName_Account""))",Chrome 122.0.0.0,,,07-03-2024 11:15:07,07-03-2024 11:15:09,2.474s,PASSED
+println(fnamelname),Chrome 122.0.0.0,,,07-03-2024 11:15:09,07-03-2024 11:15:09,0.000s,PASSED
+if (fnamelname == accountname),Chrome 122.0.0.0,,,07-03-2024 11:15:09,07-03-2024 11:15:09,0.001s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 122.0.0.0,,,07-03-2024 11:15:09,07-03-2024 11:15:32,22.597s,ERROR
+,,,,,,,
+Test Cases/ArangeByLogin/AccountManagement/TS_SMOKE_SUITE_017,Chrome 122.0.0.0,Verify the user able to add new Personal shipping address,,07-03-2024 11:15:32,07-03-2024 11:16:37,1m - 4.967s,PASSED
+"a = getText(findTestObject(""HomePage/span_HolaUser_hp""), OPTIONAL)",Chrome 122.0.0.0,,,07-03-2024 11:15:32,07-03-2024 11:15:32,0.302s,PASSED
+out.println(a),Chrome 122.0.0.0,,,07-03-2024 11:15:32,07-03-2024 11:15:32,0.000s,PASSED
+if (a == true),Chrome 122.0.0.0,,,07-03-2024 11:15:32,07-03-2024 11:15:44,11.492s,PASSED
+"click(findTestObject(""HomePage/MIsCompras_loginUser_HP""))",Chrome 122.0.0.0,,,07-03-2024 11:15:44,07-03-2024 11:15:44,0.338s,PASSED
+"click(findTestObject(""AccountManagement/DeliveryAddress_Account""))",Chrome 122.0.0.0,,,07-03-2024 11:15:44,07-03-2024 11:15:49,5.252s,PASSED
+"add = verifyElementPresent(findTestObject(""AccountManagement/QATESTING_address_AM""), 0, OPTIONAL)",Chrome 122.0.0.0,,,07-03-2024 11:15:49,07-03-2024 11:16:01,11.365s,PASSED
+if (add == true),Chrome 122.0.0.0,,,07-03-2024 11:16:01,07-03-2024 11:16:01,0.000s,PASSED
+"click(findTestObject(""AccountManagement/AddAdressPersonal_Account""), STOP_ON_FAILURE)",Chrome 122.0.0.0,,,07-03-2024 11:16:01,07-03-2024 11:16:01,0.394s,PASSED
+"callTestCase(findTestCase(""CommonMethods/SaveAddress_AccountManagment""), [:], STOP_ON_FAILURE)",Chrome 122.0.0.0,,,07-03-2024 11:16:01,07-03-2024 11:16:18,17.146s,PASSED
+"click(findTestObject(""AccountManagement/KeepButtonClickNCollection_Account""))",Chrome 122.0.0.0,,,07-03-2024 11:16:18,07-03-2024 11:16:19,0.584s,PASSED
+"address = getText(findTestObject(""AccountManagement/NOTselected_personal_ShippingAddress1_AM""), STOP_ON_FAILURE)",Chrome 122.0.0.0,,,07-03-2024 11:16:19,07-03-2024 11:16:24,5.385s,PASSED
+out.println(address),Chrome 122.0.0.0,,,07-03-2024 11:16:24,07-03-2024 11:16:24,0.001s,PASSED
+out.println(TempAddress),Chrome 122.0.0.0,,,07-03-2024 11:16:24,07-03-2024 11:16:24,0.000s,PASSED
+if (TempAddress == address),Chrome 122.0.0.0,,,07-03-2024 11:16:24,07-03-2024 11:16:24,0.001s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 122.0.0.0,,,07-03-2024 11:16:24,07-03-2024 11:16:37,12.584s,ERROR
+,,,,,,,
+Test Cases/ArangeByLogin/AccountManagement/TS_SMOKE_SUITE_018,Chrome 122.0.0.0,Verify the user able to add new Click & Collect address address,,07-03-2024 11:16:37,07-03-2024 11:17:20,42.774s,PASSED
+"click(findTestObject(""HomePage/MIsCompras_loginUser_HP""))",Chrome 122.0.0.0,,,07-03-2024 11:16:37,07-03-2024 11:16:37,0.433s,PASSED
+"click(findTestObject(""AccountManagement/DeliveryAddress_Account""))",Chrome 122.0.0.0,,,07-03-2024 11:16:37,07-03-2024 11:16:44,6.758s,PASSED
+"enhancedClick(findTestObject(""AccountManagement/ClickAndCollectStores_accounts""))",Chrome 122.0.0.0,,,07-03-2024 11:16:44,07-03-2024 11:16:48,4.087s,PASSED
+"click(findTestObject(""AccountManagement/AddClickNCollectionAddress_Account""))",Chrome 122.0.0.0,,,07-03-2024 11:16:48,07-03-2024 11:16:50,1.974s,PASSED
+"click(findTestObject(""AccountManagement/SelectStateClickNCollection_Account""))",Chrome 122.0.0.0,,,07-03-2024 11:16:50,07-03-2024 11:16:58,7.862s,PASSED
+"click(findTestObject(""AccountManagement/StateOptionClickNCollection_Account""))",Chrome 122.0.0.0,,,07-03-2024 11:16:58,07-03-2024 11:16:58,0.354s,PASSED
+"click(findTestObject(""AccountManagement/SelectAddressRadioButton_Account""))",Chrome 122.0.0.0,,,07-03-2024 11:16:58,07-03-2024 11:17:00,1.217s,PASSED
+"scrollToElement(findTestObject(""AccountManagement/KeepButtonClickNCollection_Account""), 0)",Chrome 122.0.0.0,,,07-03-2024 11:17:00,07-03-2024 11:17:00,0.353s,PASSED
+"click(findTestObject(""AccountManagement/KeepButtonClickNCollection_Account""))",Chrome 122.0.0.0,,,07-03-2024 11:17:00,07-03-2024 11:17:00,0.350s,PASSED
+"click(findTestObject(""AccountManagement/ClickAndCollectStores_accounts""))",Chrome 122.0.0.0,,,07-03-2024 11:17:00,07-03-2024 11:17:03,2.771s,PASSED
+"verifyElementPresent(findTestObject(""AccountManagement/ClickNCollectionFirstAddress_Account""), 0)",Chrome 122.0.0.0,,,07-03-2024 11:17:03,07-03-2024 11:17:05,1.589s,PASSED
+"verifyElementPresent(findTestObject(""AccountManagement/liverpoolSatellite_clickAndCollect_address""), 0)",Chrome 122.0.0.0,,,07-03-2024 11:17:05,07-03-2024 11:17:05,0.311s,PASSED
+"click(findTestObject(""AccountManagement/liverpoolSatellite_clickAndCollect_address""))",Chrome 122.0.0.0,,,07-03-2024 11:17:05,07-03-2024 11:17:05,0.336s,PASSED
+"click(findTestObject(""AccountManagement/liverpoolSatellite_clickAndCollect_eliminar_AM""))",Chrome 122.0.0.0,,,07-03-2024 11:17:05,07-03-2024 11:17:06,0.364s,PASSED
+"click(findTestObject(""AccountManagement/acceptar_RemoveAdress_AM""))",Chrome 122.0.0.0,,,07-03-2024 11:17:06,07-03-2024 11:17:06,0.603s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 122.0.0.0,,,07-03-2024 11:17:06,07-03-2024 11:17:20,13.325s,ERROR
+,,,,,,,
+Test Cases/ArangeByLogin/AccountManagement/TS_SMOKE_SUITE_019,Chrome 122.0.0.0,Verify the last added Store address is displayed in the top section as a priority,,07-03-2024 11:17:20,07-03-2024 11:18:50,1m - 30.219s,FAILED
+"a = getText(findTestObject(""HomePage/span_HolaUser_hp""), OPTIONAL)",Chrome 122.0.0.0,,,07-03-2024 11:17:20,07-03-2024 11:17:20,0.333s,PASSED
+out.println(a),Chrome 122.0.0.0,,,07-03-2024 11:17:20,07-03-2024 11:17:20,0.000s,PASSED
+if (a == false),Chrome 122.0.0.0,,,07-03-2024 11:17:20,07-03-2024 11:17:20,0.001s,PASSED
+"click(findTestObject(""HomePage/MIsCompras_loginUser_HP""))",Chrome 122.0.0.0,,,07-03-2024 11:17:20,07-03-2024 11:17:20,0.386s,PASSED
+"click(findTestObject(""AccountManagement/DeliveryAddress_Account""))",Chrome 122.0.0.0,,,07-03-2024 11:17:20,07-03-2024 11:17:36,15.705s,PASSED
+"add = verifyElementPresent(findTestObject(""AccountManagement/QATESTING_address_AM""), 0, OPTIONAL)",Chrome 122.0.0.0,,,07-03-2024 11:17:36,07-03-2024 11:17:48,11.357s,PASSED
+if (add == true),Chrome 122.0.0.0,,,07-03-2024 11:17:48,07-03-2024 11:17:48,0.000s,PASSED
+"click(findTestObject(""AccountManagement/AddAdressPersonal_Account""), STOP_ON_FAILURE)",Chrome 122.0.0.0,,,07-03-2024 11:17:48,07-03-2024 11:17:48,0.428s,PASSED
+"callTestCase(findTestCase(""CommonMethods/SaveAddress_AccountManagment""), [:], STOP_ON_FAILURE)",Chrome 122.0.0.0,,,07-03-2024 11:17:48,07-03-2024 11:18:05,16.921s,PASSED
+"delay(10, STOP_ON_FAILURE)",Chrome 122.0.0.0,,,07-03-2024 11:18:05,07-03-2024 11:18:15,10.019s,PASSED
+"enhancedClick(findTestObject(""AccountManagement/KeepButtonClickNCollection_Account""))",Chrome 122.0.0.0,,,07-03-2024 11:18:15,07-03-2024 11:18:15,0.369s,PASSED
+"verifyElementPresent(findTestObject(""AccountManagement/FirstPersonalShippingAddress_Account""), 0)",Chrome 122.0.0.0,,,07-03-2024 11:18:15,07-03-2024 11:18:27,11.522s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 122.0.0.0,,,07-03-2024 11:18:27,07-03-2024 11:18:50,23.016s,ERROR
+,,,,,,,
+Test Cases/ArangeByLogin/AccountManagement/TS_SMOKE_SUITE_023,Chrome 122.0.0.0,"To Verify Logged in user is able to Add ,Edit and remove  credit card from my account from my account",,07-03-2024 11:18:50,07-03-2024 11:20:14,1m - 24.031s,PASSED
+"click(findTestObject(""HomePage/MIsCompras_loginUser_HP""))",Chrome 122.0.0.0,,,07-03-2024 11:18:50,07-03-2024 11:18:50,0.392s,PASSED
+"click(findTestObject(""AccountManagement/Mi Cartera_HP""))",Chrome 122.0.0.0,,,07-03-2024 11:18:50,07-03-2024 11:19:04,13.405s,PASSED
+"click(findTestObject(""AccountManagement/MyCardButton_Account""))",Chrome 122.0.0.0,,,07-03-2024 11:19:04,07-03-2024 11:19:09,5.430s,PASSED
+"add = verifyElementPresent(findTestObject(""AccountManagement/QAtesting_card_AM""), 0, OPTIONAL)",Chrome 122.0.0.0,,,07-03-2024 11:19:09,07-03-2024 11:19:20,11.248s,PASSED
+if (add == true),Chrome 122.0.0.0,,,07-03-2024 11:19:20,07-03-2024 11:19:20,0.000s,PASSED
+"click(findTestObject(""AccountManagement/AddCardButton_Account""), STOP_ON_FAILURE)",Chrome 122.0.0.0,,,07-03-2024 11:19:20,07-03-2024 11:19:21,0.384s,PASSED
+"Cardname = ""QATESTING""",Chrome 122.0.0.0,,,07-03-2024 11:19:21,07-03-2024 11:19:21,0.016s,PASSED
+"setText(findTestObject(""AccountManagement/CardName_Account""), Cardname)",Chrome 122.0.0.0,,,07-03-2024 11:19:21,07-03-2024 11:19:27,6.345s,PASSED
+"callTestCase(findTestCase(""CommonMethods/AddCard_Account""), [:], STOP_ON_FAILURE)",Chrome 122.0.0.0,,,07-03-2024 11:19:27,07-03-2024 11:19:30,2.911s,PASSED
+waitForPageLoad(0),Chrome 122.0.0.0,,,07-03-2024 11:19:30,07-03-2024 11:19:30,0.000s,PASSED
+"CardName = getText(findTestObject(""AccountManagement/CardNameGrid_Account""))",Chrome 122.0.0.0,,,07-03-2024 11:19:30,07-03-2024 11:19:33,2.931s,PASSED
+if (Cardname == CardName),Chrome 122.0.0.0,,,07-03-2024 11:19:33,07-03-2024 11:19:33,0.000s,PASSED
+"click(findTestObject(""AccountManagement/Select3dot_qatestingCard_AM""))",Chrome 122.0.0.0,,,07-03-2024 11:19:33,07-03-2024 11:19:33,0.403s,PASSED
+"click(findTestObject(""AccountManagement/EditCardDetails_Account""), STOP_ON_FAILURE)",Chrome 122.0.0.0,,,07-03-2024 11:19:33,07-03-2024 11:19:41,7.361s,PASSED
+Name = RandomStringUtils.randomAlphabetic(8),Chrome 122.0.0.0,,,07-03-2024 11:19:41,07-03-2024 11:19:41,0.000s,PASSED
+"sendKeys(findTestObject(""AccountManagement/FullName_Card_Edit_AM""), Keys.chord(CONTROL, ""a""))",Chrome 122.0.0.0,,,07-03-2024 11:19:41,07-03-2024 11:19:41,0.657s,PASSED
+"sendKeys(findTestObject(""AccountManagement/FullName_Card_Edit_AM""), Keys.chord(CLEAR))",Chrome 122.0.0.0,,,07-03-2024 11:19:41,07-03-2024 11:19:42,0.486s,PASSED
+"sendKeys(findTestObject(""AccountManagement/FullName_Card_Edit_AM""), Keys.chord(BACK_SPACE))",Chrome 122.0.0.0,,,07-03-2024 11:19:42,07-03-2024 11:19:42,0.384s,PASSED
+"clearText(findTestObject(""AccountManagement/FullName_Card_Edit_AM""), STOP_ON_FAILURE)",Chrome 122.0.0.0,,,07-03-2024 11:19:42,07-03-2024 11:19:43,0.364s,PASSED
+delay(10),Chrome 122.0.0.0,,,07-03-2024 11:19:43,07-03-2024 11:19:53,10.017s,PASSED
+"setText(findTestObject(""AccountManagement/FullName_Card_Edit_AM""), """")",Chrome 122.0.0.0,,,07-03-2024 11:19:53,07-03-2024 11:19:53,0.687s,PASSED
+"sendKeys(findTestObject(""AccountManagement/FullName_Card_Edit_AM""), Keys.chord(Name))",Chrome 122.0.0.0,,,07-03-2024 11:19:53,07-03-2024 11:19:54,0.390s,PASSED
+"click(findTestObject(""AccountManagement/AcceptButton_AccountM""))",Chrome 122.0.0.0,,,07-03-2024 11:19:54,07-03-2024 11:19:54,0.369s,PASSED
+"click(findTestObject(""AccountManagement/Select3dot_qatestingCard_AM""))",Chrome 122.0.0.0,,,07-03-2024 11:19:54,07-03-2024 11:19:58,3.803s,PASSED
+"click(findTestObject(""AccountManagement/qatesting_eliminar_car_AM""), STOP_ON_FAILURE)",Chrome 122.0.0.0,,,07-03-2024 11:19:58,07-03-2024 11:19:58,0.377s,PASSED
+"click(findTestObject(""OPCPage/accept_deletion_card_OPC""))",Chrome 122.0.0.0,,,07-03-2024 11:19:58,07-03-2024 11:19:59,0.578s,PASSED
+"if (verifyElementNotPresent(findTestObject(""AccountManagement/Select3dot_qatestingCard_AM""), 0) == true)",Chrome 122.0.0.0,,,07-03-2024 11:19:59,07-03-2024 11:20:02,2.718s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 122.0.0.0,,,07-03-2024 11:20:02,07-03-2024 11:20:14,12.157s,ERROR
+,,,,,,,
+Test Cases/ArangeByLogin/AccountManagement/TS_SMOKE_SUITE_021,Chrome 122.0.0.0,Verify the user is able to navigate to forma de pago page and view the payment menthods,,07-03-2024 11:20:14,07-03-2024 11:20:34,20.632s,PASSED
+"a = getText(findTestObject(""HomePage/span_HolaUser_hp""), OPTIONAL)",Chrome 122.0.0.0,,,07-03-2024 11:20:14,07-03-2024 11:20:14,0.327s,PASSED
+out.println(a),Chrome 122.0.0.0,,,07-03-2024 11:20:14,07-03-2024 11:20:14,0.000s,PASSED
+if (a == false),Chrome 122.0.0.0,,,07-03-2024 11:20:14,07-03-2024 11:20:14,0.000s,PASSED
+"mouseOver(findTestObject(""HomePage/AfterLogin_Homepage""))",Chrome 122.0.0.0,,,07-03-2024 11:20:14,07-03-2024 11:20:15,0.492s,PASSED
+"click(findTestObject(""AccountManagement/MyAccountButton_Account""))",Chrome 122.0.0.0,,,07-03-2024 11:20:15,07-03-2024 11:20:15,0.524s,PASSED
+"click(findTestObject(""AccountManagement/MyPaymentMethod_Account""))",Chrome 122.0.0.0,,,07-03-2024 11:20:15,07-03-2024 11:20:19,3.912s,PASSED
+"verifyElementPresent(findTestObject(""AccountManagement/PaymentMethodsSection_Account""), 0)",Chrome 122.0.0.0,,,07-03-2024 11:20:19,07-03-2024 11:20:21,1.493s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 122.0.0.0,,,07-03-2024 11:20:21,07-03-2024 11:20:34,13.804s,ERROR
+,,,,,,,
+Test Cases/ArangeByLogin/AccountManagement/TS_SMOKE_SUITE_022,Chrome 122.0.0.0,Verify the user able to update the payment methods as default in forma de pago page,,07-03-2024 11:20:34,07-03-2024 11:22:10,1m - 35.682s,PASSED
+"openBrowser("""")",Chrome 122.0.0.0,,,07-03-2024 11:20:35,07-03-2024 11:20:36,1.355s,PASSED
+navigateToUrl(URL),Chrome 122.0.0.0,,,07-03-2024 11:20:36,07-03-2024 11:20:57,21.076s,PASSED
+"callTestCase(findTestCase(""CommonMethods/login_odtaqab""), [:], OPTIONAL)",Chrome 122.0.0.0,,,07-03-2024 11:20:57,07-03-2024 11:21:14,17.024s,PASSED
+"click(findTestObject(""HomePage/MIsCompras_loginUser_HP""))",Chrome 122.0.0.0,,,07-03-2024 11:21:14,07-03-2024 11:21:35,20.667s,PASSED
+"click(findTestObject(""AccountManagement/MyPaymentMethod_Account""))",Chrome 122.0.0.0,,,07-03-2024 11:21:35,07-03-2024 11:21:50,15.282s,PASSED
+"click(findTestObject(""AccountManagement/MyCardButton_Account""))",Chrome 122.0.0.0,,,07-03-2024 11:21:50,07-03-2024 11:21:54,3.913s,PASSED
+"enhancedClick(findTestObject(""AccountManagement/Select3DotAddress2Nd_Account""))",Chrome 122.0.0.0,,,07-03-2024 11:21:54,07-03-2024 11:21:57,3.030s,PASSED
+"enhancedClick(findTestObject(""AccountManagement/MakeCardAsDefault_Account""))",Chrome 122.0.0.0,,,07-03-2024 11:21:57,07-03-2024 11:21:57,0.400s,PASSED
+"verifyElementPresent(findTestObject(""AccountManagement/DefaultCard_Account""), 0)",Chrome 122.0.0.0,,,07-03-2024 11:21:57,07-03-2024 11:21:59,1.339s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 122.0.0.0,,,07-03-2024 11:21:59,07-03-2024 11:22:10,11.501s,ERROR
+,,,,,,,
+Test Cases/ArangeByLogin/AccountManagement/TS_SMOKE_SUITE_020,Chrome 122.0.0.0,Verify if the user able to make C&C store address as default address,,07-03-2024 11:22:10,07-03-2024 11:22:56,45.985s,PASSED
+refresh(),Chrome 122.0.0.0,,,07-03-2024 11:22:10,07-03-2024 11:22:23,12.574s,PASSED
+"click(findTestObject(""HomePage/MIsCompras_loginUser_HP""))",Chrome 122.0.0.0,,,07-03-2024 11:22:23,07-03-2024 11:22:24,0.718s,PASSED
+"click(findTestObject(""AccountManagement/DeliveryAddress_Account""))",Chrome 122.0.0.0,,,07-03-2024 11:22:24,07-03-2024 11:22:29,4.977s,PASSED
+"click(findTestObject(""AccountManagement/ClickAndCollectStores_accounts""))",Chrome 122.0.0.0,,,07-03-2024 11:22:29,07-03-2024 11:22:35,6.529s,PASSED
+"click(findTestObject(""AccountManagement/ClickNCollection1stAddress_Account""))",Chrome 122.0.0.0,,,07-03-2024 11:22:35,07-03-2024 11:22:39,3.584s,PASSED
+"click(findTestObject(""AccountManagement/SetDefaultAddressClickNCollection""))",Chrome 122.0.0.0,,,07-03-2024 11:22:39,07-03-2024 11:22:39,0.383s,PASSED
+"verifyElementPresent(findTestObject(""AccountManagement/VerifyDefaultPresent_Account""), 0)",Chrome 122.0.0.0,,,07-03-2024 11:22:39,07-03-2024 11:22:45,5.693s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 122.0.0.0,,,07-03-2024 11:22:45,07-03-2024 11:22:56,11.459s,ERROR
+,,,,,,,
+Test Cases/ArangeByLogin/AccountManagement/TS_SMOKE_SUITE_024,Chrome 122.0.0.0,"To Verify Logged in user is able to add, Edit and Remove the delivery address from my account",,07-03-2024 11:22:56,07-03-2024 11:24:16,1m - 20.332s,FAILED
+"click(findTestObject(""HomePage/MIsCompras_loginUser_HP""))",Chrome 122.0.0.0,,,07-03-2024 11:22:56,07-03-2024 11:22:57,0.356s,PASSED
+"click(findTestObject(""AccountManagement/DeliveryAddress_Account""))",Chrome 122.0.0.0,,,07-03-2024 11:22:57,07-03-2024 11:23:02,5.283s,PASSED
+"add = verifyElementPresent(findTestObject(""AccountManagement/QATESTING_address_AM""), 0, OPTIONAL)",Chrome 122.0.0.0,,,07-03-2024 11:23:02,07-03-2024 11:23:13,11.190s,PASSED
+if (add == true),Chrome 122.0.0.0,,,07-03-2024 11:23:13,07-03-2024 11:23:13,0.000s,PASSED
+"click(findTestObject(""AccountManagement/AddAdressPersonal_Account""), STOP_ON_FAILURE)",Chrome 122.0.0.0,,,07-03-2024 11:23:13,07-03-2024 11:23:14,0.357s,PASSED
+"callTestCase(findTestCase(""CommonMethods/SaveAddress_AccountManagment""), [:], STOP_ON_FAILURE)",Chrome 122.0.0.0,,,07-03-2024 11:23:14,07-03-2024 11:23:32,18.605s,PASSED
+delay(10),Chrome 122.0.0.0,,,07-03-2024 11:23:32,07-03-2024 11:23:42,10.007s,PASSED
+"click(findTestObject(""AccountManagement/KeepButtonClickNCollection_Account""))",Chrome 122.0.0.0,,,07-03-2024 11:23:42,07-03-2024 11:23:43,0.404s,PASSED
+"Address1 = getText(findTestObject(""AccountManagement/TestQA_Add_AM""))",Chrome 122.0.0.0,,,07-03-2024 11:23:43,07-03-2024 11:23:54,11.331s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 122.0.0.0,,,07-03-2024 11:23:54,07-03-2024 11:24:16,22.607s,ERROR
+,,,,,,,
+Test Cases/ArangeByLogin/AccountManagement/TS_SMOKE_SUITE_025,Chrome 122.0.0.0,To Verify Logged in user is able to change the password,,07-03-2024 11:24:17,07-03-2024 11:25:04,47.067s,PASSED
+"click(findTestObject(""HomePage/MIsCompras_loginUser_HP""))",Chrome 122.0.0.0,,,07-03-2024 11:24:17,07-03-2024 11:24:17,0.376s,PASSED
+"click(findTestObject(""AccountManagement/ChangePassword_Account""))",Chrome 122.0.0.0,,,07-03-2024 11:24:17,07-03-2024 11:24:26,9.252s,PASSED
+"click(findTestObject(""AccountManagement/ContinueButton_Account""))",Chrome 122.0.0.0,,,07-03-2024 11:24:26,07-03-2024 11:24:29,2.944s,PASSED
+"verifyElementPresent(findTestObject(""AccountManagement/MailConfirmation_Account""), 0)",Chrome 122.0.0.0,,,07-03-2024 11:24:29,07-03-2024 11:24:41,12.090s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 122.0.0.0,,,07-03-2024 11:24:41,07-03-2024 11:25:04,22.361s,ERROR
+,,,,,,,
+Test Cases/ArangeByLogin/Checkout/TS_SMOKE_SUITE_075,Chrome 122.0.0.0,To Verify the user able to make the C&C collect address as default in OPC,,07-03-2024 11:25:04,07-03-2024 11:27:19,2m - 15.028s,PASSED
+"callTestCase(findTestCase(""CommonMethods/login_odtaqab""), [:], OPTIONAL)",Chrome 122.0.0.0,,,07-03-2024 11:25:04,07-03-2024 11:25:15,11.595s,PASSED
+"click(findTestObject(""HomePage/MIsCompras_loginUser_HP""))",Chrome 122.0.0.0,,,07-03-2024 11:25:15,07-03-2024 11:25:16,0.376s,PASSED
+"click(findTestObject(""AccountManagement/DeliveryAddress_Account""))",Chrome 122.0.0.0,,,07-03-2024 11:25:16,07-03-2024 11:25:32,16.021s,PASSED
+"click(findTestObject(""AccountManagement/ClickAndCollectStores_accounts""))",Chrome 122.0.0.0,,,07-03-2024 11:25:32,07-03-2024 11:25:35,3.534s,PASSED
+"click(findTestObject(""OPCPage/3DotButton_Checkout""))",Chrome 122.0.0.0,,,07-03-2024 11:25:35,07-03-2024 11:25:37,1.371s,PASSED
+"click(findTestObject(""AccountManagement/ClickNCollectionDefault_Account""))",Chrome 122.0.0.0,,,07-03-2024 11:25:37,07-03-2024 11:25:37,0.350s,PASSED
+"TitleAddress = getText(findTestObject(""AccountManagement/ClickNCollectionAddressTitle_Account""))",Chrome 122.0.0.0,,,07-03-2024 11:25:37,07-03-2024 11:25:39,1.671s,PASSED
+"click(findTestObject(""HomePage/Logo_hp""))",Chrome 122.0.0.0,,,07-03-2024 11:25:39,07-03-2024 11:25:39,0.361s,PASSED
+"callTestCase(findTestCase(""CommonMethods/SearchForAProduct_search""), [""searchTerm"":Single_SKU_PDP], STOP_ON_FAILURE)",Chrome 122.0.0.0,,,07-03-2024 11:25:39,07-03-2024 11:25:53,13.799s,PASSED
+"click(findTestObject(""PLPPage/product-1-DiscountPrice_PLP""), OPTIONAL)",Chrome 122.0.0.0,,,07-03-2024 11:25:53,07-03-2024 11:26:13,20.499s,PASSED
+"click(findTestObject(""PDPPage/AddToCart_PDP""))",Chrome 122.0.0.0,,,07-03-2024 11:26:13,07-03-2024 11:26:14,0.392s,PASSED
+"click(findTestObject(""HomePage/bag_header_HP""))",Chrome 122.0.0.0,,,07-03-2024 11:26:14,07-03-2024 11:26:16,1.927s,PASSED
+"click(findTestObject(""CartPage/BuyButton_Cart""))",Chrome 122.0.0.0,,,07-03-2024 11:26:16,07-03-2024 11:26:22,6.218s,PASSED
+"DefaultAddress = getText(findTestObject(""OPCPage/DefaultAddress_Checkout""))",Chrome 122.0.0.0,,,07-03-2024 11:26:22,07-03-2024 11:26:35,12.902s,PASSED
+if (TitleAddress == DefaultAddress),Chrome 122.0.0.0,,,07-03-2024 11:26:35,07-03-2024 11:26:35,0.000s,PASSED
+"click(findTestObject(""OPCPage/ChangeAddress_Checkout""))",Chrome 122.0.0.0,,,07-03-2024 11:26:35,07-03-2024 11:26:35,0.761s,PASSED
+"click(findTestObject(""OPCPage/AddressPopupCLickNCollect_Checkout""), STOP_ON_FAILURE)",Chrome 122.0.0.0,,,07-03-2024 11:26:35,07-03-2024 11:26:38,2.804s,PASSED
+"verifyElementPresent(findTestObject(""OPCPage/CheckAddressDefault_Checkout""), 0)",Chrome 122.0.0.0,,,07-03-2024 11:26:38,07-03-2024 11:26:39,0.443s,PASSED
+"verifyElementPresent(findTestObject(""OPCPage/ClickNCollectionRadioButton_Checkout""), 0)",Chrome 122.0.0.0,,,07-03-2024 11:26:39,07-03-2024 11:26:39,0.319s,PASSED
+"click(findTestObject(""OPCPage/Address_PopUP_option1_opc""))",Chrome 122.0.0.0,,,07-03-2024 11:26:39,07-03-2024 11:26:40,0.562s,PASSED
+"click(findTestObject(""OPCPage/radiobtn1_addressPopup_OPC""))",Chrome 122.0.0.0,,,07-03-2024 11:26:40,07-03-2024 11:26:40,0.557s,PASSED
+"click(findTestObject(""OPCPage/ContinueButtonAddAddress_Checkout""))",Chrome 122.0.0.0,,,07-03-2024 11:26:40,07-03-2024 11:26:41,0.547s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 122.0.0.0,,,07-03-2024 11:26:41,07-03-2024 11:27:19,37.910s,ERROR
+,,,,,,,
+Test Cases/ArangeByLogin/Checkout/TS_SMOKE_SUITE_072,Chrome 122.0.0.0,To verify the functionality of adding a new Personal shipping address in OPC flow for logged in user,,07-03-2024 11:27:19,07-03-2024 11:29:25,2m - 6.396s,PASSED
+"callTestCase(findTestCase(""CommonMethods/login_odtaqab""), [:], OPTIONAL)",Chrome 122.0.0.0,,,07-03-2024 11:27:19,07-03-2024 11:27:30,11.383s,PASSED
+"callTestCase(findTestCase(""CommonMethods/EmptyCart_RunAt_HP""), [:], OPTIONAL)",Chrome 122.0.0.0,,,07-03-2024 11:27:30,07-03-2024 11:27:53,22.361s,PASSED
+"callTestCase(findTestCase(""CommonMethods/SearchForAProduct_search""), [""searchTerm"":Single_SKU_PDP], STOP_ON_FAILURE)",Chrome 122.0.0.0,,,07-03-2024 11:27:53,07-03-2024 11:28:02,9.002s,PASSED
+"click(findTestObject(""PDPPage/AddToCart_pdp""))",Chrome 122.0.0.0,,,07-03-2024 11:28:02,07-03-2024 11:28:18,16.578s,PASSED
+"click(findTestObject(""HomePage/Cart_header""))",Chrome 122.0.0.0,,,07-03-2024 11:28:18,07-03-2024 11:28:23,4.996s,PASSED
+"click(findTestObject(""CartPage/BuyButton_Cart""))",Chrome 122.0.0.0,,,07-03-2024 11:28:23,07-03-2024 11:28:29,5.550s,PASSED
+"click(findTestObject(""OPCPage/ChangeAddress_Checkout""))",Chrome 122.0.0.0,,,07-03-2024 11:28:29,07-03-2024 11:28:34,5.186s,PASSED
+"click(findTestObject(""OPCPage/AddAddressButtonPopup_checkout""))",Chrome 122.0.0.0,,,07-03-2024 11:28:34,07-03-2024 11:28:37,3.266s,PASSED
+"StoreValue = ""AUTOMATION"" + RandomStringUtils.randomAlphabetic(8)",Chrome 122.0.0.0,,,07-03-2024 11:28:37,07-03-2024 11:28:37,0.000s,PASSED
+out.println(StoreValue),Chrome 122.0.0.0,,,07-03-2024 11:28:37,07-03-2024 11:28:37,0.000s,PASSED
+"Name = ""TestQA""",Chrome 122.0.0.0,,,07-03-2024 11:28:37,07-03-2024 11:28:37,0.000s,PASSED
+TempAddress = Name,Chrome 122.0.0.0,,,07-03-2024 11:28:37,07-03-2024 11:28:37,0.000s,PASSED
+"setText(findTestObject(""OPCPage/name_addaddress_opc""), Name)",Chrome 122.0.0.0,,,07-03-2024 11:28:37,07-03-2024 11:28:40,2.486s,PASSED
+"setText(findTestObject(""OPCPage/shortName_addAddress_opc""), StoreValue)",Chrome 122.0.0.0,,,07-03-2024 11:28:40,07-03-2024 11:28:41,0.858s,PASSED
+"setText(findTestObject(""OPCPage/mothersLastName_addAddress_opc""), MotherName)",Chrome 122.0.0.0,,,07-03-2024 11:28:41,07-03-2024 11:28:42,0.972s,PASSED
+"setText(findTestObject(""OPCPage/Lastname_Address_OPC""), MotherName)",Chrome 122.0.0.0,,,07-03-2024 11:28:42,07-03-2024 11:28:43,1.129s,PASSED
+"callTestCase(findTestCase(""CommonMethods/SaveAddressOPC""), [:], STOP_ON_FAILURE)",Chrome 122.0.0.0,,,07-03-2024 11:28:43,07-03-2024 11:28:53,10.687s,PASSED
+"click(findTestObject(""OPCPage/ContinueButtonAddcard_Checkout""))",Chrome 122.0.0.0,,,07-03-2024 11:28:53,07-03-2024 11:28:54,0.596s,PASSED
+waitForPageLoad(0),Chrome 122.0.0.0,,,07-03-2024 11:28:54,07-03-2024 11:28:54,0.015s,PASSED
+"ShortName = getText(findTestObject(""OPCPage/currentDeliveryAddress_OPC""), STOP_ON_FAILURE)",Chrome 122.0.0.0,,,07-03-2024 11:28:54,07-03-2024 11:29:00,5.606s,PASSED
+if (StoreValue == ShortName),Chrome 122.0.0.0,,,07-03-2024 11:29:00,07-03-2024 11:29:00,0.000s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 122.0.0.0,,,07-03-2024 11:29:00,07-03-2024 11:29:25,25.409s,ERROR
+,,,,,,,
+Test Cases/ArangeByLogin/Checkout/TS_SMOKE_SUITE_073,Chrome 122.0.0.0,To verify the functionality of editing the Personal shipping address  in checkout flow for logged in user,,07-03-2024 11:29:25,07-03-2024 11:31:25,2m - 0.441s,FAILED
+"callTestCase(findTestCase(""CommonMethods/login_odtaqab""), [:], OPTIONAL)",Chrome 122.0.0.0,,,07-03-2024 11:29:25,07-03-2024 11:29:36,11.335s,PASSED
+waitForPageLoad(0),Chrome 122.0.0.0,,,07-03-2024 11:29:36,07-03-2024 11:29:36,0.016s,PASSED
+"click(findTestObject(""HomePage/Logo_hp""))",Chrome 122.0.0.0,,,07-03-2024 11:29:36,07-03-2024 11:29:37,0.392s,PASSED
+"callTestCase(findTestCase(""CommonMethods/SearchForAProduct_search""), [""searchTerm"":Single_SKU_PDP], STOP_ON_FAILURE)",Chrome 122.0.0.0,,,07-03-2024 11:29:37,07-03-2024 11:29:47,9.966s,PASSED
+"click(findTestObject(""PDPPage/AddToCart_PDP""))",Chrome 122.0.0.0,,,07-03-2024 11:29:47,07-03-2024 11:30:03,16.481s,PASSED
+"click(findTestObject(""HomePage/bag_header_HP""))",Chrome 122.0.0.0,,,07-03-2024 11:30:03,07-03-2024 11:30:09,5.184s,PASSED
+"click(findTestObject(""CartPage/BuyButton_Cart""))",Chrome 122.0.0.0,,,07-03-2024 11:30:09,07-03-2024 11:30:11,2.538s,PASSED
+"click(findTestObject(""OPCPage/ChangeAddress_Checkout""))",Chrome 122.0.0.0,,,07-03-2024 11:30:11,07-03-2024 11:30:17,5.463s,PASSED
+"click(findTestObject(""OPCPage/3DotButton2_Checkout""))",Chrome 122.0.0.0,,,07-03-2024 11:30:17,07-03-2024 11:30:18,1.526s,PASSED
+"click(findTestObject(""OPCPage/EditAddress_Checkout""))",Chrome 122.0.0.0,,,07-03-2024 11:30:18,07-03-2024 11:30:18,0.466s,PASSED
+"setText(findTestObject(""OPCPage/shortName_addAddress_opc""), ShortName)",Chrome 122.0.0.0,,,07-03-2024 11:30:18,07-03-2024 11:30:22,3.329s,PASSED
+waitForPageLoad(0),Chrome 122.0.0.0,,,07-03-2024 11:30:22,07-03-2024 11:30:22,0.016s,PASSED
+"enhancedClick(findTestObject(""OPCPage/ContinueButtonAddAddress_Checkout""))",Chrome 122.0.0.0,,,07-03-2024 11:30:22,07-03-2024 11:30:22,0.438s,PASSED
+"enhancedClick(findTestObject(""OPCPage/ContinueButtonAddAddress_Checkout""), OPTIONAL)",Chrome 122.0.0.0,,,07-03-2024 11:30:22,07-03-2024 11:30:25,2.549s,PASSED
+delay(5),Chrome 122.0.0.0,,,07-03-2024 11:30:25,07-03-2024 11:30:30,5.013s,PASSED
+"click(findTestObject(""HomePage/Logo_hp""), STOP_ON_FAILURE)",Chrome 122.0.0.0,,,07-03-2024 11:30:30,07-03-2024 11:30:44,14.441s,PASSED
+"mouseOver(findTestObject(""HomePage/span_HolaUser_hp""))",Chrome 122.0.0.0,,,07-03-2024 11:30:44,07-03-2024 11:30:47,2.725s,PASSED
+"click(findTestObject(""HomePage/myAccount_hp""))",Chrome 122.0.0.0,,,07-03-2024 11:30:47,07-03-2024 11:31:00,12.901s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 122.0.0.0,,,07-03-2024 11:31:00,07-03-2024 11:31:25,25.547s,ERROR
+,,,,,,,
+Test Cases/ArangeByLogin/Checkout/TS_SMOKE_SUITE_076,Chrome 122.0.0.0,To verify the display of payment page for the for logged in user,,07-03-2024 11:31:25,07-03-2024 11:34:37,3m - 11.047s,PASSED
+"callTestCase(findTestCase(""CommonMethods/SearchForAProduct_search""), [""searchTerm"":Single_SKU_PDP], STOP_ON_FAILURE)",Chrome 122.0.0.0,,,07-03-2024 11:31:26,07-03-2024 11:31:34,8.230s,PASSED
+"click(findTestObject(""PDPPage/AddToCart_PDP""))",Chrome 122.0.0.0,,,07-03-2024 11:31:34,07-03-2024 11:31:51,17.430s,PASSED
+"click(findTestObject(""HomePage/bag_header_HP""))",Chrome 122.0.0.0,,,07-03-2024 11:31:51,07-03-2024 11:31:55,3.970s,PASSED
+"click(findTestObject(""CartPage/BuyButton_Cart""))",Chrome 122.0.0.0,,,07-03-2024 11:31:55,07-03-2024 11:31:58,3.024s,PASSED
+"callTestCase(findTestCase(""CommonMethods/assert_OPC(CheckoutPage)""), [:], STOP_ON_FAILURE)",Chrome 122.0.0.0,,,07-03-2024 11:31:58,07-03-2024 11:32:03,5.116s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 122.0.0.0,,,07-03-2024 11:32:03,07-03-2024 11:34:37,2m - 33.153s,ERROR
+,,,,,,,
+Test Cases/ArangeByLogin/Checkout/TS_SMOKE_SUITE_077,Chrome 122.0.0.0,To verify the functionality of new  adding card  in checkout flow for logged in user,,07-03-2024 11:34:37,07-03-2024 11:36:23,1m - 45.984s,FAILED
+"callTestCase(findTestCase(""CommonMethods/SearchForAProduct_search""), [""searchTerm"":Single_SKU_PDP], STOP_ON_FAILURE)",Chrome 122.0.0.0,,,07-03-2024 11:34:37,07-03-2024 11:34:57,20.294s,PASSED
+"click(findTestObject(""PDPPage/AddToCart_PDP""))",Chrome 122.0.0.0,,,07-03-2024 11:34:57,07-03-2024 11:35:27,30.429s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 122.0.0.0,,,07-03-2024 11:35:27,07-03-2024 11:36:23,55.177s,ERROR
+,,,,,,,
+Test Cases/ArangeByLogin/Checkout/TS_SMOKE_SUITE_078,Chrome 122.0.0.0,To verify the display of Order confirmation page for logged in user,,07-03-2024 11:36:23,07-03-2024 11:39:02,2m - 39.341s,FAILED
+"callTestCase(findTestCase(""CommonMethods/SearchForAProduct_search""), [""searchTerm"":""collec""], STOP_ON_FAILURE)",Chrome 122.0.0.0,,,07-03-2024 11:36:23,07-03-2024 11:36:50,27.069s,PASSED
+"click(findTestObject(""PLPPage/product1_cardPrice_PLP""))",Chrome 122.0.0.0,,,07-03-2024 11:36:50,07-03-2024 11:37:01,11.761s,PASSED
+"click(findTestObject(""PDPPage/AddToCart_PDP""))",Chrome 122.0.0.0,,,07-03-2024 11:37:01,07-03-2024 11:37:25,24.042s,PASSED
+"click(findTestObject(""HomePage/bag_header_HP""))",Chrome 122.0.0.0,,,07-03-2024 11:37:25,07-03-2024 11:37:35,9.094s,PASSED
+"click(findTestObject(""CartPage/BuyButton_Cart""))",Chrome 122.0.0.0,,,07-03-2024 11:37:35,07-03-2024 11:37:41,6.054s,PASSED
+"click(findTestObject(""OPCPage/paymentMethod_change_OPC""))",Chrome 122.0.0.0,,,07-03-2024 11:37:41,07-03-2024 11:37:48,6.986s,PASSED
+"click(findTestObject(""OPCPage/paymentMethod_button3_OPC""))",Chrome 122.0.0.0,,,07-03-2024 11:37:48,07-03-2024 11:37:57,9.645s,PASSED
+"click(findTestObject(""OPCPage/Continue_payment_3rdmethod_OPC""))",Chrome 122.0.0.0,,,07-03-2024 11:37:57,07-03-2024 11:38:01,3.331s,PASSED
+delay(5),Chrome 122.0.0.0,,,07-03-2024 11:38:01,07-03-2024 11:38:06,5.013s,PASSED
+"click(findTestObject(""OPCPage/Final_comparar_OPC""))",Chrome 122.0.0.0,,,07-03-2024 11:38:06,07-03-2024 11:38:25,19.467s,PASSED
+"click(findTestObject(""HomePage/logo_confirmPage""))",Chrome 122.0.0.0,,,07-03-2024 11:38:25,07-03-2024 11:38:39,13.536s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 122.0.0.0,,,07-03-2024 11:38:39,07-03-2024 11:39:02,23.263s,ERROR
+,,,,,,,
+Test Cases/ArangeByLogin/Checkout/TS_SMOKE_SUITE_080,Chrome 122.0.0.0,To verify that the display of the applied Coupon details in the order success page,,07-03-2024 11:39:02,07-03-2024 11:44:15,5m - 13.488s,PASSED
+"openBrowser("""")",Chrome 122.0.0.0,,,07-03-2024 11:39:02,07-03-2024 11:39:04,1.558s,PASSED
+navigateToUrl(URL),Chrome 122.0.0.0,,,07-03-2024 11:39:04,07-03-2024 11:40:34,1m - 30.001s,PASSED
+"callTestCase(findTestCase(""CommonMethods/login_odtaqab""), [:], OPTIONAL)",Chrome 122.0.0.0,,,07-03-2024 11:40:34,07-03-2024 11:41:04,30.744s,PASSED
+"callTestCase(findTestCase(""CommonMethods/SearchForAProduct_search""), [""searchTerm"":Single_SKU_PDP], STOP_ON_FAILURE)",Chrome 122.0.0.0,,,07-03-2024 11:41:04,07-03-2024 11:42:21,1m - 16.441s,PASSED
+waitForPageLoad(0),Chrome 122.0.0.0,,,07-03-2024 11:42:21,07-03-2024 11:42:21,0.012s,PASSED
+"click(findTestObject(""PLPPage/product1_PLP""), OPTIONAL)",Chrome 122.0.0.0,,,07-03-2024 11:42:21,07-03-2024 11:42:42,21.173s,PASSED
+waitForPageLoad(0),Chrome 122.0.0.0,,,07-03-2024 11:42:42,07-03-2024 11:42:42,0.014s,PASSED
+"click(findTestObject(""PDPPage/AddToCart_PDP""))",Chrome 122.0.0.0,,,07-03-2024 11:42:42,07-03-2024 11:42:45,3.066s,PASSED
+"click(findTestObject(""HomePage/bag_header_HP""))",Chrome 122.0.0.0,,,07-03-2024 11:42:45,07-03-2024 11:42:51,5.413s,PASSED
+"click(findTestObject(""CartPage/BuyButton_Cart""))",Chrome 122.0.0.0,,,07-03-2024 11:42:51,07-03-2024 11:43:08,17.586s,PASSED
+"click(findTestObject(""OPCPage/paymentMethod_change_OPC""), OPTIONAL)",Chrome 122.0.0.0,,,07-03-2024 11:43:08,07-03-2024 11:43:14,5.895s,PASSED
+"click(findTestObject(""OPCPage/paymentMethod_button1_OPC""), OPTIONAL)",Chrome 122.0.0.0,,,07-03-2024 11:43:14,07-03-2024 11:43:16,1.563s,PASSED
+"setText(findTestObject(""OPCPage/enterCardCVV_OPC""), ""413"", OPTIONAL)",Chrome 122.0.0.0,,,07-03-2024 11:43:16,07-03-2024 11:43:16,0.865s,PASSED
+"setText(findTestObject(""OPCPage/enterCardExpire_OPC""), ""1225"", OPTIONAL)",Chrome 122.0.0.0,,,07-03-2024 11:43:16,07-03-2024 11:43:17,1.044s,PASSED
+"click(findTestObject(""OPCPage/cardContinue_checkout_popUP""), OPTIONAL)",Chrome 122.0.0.0,,,07-03-2024 11:43:17,07-03-2024 11:43:18,0.757s,PASSED
+"j = getText(findTestObject(""OPCPage/Page_/TotalPrice_opc""))",Chrome 122.0.0.0,,,07-03-2024 11:43:18,07-03-2024 11:43:21,3.112s,PASSED
+"j1 = replace(""$"", """").replace("","", """")",Chrome 122.0.0.0,,,07-03-2024 11:43:21,07-03-2024 11:43:21,0.003s,PASSED
+"a = getText(findTestObject(""OPCPage/coupon_pricevalue_OPC""))",Chrome 122.0.0.0,,,07-03-2024 11:43:21,07-03-2024 11:43:22,0.343s,PASSED
+"a1 = replace(""$"", """").replace("","", """")",Chrome 122.0.0.0,,,07-03-2024 11:43:22,07-03-2024 11:43:22,0.001s,PASSED
+"click(findTestObject(""OPCPage/coupon_button_OPC""))",Chrome 122.0.0.0,,,07-03-2024 11:43:22,07-03-2024 11:43:22,0.392s,PASSED
+"click(findTestObject(""OPCPage/couon1_utilize_OPC""))",Chrome 122.0.0.0,,,07-03-2024 11:43:22,07-03-2024 11:43:23,0.714s,PASSED
+"b = getText(findTestObject(""OPCPage/coupon_pricevalue_OPC""))",Chrome 122.0.0.0,,,07-03-2024 11:43:23,07-03-2024 11:43:26,3.097s,PASSED
+"b1 = replace(""$"", """").replace("","", """")",Chrome 122.0.0.0,,,07-03-2024 11:43:26,07-03-2024 11:43:26,0.001s,PASSED
+out.println(a1),Chrome 122.0.0.0,,,07-03-2024 11:43:26,07-03-2024 11:43:26,0.001s,PASSED
+out.println(b1),Chrome 122.0.0.0,,,07-03-2024 11:43:26,07-03-2024 11:43:26,0.000s,PASSED
+if (a1 != b1),Chrome 122.0.0.0,,,07-03-2024 11:43:26,07-03-2024 11:43:26,0.001s,PASSED
+"k = getText(findTestObject(""OPCPage/Page_/TotalPrice_opc""))",Chrome 122.0.0.0,,,07-03-2024 11:43:26,07-03-2024 11:43:26,0.302s,PASSED
+"k1 = replace(""$"", """").replace("","", """")",Chrome 122.0.0.0,,,07-03-2024 11:43:26,07-03-2024 11:43:26,0.001s,PASSED
+out.println(j1),Chrome 122.0.0.0,,,07-03-2024 11:43:26,07-03-2024 11:43:26,0.000s,PASSED
+out.println(k1),Chrome 122.0.0.0,,,07-03-2024 11:43:26,07-03-2024 11:43:26,0.001s,PASSED
+if (j1 >= k1),Chrome 122.0.0.0,,,07-03-2024 11:43:26,07-03-2024 11:43:26,0.000s,PASSED
+"click(findTestObject(""OPCPage/Final_comparar_OPC""))",Chrome 122.0.0.0,,,07-03-2024 11:43:26,07-03-2024 11:43:27,0.356s,PASSED
+delay(15),Chrome 122.0.0.0,,,07-03-2024 11:43:27,07-03-2024 11:43:42,15.012s,PASSED
+"click(findTestObject(""HomePage/logo_confirmPage""))",Chrome 122.0.0.0,,,07-03-2024 11:43:42,07-03-2024 11:43:43,1.845s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 122.0.0.0,,,07-03-2024 11:43:43,07-03-2024 11:44:15,31.943s,ERROR
+,,,,,,,
+Test Cases/ArangeByLogin/Checkout/TS_SMOKE_SUITE_082,Chrome 122.0.0.0,To verify the functionality of editing the card  in checkout flow for loggedin user,,07-03-2024 11:44:15,07-03-2024 11:46:53,2m - 37.418s,FAILED
+"openBrowser("""")",Chrome 122.0.0.0,,,07-03-2024 11:44:16,07-03-2024 11:44:17,1.031s,PASSED
+navigateToUrl(URL),Chrome 122.0.0.0,,,07-03-2024 11:44:17,07-03-2024 11:44:38,21.740s,PASSED
+"callTestCase(findTestCase(""CommonMethods/login_odtaqab""), [:], STOP_ON_FAILURE)",Chrome 122.0.0.0,,,07-03-2024 11:44:38,07-03-2024 11:44:55,16.721s,PASSED
+"callTestCase(findTestCase(""CommonMethods/EmptyCart_RunAt_HP""), [:], OPTIONAL)",Chrome 122.0.0.0,,,07-03-2024 11:44:55,07-03-2024 11:45:26,31.102s,PASSED
+"click(findTestObject(""HomePage/Logo_hp""))",Chrome 122.0.0.0,,,07-03-2024 11:45:26,07-03-2024 11:45:26,0.366s,PASSED
+"callTestCase(findTestCase(""CommonMethods/SearchForAProduct_search""), [""searchTerm"":Single_SKU_PDP], STOP_ON_FAILURE)",Chrome 122.0.0.0,,,07-03-2024 11:45:26,07-03-2024 11:45:40,13.541s,PASSED
+"click(findTestObject(""PLPPage/product1_discountPrice_PLP""), OPTIONAL)",Chrome 122.0.0.0,,,07-03-2024 11:45:40,07-03-2024 11:46:00,20.450s,PASSED
+"click(findTestObject(""PDPPage/AddToCart_PDP""))",Chrome 122.0.0.0,,,07-03-2024 11:46:00,07-03-2024 11:46:04,3.141s,PASSED
+"click(findTestObject(""HomePage/bag_header_HP""))",Chrome 122.0.0.0,,,07-03-2024 11:46:04,07-03-2024 11:46:08,4.084s,PASSED
+"click(findTestObject(""CartPage/BuyButton_Cart""))",Chrome 122.0.0.0,,,07-03-2024 11:46:08,07-03-2024 11:46:10,2.098s,PASSED
+"click(findTestObject(""OPCPage/paymentMethod_change_OPC""))",Chrome 122.0.0.0,,,07-03-2024 11:46:10,07-03-2024 11:46:17,7.508s,PASSED
+"scrollToElement(findTestObject(""OPCPage/card3_Option_OPC""), 0)",Chrome 122.0.0.0,,,07-03-2024 11:46:17,07-03-2024 11:46:20,2.342s,PASSED
+"click(findTestObject(""OPCPage/card3_Option_OPC""))",Chrome 122.0.0.0,,,07-03-2024 11:46:20,07-03-2024 11:46:20,0.367s,PASSED
+"waitForElementPresent(findTestObject(""OPCPage/option2DropDown_editos_card_OPC""), 0)",Chrome 122.0.0.0,,,07-03-2024 11:46:20,07-03-2024 11:46:20,0.461s,PASSED
+"click(findTestObject(""OPCPage/option2DropDown_editos_card_OPC""))",Chrome 122.0.0.0,,,07-03-2024 11:46:20,07-03-2024 11:46:21,0.385s,PASSED
+"sendKeys(findTestObject(""OPCPage/AddressSection_card_popup_enterPINCODE_OPC""), Keys.chord(CONTROL, ""a""))",Chrome 122.0.0.0,,,07-03-2024 11:46:21,07-03-2024 11:46:27,5.697s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 122.0.0.0,,,07-03-2024 11:46:27,07-03-2024 11:46:53,26.215s,ERROR
+,,,,,,,
+Test Cases/ArangeByLogin/Checkout/TS_SMOKE_SUITE_083,Chrome 122.0.0.0,To verify the display of Order confirmation page for loggedin user,,07-03-2024 11:46:53,07-03-2024 11:48:58,2m - 5.647s,PASSED
+"callTestCase(findTestCase(""CommonMethods/SearchForAProduct_search""), [""searchTerm"":Single_SKU_PDP], STOP_ON_FAILURE)",Chrome 122.0.0.0,,,07-03-2024 11:46:53,07-03-2024 11:47:01,8.366s,PASSED
+waitForPageLoad(0),Chrome 122.0.0.0,,,07-03-2024 11:47:01,07-03-2024 11:47:01,0.015s,PASSED
+"click(findTestObject(""PLPPage/product1_discountPrice_PLP""), OPTIONAL)",Chrome 122.0.0.0,,,07-03-2024 11:47:01,07-03-2024 11:47:15,13.387s,PASSED
+"click(findTestObject(""PDPPage/AddToCart_PDP""))",Chrome 122.0.0.0,,,07-03-2024 11:47:15,07-03-2024 11:47:17,2.429s,PASSED
+"click(findTestObject(""HomePage/bag_header_HP""))",Chrome 122.0.0.0,,,07-03-2024 11:47:17,07-03-2024 11:47:21,3.856s,PASSED
+"click(findTestObject(""CartPage/BuyButton_Cart""))",Chrome 122.0.0.0,,,07-03-2024 11:47:21,07-03-2024 11:47:26,5.401s,PASSED
+"click(findTestObject(""OPCPage/ChangeAddress_Checkout""))",Chrome 122.0.0.0,,,07-03-2024 11:47:26,07-03-2024 11:47:33,7.132s,PASSED
+"click(findTestObject(""OPCPage/Address_PopUP_option1_opc""))",Chrome 122.0.0.0,,,07-03-2024 11:47:33,07-03-2024 11:47:35,1.600s,PASSED
+"click(findTestObject(""OPCPage/radiobtn1_addressPopup_OPC""))",Chrome 122.0.0.0,,,07-03-2024 11:47:35,07-03-2024 11:47:35,0.384s,PASSED
+"click(findTestObject(""OPCPage/ContinueButtonAddAddress_Checkout""))",Chrome 122.0.0.0,,,07-03-2024 11:47:35,07-03-2024 11:47:36,0.400s,PASSED
+"setText(findTestObject(""OPCPage/enterCardExpire_OPC""), ""1225"")",Chrome 122.0.0.0,,,07-03-2024 11:47:36,07-03-2024 11:47:41,4.802s,PASSED
+"setText(findTestObject(""OPCPage/enterCardCVV_OPC""), ""805"")",Chrome 122.0.0.0,,,07-03-2024 11:47:41,07-03-2024 11:47:42,1.043s,PASSED
+"click(findTestObject(""OPCPage/Final_comparar_OPC""))",Chrome 122.0.0.0,,,07-03-2024 11:47:42,07-03-2024 11:47:44,2.748s,PASSED
+delay(10),Chrome 122.0.0.0,,,07-03-2024 11:47:44,07-03-2024 11:47:54,10.007s,PASSED
+"verifyElementPresent(findTestObject(""OPCPage/ConfirmOrder_Checkout""), 0)",Chrome 122.0.0.0,,,07-03-2024 11:47:54,07-03-2024 11:48:24,29.732s,PASSED
+"click(findTestObject(""HomePage/logo_confirmPage""))",Chrome 122.0.0.0,,,07-03-2024 11:48:24,07-03-2024 11:48:25,0.729s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 122.0.0.0,,,07-03-2024 11:48:25,07-03-2024 11:48:58,33.489s,ERROR
+,,,,,,,
+Test Cases/ArangeByLogin/Checkout/TS_SMOKE_SUITE_086,Chrome 122.0.0.0,"To verify logged in user is able to place order for Softline item using Credit Card ,CIE and Paypal payment methods",,07-03-2024 11:48:58,07-03-2024 11:51:10,2m - 11.706s,PASSED
+navigateToUrl(URL),Chrome 122.0.0.0,,,07-03-2024 11:48:59,07-03-2024 11:49:11,11.937s,PASSED
+waitForPageLoad(0),Chrome 122.0.0.0,,,07-03-2024 11:49:11,07-03-2024 11:49:11,0.034s,PASSED
+"callTestCase(findTestCase(""CommonMethods/SearchForAProduct_search""), [""searchTerm"":Single_SKU_PDP], STOP_ON_FAILURE)",Chrome 122.0.0.0,,,07-03-2024 11:49:11,07-03-2024 11:49:20,9.737s,PASSED
+"click(findTestObject(""PLPPage/product1_discountPrice_PLP""), OPTIONAL)",Chrome 122.0.0.0,,,07-03-2024 11:49:20,07-03-2024 11:49:37,17.025s,PASSED
+"click(findTestObject(""PDPPage/AddToCart_PDP""))",Chrome 122.0.0.0,,,07-03-2024 11:49:37,07-03-2024 11:49:40,3.043s,PASSED
+"click(findTestObject(""HomePage/bag_header_HP""))",Chrome 122.0.0.0,,,07-03-2024 11:49:40,07-03-2024 11:49:45,4.673s,PASSED
+"click(findTestObject(""CartPage/BuyButton_Cart""))",Chrome 122.0.0.0,,,07-03-2024 11:49:45,07-03-2024 11:49:48,2.535s,PASSED
+"click(findTestObject(""OPCPage/paymentMethod_change_OPC""))",Chrome 122.0.0.0,,,07-03-2024 11:49:48,07-03-2024 11:49:51,3.588s,PASSED
+"click(findTestObject(""OPCPage/paymentMethod_button2_OPC""))",Chrome 122.0.0.0,,,07-03-2024 11:49:51,07-03-2024 11:49:53,1.595s,PASSED
+"click(findTestObject(""OPCPage/label_Cambiar_payment_opc""), OPTIONAL)",Chrome 122.0.0.0,,,07-03-2024 11:49:53,07-03-2024 11:50:06,13.425s,PASSED
+"callTestCase(findTestCase(""CommonMethods/paypal(changepaymentmethod)pay""), [:], OPTIONAL)",Chrome 122.0.0.0,,,07-03-2024 11:50:06,07-03-2024 11:50:18,11.649s,PASSED
+"click(findTestObject(""OPCPage/button_Continuar_payment_opc""))",Chrome 122.0.0.0,,,07-03-2024 11:50:18,07-03-2024 11:50:18,0.370s,PASSED
+"click(findTestObject(""OPCPage/Final_paypal_final(terminar)_OPC""))",Chrome 122.0.0.0,,,07-03-2024 11:50:18,07-03-2024 11:50:24,5.798s,PASSED
+"verifyElementPresent(findTestObject(""OPCPage/ConfirmOrder_Checkout""), 0, OPTIONAL)",Chrome 122.0.0.0,,,07-03-2024 11:50:24,07-03-2024 11:50:47,22.767s,PASSED
+"click(findTestObject(""HomePage/logo_confirmPage""))",Chrome 122.0.0.0,,,07-03-2024 11:50:47,07-03-2024 11:50:47,0.380s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 122.0.0.0,,,07-03-2024 11:50:47,07-03-2024 11:51:10,23.014s,ERROR
+,,,,,,,
+Test Cases/ArangeByLogin/Checkout/TS_SMOKE_SUITE_087,Chrome 122.0.0.0,"To verify logged in user is able to place combination order for Softline and Bigticket item using Credit Card ,CIE and Paypal payment methods",,07-03-2024 11:51:10,07-03-2024 11:52:52,1m - 41.373s,PASSED
+navigateToUrl(URL),Chrome 122.0.0.0,,,07-03-2024 11:51:10,07-03-2024 11:51:24,13.629s,PASSED
+"callTestCase(findTestCase(""CommonMethods/SearchForAProduct_search""), [""searchTerm"":Single_SKU_PDP], STOP_ON_FAILURE)",Chrome 122.0.0.0,,,07-03-2024 11:51:24,07-03-2024 11:51:33,8.631s,PASSED
+waitForPageLoad(0),Chrome 122.0.0.0,,,07-03-2024 11:51:33,07-03-2024 11:51:33,0.017s,PASSED
+"click(findTestObject(""PLPPage/product1_discountPrice_PLP""), OPTIONAL)",Chrome 122.0.0.0,,,07-03-2024 11:51:33,07-03-2024 11:51:46,13.340s,PASSED
+"click(findTestObject(""PDPPage/AddToCart_PDP""))",Chrome 122.0.0.0,,,07-03-2024 11:51:46,07-03-2024 11:51:48,2.465s,PASSED
+"click(findTestObject(""HomePage/bag_header_HP""))",Chrome 122.0.0.0,,,07-03-2024 11:51:48,07-03-2024 11:51:53,4.472s,PASSED
+"click(findTestObject(""CartPage/BuyButton_Cart""))",Chrome 122.0.0.0,,,07-03-2024 11:51:53,07-03-2024 11:51:55,2.210s,PASSED
+"click(findTestObject(""OPCPage/paymentMethod_change_OPC""), OPTIONAL)",Chrome 122.0.0.0,,,07-03-2024 11:51:55,07-03-2024 11:52:00,4.841s,PASSED
+"click(findTestObject(""OPCPage/paymentMethod_button1_OPC""), OPTIONAL)",Chrome 122.0.0.0,,,07-03-2024 11:52:00,07-03-2024 11:52:01,1.530s,PASSED
+"setText(findTestObject(""OPCPage/enterCardCVV_OPC""), ""413"", OPTIONAL)",Chrome 122.0.0.0,,,07-03-2024 11:52:01,07-03-2024 11:52:02,1.012s,PASSED
+"setText(findTestObject(""OPCPage/enterCardExpire_OPC""), ""1225"", OPTIONAL)",Chrome 122.0.0.0,,,07-03-2024 11:52:02,07-03-2024 11:52:03,0.925s,PASSED
+"click(findTestObject(""OPCPage/cardContinue_checkout_popUP""), OPTIONAL)",Chrome 122.0.0.0,,,07-03-2024 11:52:03,07-03-2024 11:52:04,0.618s,PASSED
+"click(findTestObject(""OPCPage/Final_comparar_OPC""))",Chrome 122.0.0.0,,,07-03-2024 11:52:04,07-03-2024 11:52:09,5.170s,PASSED
+delay(15),Chrome 122.0.0.0,,,07-03-2024 11:52:09,07-03-2024 11:52:24,15.015s,PASSED
+"verifyElementPresent(findTestObject(""OPCPage/ConfirmOrder_Checkout""), 0)",Chrome 122.0.0.0,,,07-03-2024 11:52:24,07-03-2024 11:52:28,3.998s,PASSED
+"click(findTestObject(""HomePage/logo_confirmPage""))",Chrome 122.0.0.0,,,07-03-2024 11:52:28,07-03-2024 11:52:29,0.348s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 122.0.0.0,,,07-03-2024 11:52:29,07-03-2024 11:52:52,23.028s,ERROR
+,,,,,,,
+Test Cases/ArangeByLogin/Checkout/TS_SMOKE_SUITE_088,Chrome 122.0.0.0,To verify Logged-in user is able to place Airtime Order,,07-03-2024 11:52:52,07-03-2024 11:54:13,1m - 21.559s,FAILED
+navigateToUrl(URL),Chrome 122.0.0.0,,,07-03-2024 11:52:52,07-03-2024 11:53:05,13.597s,PASSED
+"click(findTestObject(""HomePage/header_Hola_text_HP""))",Chrome 122.0.0.0,,,07-03-2024 11:53:05,07-03-2024 11:53:07,2.074s,PASSED
+"scrollToElement(findTestObject(""AccountManagement/Tiempo_aire_MyAccount""), 0)",Chrome 122.0.0.0,,,07-03-2024 11:53:07,07-03-2024 11:53:08,0.541s,PASSED
+"scrollToElement(findTestObject(""AccountManagement/Tiempo_aire_MyAccount""), 0)",Chrome 122.0.0.0,,,07-03-2024 11:53:08,07-03-2024 11:53:08,0.566s,PASSED
+"click(findTestObject(""AccountManagement/Tiempo_aire_MyAccount""))",Chrome 122.0.0.0,,,07-03-2024 11:53:08,07-03-2024 11:53:15,6.703s,PASSED
+"enhancedClick(findTestObject(""AccountManagement/ATT/checkbox1_MyAccount""))",Chrome 122.0.0.0,,,07-03-2024 11:53:15,07-03-2024 11:53:19,3.413s,PASSED
+"enhancedClick(findTestObject(""AccountManagement/ATT/paymentOption1_ATT_card_MyAccount""))",Chrome 122.0.0.0,,,07-03-2024 11:53:19,07-03-2024 11:53:21,2.907s,PASSED
+"click(findTestObject(""AccountManagement/select_month_AM""))",Chrome 122.0.0.0,,,07-03-2024 11:53:21,07-03-2024 11:53:22,0.439s,PASSED
+"click(findTestObject(""AccountManagement/ATT/SelectMonth_ATT_AM""))",Chrome 122.0.0.0,,,07-03-2024 11:53:22,07-03-2024 11:53:22,0.378s,PASSED
+"click(findTestObject(""AccountManagement/select_year_AM""))",Chrome 122.0.0.0,,,07-03-2024 11:53:22,07-03-2024 11:53:23,0.518s,PASSED
+"click(findTestObject(""AccountManagement/ATT/selectYear_ATT_option2025_AM""))",Chrome 122.0.0.0,,,07-03-2024 11:53:23,07-03-2024 11:53:23,0.336s,PASSED
+"setText(findTestObject(""AccountManagement/ATT/card_cvv_ATT_MyAccount""), ""805"")",Chrome 122.0.0.0,,,07-03-2024 11:53:23,07-03-2024 11:53:24,1.049s,PASSED
+"click(findTestObject(""AccountManagement/ATT/finalize_recharge_MyAccount""))",Chrome 122.0.0.0,,,07-03-2024 11:53:24,07-03-2024 11:53:25,0.506s,PASSED
+"verifyElementPresent(findTestObject(""OPCPage/ConfirmOrder_Checkout""), 0)",Chrome 122.0.0.0,,,07-03-2024 11:53:25,07-03-2024 11:53:55,30.250s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 122.0.0.0,,,07-03-2024 11:53:55,07-03-2024 11:54:13,18.186s,ERROR

@@ -23,7 +23,7 @@ WebUI.click(findTestObject('HomePage/EnterUsername_LP'))
 
 a = CustomKeywords.'a.GenerateRandomEmail.generateRandomEmail'()
 
-WebUI.setText(findTestObject('HomePage/EnterUsername_LP'), GlobalVariable.username)
+WebUI.setText(findTestObject('HomePage/EnterUsername_LP'), GlobalVariable.username11)
 
 WebUI.delay(2)
 
@@ -31,7 +31,7 @@ WebUI.click(findTestObject('HomePage/EnterPassword_LP'))
 
 WebUI.delay(2)
 
-WebUI.setText(findTestObject('HomePage/EnterPassword_LP'), GlobalVariable.password)
+WebUI.setText(findTestObject('HomePage/EnterPassword_LP'), GlobalVariable.password11)
 
 WebUI.click(findTestObject('HomePage/inciar'))
 

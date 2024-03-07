@@ -23,9 +23,8 @@ WebUI.waitForPageLoad(0)
 
 WebUI.click(findTestObject('HomePage/Logo_hp'))
 
-WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.SL1], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('PLPPage/product1_PLP'), FailureHandling.OPTIONAL)
+WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.Single_SKU_PDP], 
+    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('PDPPage/AddToCart_PDP'))
 
@@ -55,9 +54,7 @@ WebUI.click(findTestObject('HomePage/Logo_hp'), FailureHandling.STOP_ON_FAILURE)
 //while (WebUI.click(findTestObject('HomePage/myAccount_hp')) == false) {
 //  WebUI.refresh()
 //}
-WebUI.mouseOver(findTestObject('HomePage/span_HolaUser_hp'))
-
-WebUI.click(findTestObject('HomePage/myAccount_hp'))
+WebUI.click(findTestObject('HomePage/MIsCompras_loginUser_HP'))
 
 WebUI.click(findTestObject('AccountManagement/deliveryAddress_MyAccount'))
 

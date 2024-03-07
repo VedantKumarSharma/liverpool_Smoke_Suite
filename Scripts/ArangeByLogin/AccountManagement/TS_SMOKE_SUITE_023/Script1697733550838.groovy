@@ -19,22 +19,20 @@ import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 import org.apache.commons.lang.RandomStringUtils as RandomStringUtils
 
-WebUI.mouseOver(findTestObject('HomePage/AfterLogin_Homepage'))
+WebUI.click(findTestObject('HomePage/MIsCompras_loginUser_HP'))
 
-WebUI.click(findTestObject('AccountManagement/MyAccountButton_Account'))
-
-WebUI.click(findTestObject('AccountManagement/MyPaymentMethod_Account'))
+WebUI.click(findTestObject('AccountManagement/Mi Cartera_HP'))
 
 WebUI.click(findTestObject('AccountManagement/MyCardButton_Account'))
 
 boolean add = WebUI.verifyElementPresent(findTestObject('AccountManagement/QAtesting_card_AM'), 0, FailureHandling.OPTIONAL)
 
 if (add == true) {
-    WebUI.click(findTestObject('AccountManagement/Select3dot_qatestingCard_AM'))
+	WebUI.click(findTestObject('AccountManagement/Select3dot_qatestingCard_AM'))
 
-    WebUI.click(findTestObject('AccountManagement/RemoveCardDetails_Account'))
+	WebUI.click(findTestObject('AccountManagement/qatesting_eliminar_car_AM'))
 
-    WebUI.click(findTestObject('AccountManagement/AcceptButton_AccountM'))
+	WebUI.click(findTestObject('AccountManagement/AcceptButton_AccountM'))
 }
 
 WebUI.click(findTestObject('AccountManagement/AddCardButton_Account'), FailureHandling.STOP_ON_FAILURE)
@@ -50,9 +48,9 @@ WebUI.waitForPageLoad(0)
 CardName = WebUI.getText(findTestObject('AccountManagement/CardNameGrid_Account'))
 
 if (Cardname == CardName) {
-    println('Add Card Successful')
+	println('Add Card Successful')
 } else {
-    KeywordUtil.markFailed('Card is not Added !')
+	KeywordUtil.markFailed('Card is not Added !')
 }
 
 WebUI.click(findTestObject('AccountManagement/Select3dot_qatestingCard_AM'))
@@ -79,13 +77,13 @@ WebUI.click(findTestObject('AccountManagement/AcceptButton_AccountM'))
 
 WebUI.click(findTestObject('AccountManagement/Select3dot_qatestingCard_AM'))
 
-WebUI.click(findTestObject('AccountManagement/RemoveCardDetails_Account'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('AccountManagement/qatesting_eliminar_car_AM'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('OPCPage/accept_deletion_card_OPC'))
 
 if (WebUI.verifyElementNotPresent(findTestObject('AccountManagement/Select3dot_qatestingCard_AM'), 0) == true) {
-    println('Card remove Successful')
+	println('Card remove Successful')
 } else {
-    KeywordUtil.markFailed('Card is not Removed !')
+	KeywordUtil.markFailed('Card is not Removed !')
 }
 

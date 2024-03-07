@@ -16,13 +16,23 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import org.apache.commons.lang.RandomStringUtils
+import com.kms.katalon.core.util.KeywordUtil
+	
+def GenerateRandomEmail() {
+	String firstName = 'automation'
+	String generatedstring=RandomStringUtils.randomAlphabetic(8);
+	String Email = firstName+generatedstring+'@digisprint.com'
+	KeywordUtil.logInfo(Email)
+	return Email
+}
+
 
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.URL)
 
-randomemail = CustomKeywords.'a.GenerateRandomEmail.generateRandomEmail'()
-
+randomemail = GenerateRandomEmail()
 WebUI.click(findTestObject('HomePage/Iniciar sesion'))
 
 WebUI.waitForPageLoad(0)

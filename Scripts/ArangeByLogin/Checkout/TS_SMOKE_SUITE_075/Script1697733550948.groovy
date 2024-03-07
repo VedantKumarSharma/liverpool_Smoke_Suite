@@ -17,9 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('CommonMethods/clickMyAccountFromHeader'), [:], FailureHandling.OPTIONAL)
+WebUI.callTestCase(findTestCase('CommonMethods/login_odtaqab'), [:], FailureHandling.OPTIONAL)
 
-WebUI.callTestCase(findTestCase('CommonMethods/ClickDelivery_MyAccount'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('HomePage/MIsCompras_loginUser_HP'))
+
+WebUI.click(findTestObject('AccountManagement/DeliveryAddress_Account'))
 
 WebUI.click(findTestObject('AccountManagement/ClickAndCollectStores_accounts'))
 
@@ -31,9 +33,10 @@ TitleAddress = WebUI.getText(findTestObject('AccountManagement/ClickNCollectionA
 
 WebUI.click(findTestObject('HomePage/Logo_hp'))
 
-WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.jeans], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.Single_SKU_PDP], 
+    FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('PLPPage/product3_cardPrice_PLP'), FailureHandling.OPTIONAL)
+WebUI.click(findTestObject('PLPPage/product-1-DiscountPrice_PLP'), FailureHandling.OPTIONAL)
 
 WebUI.click(findTestObject('PDPPage/AddToCart_PDP'))
 
