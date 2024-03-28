@@ -6,12 +6,11 @@
    <elementGuidId>9254abd5-728b-45e5-b3a9-a15346a60893</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//p[text()='QATESTING']/ancestor::div[@class='m-box m-cardBox credit-cards  opc_cardadded']//a[contains(text(), 'Editar')]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(//a[contains(text(), 'Editar')])[2]</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

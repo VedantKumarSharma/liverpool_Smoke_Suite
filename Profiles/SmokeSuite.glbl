@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>SmokeSuite</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://odtaqaa.liverpool.com.mx/tienda/home'</initValue>
+      <name>URL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'anusha.kondapaneni@zensar.com'</initValue>
+      <name>username</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'87654321'</initValue>
+      <name>password</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://odtaqaa.liverpool.com.mx/tienda/oneCheckout'</initValue>
+      <name>CartPageURL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>TempAdd</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Search term with more than one product page</description>
+      <initValue>'mac'</initValue>
+      <name>PLP_with_pagenation</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Search term showing multiple objects on one page</description>
+      <initValue>'mac'</initValue>
+      <name>PLP_with_Facet</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Search term showing product and price without range for first product</description>
+      <initValue>'Vaso'</initValue>
+      <name>SL_search</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Search term leading to multiple sku page without range product</description>
+      <initValue>'tenis'</initValue>
+      <name>Multi_Sku_Without_Range_Plp</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Search term leading to page with one sku, card price, discount price, and no range product</description>
+      <initValue>'sony'</initValue>
+      <name>rate_CPandDP</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Search term leading to multiple sku page with range product</description>
+      <initValue>'bermuda'</initValue>
+      <name>Multi_Sku_With_Range_Plp</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Search term leading to single sku page with range product</description>
+      <initValue>'1010186214'</initValue>
+      <name>Single_SKU_PDP</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Search term for product with multiple tabs in product description</description>
+      <initValue>'1030512568'</initValue>
+      <name>ProductWithMultiTab</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'1030512568'</initValue>
+      <name>GWP_Sku</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'1031110455'</initValue>
+      <name>ProductRangeMultiSKU</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'1029796323'</initValue>
+      <name>ProductNoRangeMultiSKU</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'bt'</initValue>
+      <name>bt</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

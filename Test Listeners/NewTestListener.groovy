@@ -36,6 +36,7 @@ class NewTestListener {
 
 		WebUI.openBrowser('')
 		WebUI.navigateToUrl('https://odtaqaa.liverpool.com.mx')
+		WebUI.maximizeWindow()
 	}
 
 	@AfterTestSuite

@@ -21,11 +21,11 @@ WebUI.delay(3)
 
 WebUI.click(findTestObject('HomePage/username'))
 
-WebUI.setText(findTestObject('HomePage/username'), GlobalVariable.username)
+WebUI.setText(findTestObject('HomePage/username'), GlobalVariable.username11)
 
 WebUI.click(findTestObject('HomePage/password'))
 
-WebUI.setText(findTestObject('HomePage/password'), GlobalVariable.password)
+WebUI.setText(findTestObject('HomePage/password'), GlobalVariable.password11)
 
 WebUI.click(findTestObject('HomePage/action'))
 

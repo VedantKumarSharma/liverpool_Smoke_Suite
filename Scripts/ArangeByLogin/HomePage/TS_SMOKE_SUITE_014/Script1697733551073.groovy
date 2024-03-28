@@ -17,9 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('HomePage/AfterLogin_Homepage'))
+WebUI.refresh()
 
-WebUI.click(findTestObject('AccountManagement/MyAccountButton_Account'))
+WebUI.click(findTestObject('HomePage/MIsCompras_loginUser_HP'))
 
 WebUI.click(findTestObject('AccountManagement/UpdatePeronalData_Account'))
 
@@ -29,17 +29,23 @@ WebUI.waitForPageLoad(0)
 
 Name = 'harish'
 
-//WebUI.click(findTestObject('AccountManagement/firstName_update_accountManagement'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('AccountManagement/firstName_update_accountManagement'), FailureHandling.STOP_ON_FAILURE)
+
 WebUI.sendKeys(findTestObject('AccountManagement/firstName_update_accountManagement'), Keys.chord(Keys.CONTROL, 'a'))
 
-WebUI.sendKeys(findTestObject('AccountManagement/firstName_update_accountManagement'), Keys.chord(Keys.BACK_SPACE))
+WebUI.sendKeys(findTestObject('AccountManagement/firstName_update_accountManagement'), Keys.chord(Keys.CLEAR))
 
-WebUI.clearText(findTestObject('AccountManagement/firstName_update_accountManagement'), FailureHandling.STOP_ON_FAILURE)
+WebUI.sendKeys(findTestObject('AccountManagement/firstName_update_accountManagement'), Keys.chord(Keys.BACK_SPACE), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(3)
+WebUI.clearText(findTestObject('AccountManagement/firstName_update_accountManagement'), FailureHandling.OPTIONAL)
 
-WebUI.setText(findTestObject('AccountManagement/firstName_update_accountManagement'), Name)
+WebUI.delay(10)
 
+WebUI.setText(findTestObject('AccountManagement/firstName_update_accountManagement'), '')
+
+WebUI.sendKeys(findTestObject('AccountManagement/firstName_update_accountManagement'), Keys.chord(Name))
+
+//WebUI.setText(findTestObject('AccountManagement/firstName_update_accountManagement'), Name)
 System.out.println(Name)
 
 WebUI.click(findTestObject('AccountManagement/UpdateButton_Account'))

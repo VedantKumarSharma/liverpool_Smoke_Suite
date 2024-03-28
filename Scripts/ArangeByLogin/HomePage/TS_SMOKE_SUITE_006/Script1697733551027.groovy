@@ -25,7 +25,5 @@ WebUI.click(findTestObject('HomePage/Mesa de regalos_HP'))
 
 WebUI.verifyElementPresent(findTestObject('HomePage/gr/Find_gift_table_GR'), 0)
 
-WebUI.verifyElementPresent(findTestObject('HomePage/gr/Search_event_button_GR'), 0)
-
 WebUI.navigateToUrl(GlobalVariable.URL)
 

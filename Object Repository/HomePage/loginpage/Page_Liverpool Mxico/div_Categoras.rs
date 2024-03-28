@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Categoras</name>
+   <tag></tag>
+   <elementGuidId>bf1c89ad-751d-43a9-9fc3-c540930e9da8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.o-col.col-lg-10.col-xl-9.pr-0 > div.o-row.row > div.o-col.col-lg-auto.col-6.order-lg-1.text-center</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>3ca36331-f4f1-4840-8e4e-a4a6d8eabc51</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>o-col col-lg-auto col-6 order-lg-1 text-center</value>
+      <webElementGuid>da70c1bb-e2bf-4e59-8cee-a67e2559f8d6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>   Categorías </value>
+      <webElementGuid>6f4c0511-a335-4540-afe8-8f4d29d329ea</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/header[1]/div[@class=&quot;o-header noSearchBar d-flex align-items-center d-lg-block&quot;]/div[@class=&quot;o-container__fluid container-fluid wrap-megamenu d-none d-lg-block&quot;]/div[@class=&quot;o-container container p-0&quot;]/nav[@class=&quot;m-megamenu&quot;]/div[@class=&quot;o-row row align-items-center&quot;]/div[@class=&quot;o-col col-lg-10 col-xl-9 pr-0&quot;]/div[@class=&quot;o-row row&quot;]/div[@class=&quot;o-col col-lg-auto col-6 order-lg-1 text-center&quot;]</value>
+      <webElementGuid>bfcf9560-f136-403e-87f9-972ddaedf5be</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/header/div[4]/div[2]/div/nav/div/div/div/div</value>
+      <webElementGuid>cf2cbc00-be31-42aa-81e5-8f3410e4ed22</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cerrar sesión'])[2]/following::div[8]</value>
+      <webElementGuid>c93a6858-4c00-418e-93bb-14aea19f2d02</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mis tarjetas'])[2]/following::div[8]</value>
+      <webElementGuid>1cd1c071-97ec-4a60-9711-6e7f6de4103d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mesa de regalos'])[1]/preceding::div[2]</value>
+      <webElementGuid>5d4f7c7d-ac63-49e6-9a33-4cb0f194b55b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//nav/div/div/div/div</value>
+      <webElementGuid>eae7ce19-fa54-4091-97b9-1f863ed18076</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '   Categorías ' or . = '   Categorías ')]</value>
+      <webElementGuid>713ae479-db73-4efd-9340-0d63eebcc2da</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

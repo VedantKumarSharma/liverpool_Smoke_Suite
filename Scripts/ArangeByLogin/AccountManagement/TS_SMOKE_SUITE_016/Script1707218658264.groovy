@@ -16,4 +16,41 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
+import org.apache.commons.lang.RandomStringUtils as RandomStringUtils
+
+WebUI.click(findTestObject('HomePage/MIsCompras_loginUser_HP'))
+
+WebUI.click(findTestObject('AccountManagement/UpdatePeronalData_Account'))
+
+WebUI.verifyElementPresent(findTestObject('AccountManagement/updatePage_Account'), 0)
+
+//lastname = WebUI.getText(findTestObject('AccountManagement/LastName_Account'))
+name = RandomStringUtils.randomAlphabetic(8)
+
+WebUI.clearText(findTestObject('AccountManagement/FirstNameProfile_Account'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.sendKeys(findTestObject('AccountManagement/FirstNameProfile_Account'), Keys.chord(Keys.CONTROL, 'a'))
+
+WebUI.sendKeys(findTestObject('AccountManagement/FirstNameProfile_Account'), name)
+
+def lastname = WebUI.getAttribute(findTestObject('AccountManagement/LastName_Account'), 'value')
+
+println(lastname)
+
+accountname = ((name + ' ') + lastname)
+
+println(accountname)
+
+WebUI.click(findTestObject('AccountManagement/UpdateButton_Account'))
+
+fnamelname = WebUI.getText(findTestObject('AccountManagement/PersonalDataName_Account'))
+
+println(fnamelname)
+
+if (fnamelname == accountname) {
+    println('Checked')
+} else {
+    KeywordUtil.markFailed('Name is not updated !')
+}
 

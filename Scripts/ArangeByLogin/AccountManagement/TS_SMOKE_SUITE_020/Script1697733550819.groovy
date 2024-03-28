@@ -17,9 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.mouseOver(findTestObject('HomePage/AfterLogin_Homepage'))
+WebUI.refresh()
 
-WebUI.click(findTestObject('AccountManagement/MyAccountButton_Account'))
+WebUI.click(findTestObject('HomePage/MIsCompras_loginUser_HP'))
 
 WebUI.click(findTestObject('AccountManagement/DeliveryAddress_Account'))
 

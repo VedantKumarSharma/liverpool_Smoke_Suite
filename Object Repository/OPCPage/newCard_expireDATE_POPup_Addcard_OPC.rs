@@ -6,12 +6,11 @@
    <elementGuidId>0f8d401a-07e8-42a0-8b3a-9f232a42a51b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>(//input[@id='cardExp'])[1]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

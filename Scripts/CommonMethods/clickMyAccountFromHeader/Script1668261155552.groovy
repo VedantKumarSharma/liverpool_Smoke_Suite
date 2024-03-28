@@ -19,6 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('HomePage/header_Hola_text_HP'))
 
+WebUI.mouseOver(findTestObject('HomePage/span_HolaUser_hp'))
+
 WebUI.click(findTestObject('HomePage/myAccount_hp'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementPresent(findTestObject('AccountManagement/miCuenta_breadCrumb_MyAccount'), 0)

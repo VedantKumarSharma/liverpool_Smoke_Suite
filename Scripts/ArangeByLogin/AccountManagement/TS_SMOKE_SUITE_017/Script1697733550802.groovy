@@ -21,15 +21,23 @@ boolean a = WebUI.getText(findTestObject('HomePage/span_HolaUser_hp'), FailureHa
 
 System.out.println(a)
 
-if (a == false) {
+if (a == true) {
     WebUI.callTestCase(findTestCase('CommonMethods/login_odtaqab'), [:], FailureHandling.OPTIONAL)
 }
 
-WebUI.mouseOver(findTestObject('HomePage/AfterLogin_Homepage'))
-
-WebUI.click(findTestObject('AccountManagement/MyAccountButton_Account'))
+WebUI.click(findTestObject('HomePage/MIsCompras_loginUser_HP'))
 
 WebUI.click(findTestObject('AccountManagement/DeliveryAddress_Account'))
+
+boolean add = WebUI.verifyElementPresent(findTestObject('AccountManagement/QATESTING_address_AM'), 0, FailureHandling.OPTIONAL)
+
+if (add == true) {
+    WebUI.click(findTestObject('AccountManagement/Select3dotQATESTING_Add_AM'))
+
+    WebUI.click(findTestObject('AccountManagement/QAtesting_Address_Remove_AM'))
+
+    WebUI.click(findTestObject('AccountManagement/AcceptButton_AccountM'))
+}
 
 WebUI.click(findTestObject('AccountManagement/AddAdressPersonal_Account'), FailureHandling.STOP_ON_FAILURE)
 

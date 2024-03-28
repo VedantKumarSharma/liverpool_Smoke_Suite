@@ -17,12 +17,10 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.SLSearchTerm], 
+WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.Single_SKU_PDP], 
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForPageLoad(0)
-
-WebUI.click(findTestObject('HomePage/FirstProduct_plp'))
 
 WebUI.click(findTestObject('PDPPage/AddToCart_pdp'))
 

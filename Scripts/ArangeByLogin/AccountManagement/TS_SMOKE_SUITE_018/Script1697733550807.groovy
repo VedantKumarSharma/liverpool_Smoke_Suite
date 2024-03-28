@@ -18,9 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
-WebUI.mouseOver(findTestObject('HomePage/AfterLogin_Homepage'))
-
-WebUI.click(findTestObject('AccountManagement/MyAccountButton_Account'))
+WebUI.click(findTestObject('HomePage/MIsCompras_loginUser_HP'))
 
 WebUI.click(findTestObject('AccountManagement/DeliveryAddress_Account'))
 

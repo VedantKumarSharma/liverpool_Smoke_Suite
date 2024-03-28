@@ -19,6 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('HomePage/Mis_comprar'), FailureHandling.STOP_ON_FAILURE)
 
+WebUI.click(findTestObject('HomePage/Iniciar_miscompras'))
+
 WebUI.verifyElementPresent(findTestObject('HomePage/EnterUsername_LP'), 0)
 
 WebUI.verifyElementPresent(findTestObject('HomePage/EnterPassword_LP'), 0)

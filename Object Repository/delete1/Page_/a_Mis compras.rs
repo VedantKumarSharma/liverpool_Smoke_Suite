@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Mis compras</name>
+   <tag></tag>
+   <elementGuidId>7d4a8bab-76b3-425c-beb7-2a88ae921af6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='#collapseSupport']/div/ul/li[3]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>76cdb66d-558d-48e9-91f0-f231b6a54b96</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>a-footer__link</value>
+      <webElementGuid>1f3cd4e7-4cca-4aaa-88f8-39d14cf2a490</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/tienda/users/miscompras</value>
+      <webElementGuid>bdd542f6-1d18-43aa-91e7-fdfbaaa1555d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Mis compras</value>
+      <webElementGuid>716f0ed8-8a98-4cc8-abbb-7bc2df392fbf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;#collapseSupport&quot;)/div[@class=&quot;card-body pt-0 pb-lg-0&quot;]/ul[@class=&quot;m-0&quot;]/li[@class=&quot;p-0&quot;]/a[@class=&quot;a-footer__link&quot;]</value>
+      <webElementGuid>6464bdab-441a-484a-a305-462217afad3c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='#collapseSupport']/div/ul/li[3]/a</value>
+      <webElementGuid>11cca29d-6271-45e1-bc54-0b1811b3463a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Mis compras')]</value>
+      <webElementGuid>cf43e0a2-fd86-482e-8d1c-09e2bb1f086a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ayuda'])[2]/following::a[1]</value>
+      <webElementGuid>d551c018-d2ff-406d-9bc5-616850fa0ab6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Facturación'])[1]/following::a[2]</value>
+      <webElementGuid>7c0cdd0d-8a1b-4cda-b29b-80b5a3e6fd2f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Garantía Liverpool'])[1]/preceding::a[1]</value>
+      <webElementGuid>6dde1fd4-dae9-4257-9b0a-e4c3aca278d6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Servicios Liverpool'])[1]/preceding::a[2]</value>
+      <webElementGuid>d27d1f2e-17c0-46a5-a822-81ddec88a5ce</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Mis compras']/parent::*</value>
+      <webElementGuid>b79cd4a5-0d41-4f9f-98e7-d56f24e7419f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/tienda/users/miscompras')]</value>
+      <webElementGuid>e7ed0b14-49bc-4648-994d-ee52b20718fb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/ul/li[3]/a</value>
+      <webElementGuid>190c6526-7c87-46bc-9c02-e0f686efa04f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/tienda/users/miscompras' and (text() = 'Mis compras' or . = 'Mis compras')]</value>
+      <webElementGuid>ed067dba-3406-42aa-8146-6929c53da584</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

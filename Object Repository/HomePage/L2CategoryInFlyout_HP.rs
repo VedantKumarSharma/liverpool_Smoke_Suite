@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='CAT610036']/div/div[2]/div/div/div/a</value>
+         <value>//*[@id='CAT610036']//a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>57a8c963-60ef-4960-ab52-f1347f012cd1</webElementGuid>
+      <webElementGuid>8aa27b14-71c2-4e6b-afcd-e874f029d6fd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>a-desktop__categoryTitle categoryLevel-2undefined</value>
-      <webElementGuid>b98accc0-2696-4293-8e2e-69e0a551c82c</webElementGuid>
+      <webElementGuid>0ae232ed-26a5-4e3c-8d09-89b0f12ae144</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Ropa</value>
-      <webElementGuid>630e0bb6-d0d8-4521-95bf-37f0fcde813e</webElementGuid>
+      <webElementGuid>e4dd16ef-e38e-4937-b11a-de17ef3c35b8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;CAT610036&quot;)/div[@class=&quot;container&quot;]/div[@class=&quot;row align-items-top&quot;]/div[@class=&quot;col-lg-8 category-menu&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-4 pb-3&quot;]/a[@class=&quot;a-desktop__categoryTitle categoryLevel-2undefined&quot;]</value>
-      <webElementGuid>03d0556f-4190-4918-b597-704395f8cd51</webElementGuid>
+      <webElementGuid>8babc71b-4e97-41c7-a957-53ea780c73be</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='CAT610036']/div/div[2]/div/div/div/a</value>
-      <webElementGuid>6ab8386a-b694-4000-8d34-f82f4e18a9a0</webElementGuid>
+      <webElementGuid>0e539e99-afd4-4a3c-9522-4a2d4eb1ecbf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Ropa')]</value>
-      <webElementGuid>64409a3e-4810-4bce-a33a-9db6f022354a</webElementGuid>
+      <webElementGuid>3f39a1a4-34ef-4d1a-9c1a-138bd65f3d84</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Ella'])[2]/following::a[1]</value>
-      <webElementGuid>1cbd3d25-6b57-46d7-91c5-1ff47db22466</webElementGuid>
+      <webElementGuid>5d9e29b0-d083-4910-b69e-b6c3a0615eab</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Ella'])[1]/following::a[2]</value>
-      <webElementGuid>83a0e2e7-32c3-4706-81ec-855fd7cc17a1</webElementGuid>
+      <webElementGuid>89a6d86a-fe6a-423c-b051-2dba77a17212</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Chamarras Abrigos &amp; Chalecos'])[1]/preceding::a[1]</value>
-      <webElementGuid>6d4d35b1-b90c-4190-bd82-1160b2ab343c</webElementGuid>
+      <webElementGuid>edd22c26-c366-434d-8171-10a985618ff4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Suéteres &amp; Sudaderas'])[1]/preceding::a[2]</value>
-      <webElementGuid>8d1b8fa5-112c-4e41-91d3-064507ac1c34</webElementGuid>
+      <webElementGuid>88e75fb5-3ce0-47d0-93ed-581fe546c48a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Ropa']/parent::*</value>
-      <webElementGuid>0a3f5b75-88b1-4a63-ae66-29e01cf8ebe1</webElementGuid>
+      <webElementGuid>a6910901-185a-433e-bbe9-d6bef022dc7e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/div/a</value>
-      <webElementGuid>f3c56d03-8d0c-4494-b72e-d5212328e0c0</webElementGuid>
+      <webElementGuid>0b7b74d8-c173-4d5c-9225-88d2b9f4e69e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,6 +118,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[(text() = 'Ropa' or . = 'Ropa')]</value>
-      <webElementGuid>69cb85d3-6666-4e9f-99a3-fc770cc0044f</webElementGuid>
+      <webElementGuid>697f8c46-9c4b-42bd-a8fe-ffa6dae7bf5a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -6,11 +6,11 @@
    <elementGuidId>7e47325f-87b7-4357-b1f4-4d82c24fd6be</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@class='col-lg-4 col-xl-3 mb-4 pr-2 pl-0']//div[@class='dropdown-menu show']//button[contains(text(),'Mayor precio')]</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>(//button[@class='dropdown-item' and text()='Mayor precio'])[1] </value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

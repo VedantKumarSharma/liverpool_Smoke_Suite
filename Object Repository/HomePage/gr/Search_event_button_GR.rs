@@ -7,12 +7,13 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//button[@class='btnSecondary'])</value>
+         <value>(//button[text()='Crear Mesa de Regalos'])</value>
       </entry>
       <entry>
          <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
 </WebElementEntity>

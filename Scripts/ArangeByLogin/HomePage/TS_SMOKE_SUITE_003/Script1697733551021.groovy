@@ -17,15 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
 WebUI.navigateToUrl(GlobalVariable.URL)
-
-WebUI.verifyElementPresent(findTestObject('HomePage/Logo_hp'), 0)
 
 WebUI.mouseOver(findTestObject('HomePage/Departamentos'))
 
 WebUI.verifyElementClickable(findTestObject('HomePage/L1_Category1_HP'))
+
+WebUI.click(findTestObject('HomePage/L1_Category1_HP'))
 
 WebUI.mouseOver(findTestObject('HomePage/L1_Category1_HP'))
 

@@ -17,22 +17,31 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
+import org.apache.commons.lang.RandomStringUtils as RandomStringUtils
 
-WebUI.callTestCase(findTestCase('CommonMethods/login_odtaqab'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('HomePage/AfterLogin_Homepage'))
-
-WebUI.click(findTestObject('AccountManagement/MyAccountButton_Account'))
+WebUI.click(findTestObject('HomePage/MIsCompras_loginUser_HP'))
 
 WebUI.click(findTestObject('AccountManagement/DeliveryAddress_Account'))
+
+boolean add = WebUI.verifyElementPresent(findTestObject('AccountManagement/QATESTING_address_AM'), 0, FailureHandling.OPTIONAL)
+
+if (add == true) {
+    WebUI.click(findTestObject('AccountManagement/Select3dotQATESTING_Add_AM'))
+
+    WebUI.click(findTestObject('AccountManagement/QAtesting_Address_Remove_AM'))
+
+    WebUI.click(findTestObject('AccountManagement/AcceptButton_AccountM'))
+}
 
 WebUI.click(findTestObject('AccountManagement/AddAdressPersonal_Account'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('CommonMethods/SaveAddress_AccountManagment'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.delay(10)
+
 WebUI.click(findTestObject('AccountManagement/KeepButtonClickNCollection_Account'))
 
-Address1 = WebUI.getText(findTestObject('AccountManagement/AddressTitleSecound_Account'))
+Address1 = WebUI.getText(findTestObject('AccountManagement/TestQA_Add_AM'))
 
 if (GlobalVariable.TempAddress == Address1) {
     println('Address Added Successful')
@@ -40,11 +49,11 @@ if (GlobalVariable.TempAddress == Address1) {
     KeywordUtil.markFailed('Address is not Added !')
 }
 
-WebUI.click(findTestObject('AccountManagement/Select3DotAddress2Nd_Account'))
+WebUI.click(findTestObject('AccountManagement/Select3Dot_TestQA_Add_AM'))
 
-WebUI.click(findTestObject('AccountManagement/EditCardDetails_Account'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('AccountManagement/TestQA_Add_Editar_AM'), FailureHandling.STOP_ON_FAILURE)
 
-name = CustomKeywords.'customkeywords.myKeywords.randomString'()
+name = 'QATESTING'
 
 GlobalVariable.TempAddress = name
 
@@ -56,7 +65,7 @@ WebUI.sendKeys(findTestObject('AccountManagement/ShortName_Account'), name)
 
 WebUI.click(findTestObject('AccountManagement/AcceptButton_AccountM'))
 
-Address1 = WebUI.getText(findTestObject('AccountManagement/AddressTitleSecound_Account'))
+Address1 = WebUI.getText(findTestObject('AccountManagement/QATESTING_address_AM'))
 
 if (GlobalVariable.TempAddress == Address1) {
     println('Address update Successful')
@@ -64,9 +73,9 @@ if (GlobalVariable.TempAddress == Address1) {
     KeywordUtil.markFailed('Address is not Updated !')
 }
 
-WebUI.click(findTestObject('AccountManagement/Select3DotAddress2Nd_Account'))
+WebUI.click(findTestObject('AccountManagement/Select3dotQATESTING_Add_AM'))
 
-WebUI.click(findTestObject('AccountManagement/RemoveCardDetails_Account'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('AccountManagement/QAtesting_Address_Remove_AM'), FailureHandling.STOP_ON_FAILURE)
 
 println(GlobalVariable.TempAddress)
 

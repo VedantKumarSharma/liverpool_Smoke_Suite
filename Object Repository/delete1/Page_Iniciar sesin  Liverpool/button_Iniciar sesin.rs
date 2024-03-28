@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Iniciar sesin</name>
+   <tag></tag>
+   <elementGuidId>c5288f9b-7be7-4536-ae3e-beab9726cb6c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button[name=&quot;action&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@name='action']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>7b7e4377-1834-4ffa-ab92-587c9921ad67</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>submit</value>
+      <webElementGuid>f3395992-968f-4cfc-8119-113caa38f5f5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>action</value>
+      <webElementGuid>0ba97d64-0ee5-4131-be1d-fe7f963badc9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>default</value>
+      <webElementGuid>9e8d8a76-b448-4903-bc0b-bd7e01daba5e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>c27976896 c59c30c43 cced51fe7 c5e1937d6 c357202ae</value>
+      <webElementGuid>33740b43-1916-4d61-be55-3fd59dacc24a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-action-button-primary</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>0aa9a036-a015-45a4-8fcd-7738f39a5cd2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Iniciar sesión</value>
+      <webElementGuid>88ed37c9-a36c-48d7-ad67-97e8991392a4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;_widget-auto-layout _hide-prompt-logo&quot;]/main[@class=&quot;_widget login&quot;]/section[@class=&quot;c4b29eca4 _prompt-box-outer c05e9daa5&quot;]/div[@class=&quot;c6659f309 cccb93873&quot;]/div[@class=&quot;c31ae6f41&quot;]/div[@class=&quot;ce16dfdb7 cfc0cd1f7&quot;]/form[@class=&quot;ca7b0a1f8 cdad66ad5&quot;]/div[@class=&quot;cb2df1009&quot;]/button[@class=&quot;c27976896 c59c30c43 cced51fe7 c5e1937d6 c357202ae&quot;]</value>
+      <webElementGuid>ad19dbf5-4927-42cd-8525-b267d75c2f25</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@name='action']</value>
+      <webElementGuid>e2d20e29-31fd-41db-adde-b20b22dde76c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='¿Olvidaste tu contraseña?'])[1]/following::button[1]</value>
+      <webElementGuid>400ba5fd-35a4-4482-883a-ee4b6200493e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ocultar contraseña'])[2]/following::button[1]</value>
+      <webElementGuid>2c310e04-ff41-4e58-b28f-578517e5aad9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Crear cuenta'])[1]/preceding::button[1]</value>
+      <webElementGuid>df864090-a837-48c3-bb0e-e6762f7a85b1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='O'])[1]/preceding::button[1]</value>
+      <webElementGuid>049e00d6-ffc1-441f-a80f-316062229a27</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Iniciar sesión']/parent::*</value>
+      <webElementGuid>e9f447e7-0ad4-42f0-83d5-242962f2b897</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/button</value>
+      <webElementGuid>67635d0d-2307-4052-9a6f-6655cdf2618f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'submit' and @name = 'action' and (text() = 'Iniciar sesión' or . = 'Iniciar sesión')]</value>
+      <webElementGuid>9c2d8556-2b55-4796-b3b9-00639cd43e8d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

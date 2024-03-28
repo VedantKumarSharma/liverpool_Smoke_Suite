@@ -17,13 +17,20 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl(GlobalVariable.URL)
+
+WebUI.callTestCase(findTestCase('CommonMethods/login_odtaqab'), [:], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.callTestCase(findTestCase('CommonMethods/EmptyCart_RunAt_HP'), [:], FailureHandling.OPTIONAL)
 
 WebUI.click(findTestObject('HomePage/Logo_hp'))
 
-WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.SL1], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.Single_SKU_PDP], 
+    FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('PLPPage/product1_PLP'), FailureHandling.OPTIONAL)
+WebUI.click(findTestObject('PLPPage/product1_discountPrice_PLP'), FailureHandling.OPTIONAL)
 
 WebUI.click(findTestObject('PDPPage/AddToCart_PDP'))
 

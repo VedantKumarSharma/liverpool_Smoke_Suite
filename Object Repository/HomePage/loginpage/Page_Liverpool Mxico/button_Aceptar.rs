@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Aceptar</name>
+   <tag></tag>
+   <elementGuidId>ae7cb7f7-0543-4038-85a8-8e29e8123662</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.a-btn.a-btn--primary</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div[2]/div/div[4]/div/div/div[8]/div[2]/button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>d0ac40d5-89b0-4897-bd2a-d0a3ed670330</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>a-btn a-btn--primary</value>
+      <webElementGuid>394cd0ce-9c15-46a0-9ca4-35f9e8916a4f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Aceptar</value>
+      <webElementGuid>475adc74-bf83-4fad-8a33-d782411bcd5b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;container-fluid o-main-container p-0&quot;]/div[@class=&quot;container o-container__secondary&quot;]/div[@class=&quot;row mt-lg-3 m-row-bootstrap&quot;]/div[@class=&quot;col-lg-9 m-column_mainContent&quot;]/div[@class=&quot;m-box o-myAccount__editCards mb-5&quot;]/div[@class=&quot;row mt-4 mb-4&quot;]/div[@class=&quot;col-lg-3 mb-3 order-1 order-lg-2&quot;]/button[@class=&quot;a-btn a-btn--primary&quot;]</value>
+      <webElementGuid>13efc7fe-afc7-45e9-bc94-329891963865</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div[2]/div/div[4]/div/div/div[8]/div[2]/button</value>
+      <webElementGuid>8e8c0baa-10ac-484a-88ed-7462d926dff5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancelar'])[1]/following::button[1]</value>
+      <webElementGuid>2771f25f-ad48-4e16-a379-95d1dd0c5d93</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Agregar nueva dirección'])[2]/following::button[2]</value>
+      <webElementGuid>25f0e85a-d7c0-40f6-afd0-40735f042b16</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Términos y Condiciones así como las Política de uso de datos'])[1]/preceding::button[1]</value>
+      <webElementGuid>311a0912-a40c-4f12-96c0-2071f9cc9b4b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Soporte al cliente'])[1]/preceding::button[1]</value>
+      <webElementGuid>00e2e76c-0f13-43b3-a99e-ee28cde3c6be</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Aceptar']/parent::*</value>
+      <webElementGuid>02b84311-295a-4dd1-8e8e-67b848bdcabf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[8]/div[2]/button</value>
+      <webElementGuid>0195efaa-2730-46c6-9bca-894d37dcf233</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'Aceptar' or . = 'Aceptar')]</value>
+      <webElementGuid>3f8bc41b-883f-45ce-b8f9-e36b56bda048</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

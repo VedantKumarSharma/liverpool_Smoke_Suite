@@ -19,9 +19,9 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : 'pantalon'], FailureHandling.STOP_ON_FAILURE)
 
-a = CustomKeywords.'a.GenerateRandomEmail.generateRandomEmail'()
+//a = CustomKeywords.'a.GenerateRandomEmail.generateRandomEmail'()
 
-System.out.println(a)
+//System.out.println(a)
 
 WebUI.click(findTestObject('PLPPage/product-2-DiscountPrice_PLP'))
 

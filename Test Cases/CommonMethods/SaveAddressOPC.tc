@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To add an address in OPC</description>
+   <name>SaveAddressOPC</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8d30a85e-e133-4654-beb7-bd00cafd1ed5</testCaseGuid>
+</TestCaseEntity>

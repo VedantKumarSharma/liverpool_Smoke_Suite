@@ -25,17 +25,27 @@ if (a == false) {
     WebUI.callTestCase(findTestCase('CommonMethods/login_odtaqab'), [:], FailureHandling.OPTIONAL)
 }
 
-WebUI.mouseOver(findTestObject('HomePage/AfterLogin_Homepage'))
-
-WebUI.click(findTestObject('AccountManagement/MyAccountButton_Account'))
+WebUI.click(findTestObject('HomePage/MIsCompras_loginUser_HP'))
 
 WebUI.click(findTestObject('AccountManagement/DeliveryAddress_Account'))
+
+boolean add = WebUI.verifyElementPresent(findTestObject('AccountManagement/TestQA_Add_AM'), 0, FailureHandling.OPTIONAL)
+
+if (add == true) {
+    WebUI.click(findTestObject('AccountManagement/Select3Dot_TestQA_Add_AM'))
+
+    WebUI.click(findTestObject('AccountManagement/ATT/TestQA_Add_Remove_AM'))
+
+    WebUI.click(findTestObject('AccountManagement/AcceptButton_AccountM'))
+}
 
 WebUI.click(findTestObject('AccountManagement/AddAdressPersonal_Account'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('CommonMethods/SaveAddress_AccountManagment'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('AccountManagement/KeepButtonClickNCollection_Account'))
+WebUI.delay(10, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.enhancedClick(findTestObject('AccountManagement/KeepButtonClickNCollection_Account'))
 
 WebUI.verifyElementPresent(findTestObject('AccountManagement/FirstPersonalShippingAddress_Account'), 0)
 

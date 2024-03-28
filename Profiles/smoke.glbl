@@ -3,10 +3,10 @@
    <description></description>
    <name>smoke</name>
    <tag></tag>
-   <defaultProfile>true</defaultProfile>
+   <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://www.liverpool.com.mx'</initValue>
+      <initValue>'https://odtaqaa.liverpool.com.mx'</initValue>
       <name>URL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -16,12 +16,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'anusha.kondapaneni@zensar.com'</initValue>
+      <initValue>'chenna@digisprint.com'</initValue>
       <name>username</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'87654321'</initValue>
+      <initValue>'Chenna@123'</initValue>
       <name>password</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -51,7 +51,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://odtaqab.liverpool.com.mx/tienda/pdp/telefono-fijo/1007253555'</initValue>
+      <initValue>'https://odtaqaa.liverpool.com.mx/tienda/pdp/telefono-fijo/1007253555'</initValue>
       <name>PreorderItem</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -166,7 +166,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://odtaqab.liverpool.com.mx'</initValue>
+      <initValue>'https://odtaqaa.liverpool.com.mx'</initValue>
       <name>URLQA2</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -191,12 +191,22 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://dtaqa.potterybarnkids.com.mx/tienda'</initValue>
+      <initValue>'https://odtaqaa.potterybarnkids.com.mx/tienda'</initValue>
       <name>PotteryBarn</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://dtaqa.gap.com.mx/tienda/home'</initValue>
+      <initValue>'https://odtaqaa.gap.com.mx/tienda/home'</initValue>
       <name>GAP</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'QATest\r\n'</initValue>
+      <name>Name</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>for bt products</description>
+      <initValue>'bt'</initValue>
+      <name>bt</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

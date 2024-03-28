@@ -17,10 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.jeans], FailureHandling.STOP_ON_FAILURE)
-
-'verify price range\r\n'
-WebUI.click(findTestObject('PLPPage/product-1-DiscountPrice_PLP'))
+WebUI.callTestCase(findTestCase('CommonMethods/SearchForAProduct_search'), [('searchTerm') : GlobalVariable.ProductNoRangeMultiSKU], 
+    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementClickable(findTestObject('PDPPage/discountPrice_PDP'))
 

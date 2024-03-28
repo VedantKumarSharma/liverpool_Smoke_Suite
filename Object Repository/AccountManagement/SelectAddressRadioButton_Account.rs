@@ -6,11 +6,11 @@
    <elementGuidId>a6ee5464-8aa8-4979-9b9d-33eeb60026cf</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//span[contains(text(),'Liverpool Satélite')]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(//input[@name='storeSelection'])[7]</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

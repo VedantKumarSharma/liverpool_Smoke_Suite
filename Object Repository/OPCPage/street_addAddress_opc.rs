@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//label[contains(text(),'Calle:')]/ancestor::div[@class='col-lg-3 mb-2']//input</value>
+         <value>(//div[@id='opc_modalAddNewShipAddress']//div[4])//div[7]//input</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>472fe969-d594-4449-b02c-c2953668a281</webElementGuid>
+      <webElementGuid>d59caf96-bd2e-4ed0-b52b-9d864987040b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>a-textField__input mdc-text-field__input</value>
-      <webElementGuid>749ff104-9b29-46c3-8d07-ef1c9c94c237</webElementGuid>
+      <webElementGuid>1df4ad5f-7e27-4283-a5e8-42e39c1ebc61</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>92eac3c9-75d3-4b98-b973-db4fb5ed6780</webElementGuid>
+      <webElementGuid>39565909-6ed8-4405-bbe6-28156f1215f5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>autocomplete</name>
       <type>Main</type>
       <value>off</value>
-      <webElementGuid>1bf917e4-ac06-4918-be9e-2dee88ae0f7c</webElementGuid>
+      <webElementGuid>cfd175c5-7bfc-4aae-ba2b-735660979484</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>aria-controls</name>
       <type>Main</type>
       <value>helper-nombreCorto</value>
-      <webElementGuid>798c82db-5b00-4406-9f75-6200f48ce60e</webElementGuid>
+      <webElementGuid>f10944a8-275e-465e-9995-ec2747dc5c48</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>aria-describedby</name>
       <type>Main</type>
       <value>helper-nombreCorto</value>
-      <webElementGuid>45bfdd6f-d6d3-427f-b610-4d6c156189ed</webElementGuid>
+      <webElementGuid>8988f387-e188-4a09-beb3-b5775524c2e9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -70,7 +70,7 @@
       <name>name</name>
       <type>Main</type>
       <value>street</value>
-      <webElementGuid>fa6b8789-2e2e-4215-9b49-a0e2528300ee</webElementGuid>
+      <webElementGuid>0a2f4f32-afc0-4033-bca2-3f6eff90aa85</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -78,7 +78,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Ej. Casa, Oficina...</value>
-      <webElementGuid>04afaeee-9b80-43c8-8a6c-663ac30f3652</webElementGuid>
+      <webElementGuid>72f25cf1-4b39-4719-94a2-554efe400d36</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>150</value>
-      <webElementGuid>9ce0b180-3d0b-42f3-8cbc-3d491fa49800</webElementGuid>
+      <webElementGuid>de5f5e1f-7175-48c9-8451-2d9fedd97346</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>reference</name>
       <type>Main</type>
       <value>[object Object]</value>
-      <webElementGuid>d15f2cd2-c0c1-4c43-9df4-5fcea455b67d</webElementGuid>
+      <webElementGuid>6b73e41a-a475-4529-aaf0-81c896def37c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>inputid</name>
       <type>Main</type>
       <value>nombreCorto</value>
-      <webElementGuid>90080adb-b918-47e9-8a83-276c4742b4e0</webElementGuid>
+      <webElementGuid>f345ca4b-8515-49b2-baf1-8c3ddd601de6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>nameinput</name>
       <type>Main</type>
       <value>nombreCorto</value>
-      <webElementGuid>6b841d24-1381-403a-9f61-e3ad587b6a7f</webElementGuid>
+      <webElementGuid>b319b8d5-071b-445a-bf55-8f3e114f358c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -118,7 +118,7 @@
       <name>labelposition</name>
       <type>Main</type>
       <value>left</value>
-      <webElementGuid>3068feb2-cc58-4ee4-85d4-dd2d376e0da2</webElementGuid>
+      <webElementGuid>a298f72f-a67b-40e1-b08a-9dc37a88650b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -126,7 +126,7 @@
       <name>helpertextid</name>
       <type>Main</type>
       <value>helper-nombreCorto</value>
-      <webElementGuid>43dc129e-7862-4948-bce4-3c2de86278bf</webElementGuid>
+      <webElementGuid>dc546677-e58b-4415-87cf-40e1757e2c19</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -134,7 +134,7 @@
       <name>labeltext</name>
       <type>Main</type>
       <value>Calle:</value>
-      <webElementGuid>6d37ee7e-0b75-491d-a7c2-0e3bf80b7567</webElementGuid>
+      <webElementGuid>a4cb1c6f-4b51-492a-890a-8e8055dc9402</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -142,7 +142,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;opc_modalAddNewShipAddress&quot;)/form[1]/div[@class=&quot;row align-items-start&quot;]/div[@class=&quot;col-xl-3 col-lg-3 col-12&quot;]/div[@class=&quot;m-textField mdc-text-field mdc-text-field--outlined mdc-text-field--focused mdc-text-field--valid&quot;]/input[@class=&quot;a-textField__input mdc-text-field__input&quot;]</value>
-      <webElementGuid>32c502bb-fc42-4a84-84a7-c6fa645139f2</webElementGuid>
+      <webElementGuid>fde8fbfa-e105-43b7-88dd-5ffaa3d61b04</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -150,7 +150,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@name='street']</value>
-      <webElementGuid>660c66f9-348d-4ea8-9ed6-4064923e9355</webElementGuid>
+      <webElementGuid>dcae6c7a-00e7-4a9f-a274-96796579ae22</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -158,7 +158,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='opc_modalAddNewShipAddress']/form/div[4]/div[8]/div/input</value>
-      <webElementGuid>00a00a4a-6e84-4023-9507-4abe332c4ad3</webElementGuid>
+      <webElementGuid>b89abe6b-b6a4-4c62-b534-12961eedfde9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -166,7 +166,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[8]/div/input</value>
-      <webElementGuid>89ac66b7-e60a-4a5e-a423-00c9b03cc762</webElementGuid>
+      <webElementGuid>ca769d58-d727-4f87-8640-e2020eeac718</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -174,6 +174,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text' and @name = 'street' and (text() = 'Ej. Casa, Oficina...' or . = 'Ej. Casa, Oficina...')]</value>
-      <webElementGuid>6482dce6-6031-424a-8083-fc4307dc96d0</webElementGuid>
+      <webElementGuid>a683f9d1-df94-40e2-a988-05ad89e12023</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

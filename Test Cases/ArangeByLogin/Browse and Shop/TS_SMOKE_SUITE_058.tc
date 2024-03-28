@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>To verify the display of Description slot in PDP with following tabs. 
-
-Long Description
-Manual
-Delivery Details
-Size/Dimensions
-LP Card Promotion
+   <description>To verify the display of Description slot in PDP with following tabs. &#xd;
+&#xd;
+Long Description&#xd;
+Manual&#xd;
+Delivery Details&#xd;
+Size/Dimensions&#xd;
+LP Card Promotion&#xd;
 Other Card Promotion</description>
    <name>TS_SMOKE_SUITE_058</name>
    <tag></tag>

@@ -10,7 +10,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//div[@class='col-md-4']//input[@id='fullNameUser'])</value>
+         <value>(//input[@id=&quot;input-update__name&quot;])</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
